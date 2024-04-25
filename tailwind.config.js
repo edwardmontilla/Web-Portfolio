@@ -7,6 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      // added a new color scheme
+      colors: {
+        text: '#fffafa',
+        background: '#27374e',
+        primary: '#dee7ed',
+        secondary: '#526e84',
+        accent: '#9cb2bf',
+      },
       /* added keyframes to further play with the animations :D */
       keyframes: {
         bounce: {
