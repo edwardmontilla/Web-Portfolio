@@ -9,12 +9,12 @@ module.exports = {
     extend: {
       // added a new color scheme
       colors: {
-        text: '#fffafa',
-        background: '#27374e',
-        primary: '#dee7ed',
-        secondary: '#526e84',
-        accent: '#9cb2bf',
-      },
+        'text': '#333333',
+        'background': '#E3FEF7',
+        'primary': '#135D66',
+        'secondary': '#77B0AA',
+        'accent': '#003C43',
+       },
       /* added keyframes to further play with the animations :D */
       keyframes: {
         bounce: {
