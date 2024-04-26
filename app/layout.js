@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
  return (
   <html>
-    <body className="w-full bg-white">
+    <body>
       <Header NavMenu={<NavMenu />} />
       {children}
       <Footer />

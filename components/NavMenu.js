@@ -4,7 +4,7 @@ import Link from "next/link";
 const NavMenu = () => {
     return (
         <nav className="flex text-center text-white">
-            <div className="flex-1 ml-8">
+            <div className="flex-1">
                 <Link href="/">
                     Home
                 </Link>

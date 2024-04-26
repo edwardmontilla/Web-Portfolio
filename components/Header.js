@@ -4,7 +4,7 @@ import React from "react";
 const Header = ({ NavMenu }) => {
     return (
         <header>
-            <div className="bg-primary w-full p-5">
+            <div className="bg-primary p-5">
                 {NavMenu}
             </div>
         </header>
