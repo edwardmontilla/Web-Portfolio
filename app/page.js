@@ -18,15 +18,30 @@ export default function Home() {
   
   return (
     <>
-      <section className="bg-primary">
+      <section className="">
         <Parallax pages={2} className="text-center">
+
           <ParallaxLayer offset={0} speed={0.1}>
-            <img src="/images/sushi_bake.png" alt="Sushi Bake" className="block w-1/2 absolute inset-x-0 mx-auto" />
+            <img src="/images/wave-5.svg" alt="wave 1" className="block  absolute inset-x-0 mx-auto" />
           </ParallaxLayer>
           
           <ParallaxLayer offset={0} speed={0.2}>
-          <img src="/images/Spam_Musubi.png" alt="Spam Musubi" className="block w-1/2" />
+            <img src="/images/wave-4.svg" alt="wave 2" className="block  absolute inset-x-0 mx-auto" />
           </ParallaxLayer>
+
+          <ParallaxLayer offset={0} speed={0.3}>
+            <img src="/images/wave-3.svg" alt="wave 1" className="block  absolute inset-x-0 mx-auto" />
+          </ParallaxLayer>
+
+          <ParallaxLayer offset={0} speed={0.4}>
+            <img src="/images/wave-2.svg" alt="wave 1" className="block  absolute inset-x-0 mx-auto" />
+          </ParallaxLayer>
+
+          <ParallaxLayer offset={0} speed={0.5}>
+            <img src="/images/wave-1.svg" alt="wave 1" className="block  absolute inset-x-0 mx-auto" />
+          </ParallaxLayer>
+
+
         </Parallax>
       </section>
     </>
