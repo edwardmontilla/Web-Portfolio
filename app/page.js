@@ -18,27 +18,27 @@ export default function Home() {
   
   return (
     <>
-      <section className="inline">
+      <section className="inline-block">
         <Parallax pages={2} className="text-center">
 
           <ParallaxLayer offset={0} speed={0.1}>
-            <img src="/images/wave-5.svg" alt="wave 5" className="mt-[-128px]" />
+            <img src="/images/wave-5.svg" alt="wave 5" className="mt-[-188px]" />
           </ParallaxLayer>
           
           <ParallaxLayer offset={0} speed={0.2}>
-            <img src="/images/wave-4.svg" alt="wave 4" className="mt-[-113px]" />
+            <img src="/images/wave-4.svg" alt="wave 4" className="mt-[-163px]" />
           </ParallaxLayer>
 
           <ParallaxLayer offset={0} speed={0.3}>
-            <img src="/images/wave-3.svg" alt="wave 3" className="mt-[-98px]" />
+            <img src="/images/wave-3.svg" alt="wave 3" className="mt-[-168px]" />
           </ParallaxLayer>
 
           <ParallaxLayer offset={0} speed={0.4}>
-            <img src="/images/wave-2.svg" alt="wave 2" className="mt-[-88px]" />
+            <img src="/images/wave-2.svg" alt="wave 2" className="mt-[-108px]" />
           </ParallaxLayer>
 
           <ParallaxLayer offset={0} speed={0.5}>
-            <img src="/images/wave-1.svg" alt="wave 1" className="mt-[-68px]" />
+            <img src="/images/wave-12.svg" alt="wave 1" className="mt-10" />
           </ParallaxLayer>
 
 
