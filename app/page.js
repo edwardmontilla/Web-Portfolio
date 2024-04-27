@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <section>
-        <Parallax pages={3} className="text-center overflow-visible">
+        <Parallax pages={2} className="w-full">
 
           <ParallaxLayer offset={0} speed={0.1}>
             <img src="/images/wave-5.svg" alt="wave 5" className="object-cover w-full mt-[-158px]" />
@@ -36,7 +36,7 @@ export default function Home() {
             <img src="/images/wave-2.svg" alt="wave 2" className="object-cover w-full mt-[-78px]" />
           </ParallaxLayer>
 
-          <ParallaxLayer offset={0} speed={0.5}>
+          <ParallaxLayer offset={1} speed={0.5}>
             <img src="/images/wave-1.svg" alt="wave 1" className="object-cover w-full mt-20" />
           </ParallaxLayer>
 
