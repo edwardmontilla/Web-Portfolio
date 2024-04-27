@@ -17,27 +17,27 @@ export default function Home() {
   
   return (
     <>
-      <section className="w-full">
-        <Parallax pages={3} className="text-center">
+      <section>
+        <Parallax pages={3} className="text-center overflow-visible">
 
           <ParallaxLayer offset={0} speed={0.1}>
-            <img src="/images/wave-5.svg" alt="wave 5" className="object-cover w-full mt-[-188px]" />
+            <img src="/images/wave-5.svg" alt="wave 5" className="object-cover w-full mt-[-158px]" />
           </ParallaxLayer>
           
           <ParallaxLayer offset={0} speed={0.2}>
-            <img src="/images/wave-4.svg" alt="wave 4" className="object-cover w-full mt-[-163px]" />
+            <img src="/images/wave-4.svg" alt="wave 4" className="object-cover w-full mt-[-133px]" />
           </ParallaxLayer>
 
           <ParallaxLayer offset={0} speed={0.3}>
-            <img src="/images/wave-3.svg" alt="wave 3" className="object-cover w-full mt-[-168px]" />
+            <img src="/images/wave-3.svg" alt="wave 3" className="object-cover w-full mt-[-138px]" />
           </ParallaxLayer>
 
           <ParallaxLayer offset={0} speed={0.4}>
-            <img src="/images/wave-2.svg" alt="wave 2" className="object-cover w-full mt-[-108px]" />
+            <img src="/images/wave-2.svg" alt="wave 2" className="object-cover w-full mt-[-78px]" />
           </ParallaxLayer>
 
           <ParallaxLayer offset={0} speed={0.5}>
-            <img src="/images/wave-1.svg" alt="wave 1" className="object-cover w-full mt-10" />
+            <img src="/images/wave-1.svg" alt="wave 1" className="object-cover w-full mt-20" />
           </ParallaxLayer>
 
 

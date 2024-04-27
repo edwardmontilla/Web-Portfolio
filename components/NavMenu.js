@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const NavMenu = () => {
     return (
-        <nav className="flex text-center text-white">
+        <nav className="flex text-center overflow-hidden text-white">
             <div className="flex-1">
                 <Link href="/">
                     Home
