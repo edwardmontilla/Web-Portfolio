@@ -24,6 +24,8 @@ export default function Home() {
 
 // added Header and Footer here instead
 
+// try float property for the svg images
+
   return (
     <>
       <section>
