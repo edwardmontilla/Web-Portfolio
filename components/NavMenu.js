@@ -1,9 +1,13 @@
 import React from "react";
 import Link from "next/link";
 
+
+//got rid of overflow-hidden for now
+//
+
 const NavMenu = () => {
     return (
-        <nav className="flex overflow-hidden text-center text-text">
+        <nav className="flex text-center">
             <div className="flex-1">
                 <Link href="/">
                     Home
