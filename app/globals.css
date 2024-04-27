@@ -19,6 +19,12 @@
   }
 } */
 
+html {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  max-width: 100vh;
+}
+
 /* body {
   color: #27374e;
 } */
@@ -28,3 +34,5 @@
     text-wrap: balance;
   }
 }
+
+

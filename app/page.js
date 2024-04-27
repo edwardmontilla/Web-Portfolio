@@ -1,15 +1,15 @@
 'use client';
 
-import React from "react";
 import "./globals.css";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Header from "@/components/Header";
 import NavMenu from "@/components/NavMenu";
 import Footer from "@/components/Footer";
+import Headroom from "react-headroom";
 
 
 //NOTES:
-// mx-auto to center the image
+// mx-auto to center smaller svgs
 // right/left-0 to align to right or left
 // inset-x-0 to align to center
 // you can follow up with mr/ml
@@ -17,7 +17,7 @@ import Footer from "@/components/Footer";
 // parallax speed should increase as you go down the page
 
 export default function Home() {
-  
+
 // got rid of object-cover
 // play with z index
 // overflow-hidden is necessary to prevent Header from covering the scrollbar
@@ -29,7 +29,9 @@ export default function Home() {
   return (
     <>
       <section>
-        <Header NavMenu={<NavMenu />} />
+        <Headroom>
+          <Header NavMenu={<NavMenu />} />
+        </Headroom>
         <Parallax pages={2} className="overflow-hidden">
 
           <ParallaxLayer offset={0} speed={0.1}>
