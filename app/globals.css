@@ -35,4 +35,13 @@ html {
   }
 }
 
+/* Hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
 
+body { overflow: -moz-scrollbars-none; }
+
+body { -ms-overflow-style: none; }
+
+/*----------------*/

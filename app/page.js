@@ -2,10 +2,11 @@
 
 import "./globals.css";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import ParallaxComp from "@/components/ParallaxComp";
 import Header from "@/components/Header";
 import NavMenu from "@/components/NavMenu";
 import Footer from "@/components/Footer";
-import Headroom from "react-headroom";
+import React, { useState, useEffect } from "react";
 
 
 //NOTES:
@@ -29,33 +30,8 @@ export default function Home() {
   return (
     <>
       <section>
-        <Headroom>
-          <Header NavMenu={<NavMenu />} />
-        </Headroom>
-        <Parallax pages={2} className="overflow-hidden">
-
-          <ParallaxLayer offset={0} speed={0.1}>
-            <img src="/images/wave-5.svg" alt="wave 5" className="w-full mt-[-158px]" />
-          </ParallaxLayer>
-          
-          <ParallaxLayer offset={0} speed={0.2}>
-            <img src="/images/wave-4.svg" alt="wave 4" className="w-full mt-[-120px]" />
-          </ParallaxLayer>
-
-          <ParallaxLayer offset={0} speed={0.32}>
-            <img src="/images/wave-3.svg" alt="wave 3" className="w-full mt-[-108px]" />
-          </ParallaxLayer>
-
-          <ParallaxLayer offset={0} speed={0.45}>
-            <img src="/images/wave-2.svg" alt="wave 2" className="w-full mt-[-45px]" />
-          </ParallaxLayer>
-
-          <ParallaxLayer offset={0} speed={0.58}>
-            <img src="/images/wave-1.svg" alt="wave 1" className="w-full mt-[-45px]" />
-          </ParallaxLayer>
-
-
-        </Parallax>
+        <Header NavMenu={<NavMenu />} />
+        <ParallaxComp />
         <Footer />
       </section>
     </>

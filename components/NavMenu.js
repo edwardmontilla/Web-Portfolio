@@ -2,23 +2,23 @@ import React from "react";
 import Link from "next/link";
 
 
-//got rid of overflow-hidden for now
-//
+// got rid of overflow-hidden for now
+// add hover color
 
 const NavMenu = () => {
     return (
-        <nav className="flex text-center">
-            <div className="flex-1">
+        <nav className="flex justify-end text-center text-white">
+            <div className="ml-4">
                 <Link href="/">
                     Home
                 </Link>
             </div>
-            <div className="flex-1">
+            <div className="ml-4">
                 <Link href="/">
                     Projects
                 </Link>
             </div>
-            <div className="flex-1">
+            <div className="ml-4">
                 <Link href="/">
                     Contact Me
                 </Link>
