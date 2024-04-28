@@ -7,7 +7,7 @@ import NavMenu from "./NavMenu";
 
 const Header = ({ NavMenu }) => {
     return (
-        <header className="fixed inset-x-0 z-10">
+        <header className="fixed inset-x-0 z-40">
             <div className="bg-primary overflow-hidden p-5">
                 {NavMenu}
             </div>

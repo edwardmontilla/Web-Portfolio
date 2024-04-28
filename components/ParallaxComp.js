@@ -8,7 +8,7 @@ const ParallaxComp = () => {
     
     return (
         <div className="overflow-hidden">
-            <Parallax pages={3} className="overflow-hidden">
+            <Parallax pages={2} className="overflow-hidden">
 
                 <ParallaxLayer offset={0} speed={0.1}>
                 <img src="/images/wave-5.svg" alt="wave 5" className="w-full mt-[-158px]" />
@@ -29,6 +29,23 @@ const ParallaxComp = () => {
                 <ParallaxLayer offset={0} speed={0.58}>
                 <img src="/images/wave-1.svg" alt="wave 1" className="w-full mt-[-45px]" />
                 </ParallaxLayer>
+
+                <ParallaxLayer offset={0.8} speed={0.1}>
+                    <div className="absolute w-full flex justify-center items-center">
+                        <h1 className="text-5xl font-bold text-text">Hello, I'm Edward</h1>
+                    </div>
+                </ParallaxLayer>
+                <ParallaxLayer offset={0.8} speed={0.3}>
+                    <div className="absolute w-full flex justify-center items-center">
+                        <h1 className="text-5xl font-bold text-text">I'm a Full Stack Developer</h1>
+                    </div>
+                </ParallaxLayer>
+                <ParallaxLayer offset={0.8} speed={0.5}>
+                    <div className="absolute w-full flex justify-center items-center">
+                        <h1 className="text-5xl font-bold text-text">I'm a Full Stack Developer</h1>
+                    </div>
+                </ParallaxLayer>
+
 
             </Parallax>
 

@@ -1,12 +1,14 @@
 'use client';
 
 import "./globals.css";
+import React, { useState, useEffect } from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import ParallaxComp from "@/components/ParallaxComp";
 import Header from "@/components/Header";
 import NavMenu from "@/components/NavMenu";
 import Footer from "@/components/Footer";
-import React, { useState, useEffect } from "react";
+import ParallaxComp from "@/components/ParallaxComp";
+
+
 
 
 //NOTES:
@@ -31,7 +33,7 @@ export default function Home() {
     <>
       <section>
         <Header NavMenu={<NavMenu />} />
-        <ParallaxComp />
+          <ParallaxComp />
         <Footer />
       </section>
     </>

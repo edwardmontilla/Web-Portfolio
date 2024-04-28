@@ -8,17 +8,17 @@ import Link from "next/link";
 const NavMenu = () => {
     return (
         <nav className="flex justify-end text-center text-white">
-            <div className="ml-4">
+            <div className="ml-4 mr-4 p-2">
                 <Link href="/">
                     Home
                 </Link>
             </div>
-            <div className="ml-4">
+            <div className="ml-4 mr-4 p-2">
                 <Link href="/">
                     Projects
                 </Link>
             </div>
-            <div className="ml-4">
+            <div className="ml-4 mr-4 p-2">
                 <Link href="/">
                     Contact Me
                 </Link>
