@@ -1,6 +1,7 @@
 import React from "react";
 
 // adjust z index
+// commented for now
 
 const Welcome = () => {
     return (

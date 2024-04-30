@@ -37,7 +37,7 @@ export default function Home() {
         {/* <Welcome /> */}
 
           <ParallaxComp />
-        <Footer />
+        {/* <Footer /> */}
       </section>
     </>
   );

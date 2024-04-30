@@ -20,6 +20,14 @@ const ParallaxComp = () => {
         <div>
             <Parallax pages={2} className="overflow-hidden">
 
+                <ParallaxLayer offset={0.25} speed={0.32}>
+                    <div className="absolute left-0 top-0 transform -translate-y-1/2 ml-60">
+                        <p className="text-8xl font-bold text-text">Welcome!</p>
+                    </div>
+                </ParallaxLayer>
+
+{/* First Background */}
+
                 <ParallaxLayer offset={0.25} speed={0.1}>
                 <img src="/images/wave-5.svg" alt="wave 5" className="w-full mt-[-158px]" />
                 </ParallaxLayer>
@@ -40,23 +48,18 @@ const ParallaxComp = () => {
                 <img src="/images/wave-1.svg" alt="wave 1" className="w-full mt-[-45px]" />
                 </ParallaxLayer>
 
-{/* Texts */}
+{/* Texts and Second Background */}
 
-                <ParallaxLayer offset={0.25} speed={0.32}>
-                    <div className="absolute left-0 top-0 transform -translate-y-1/2 ml-60">
-                        <p className="text-8xl font-bold text-text">Welcome!</p>
-                    </div>
-                </ParallaxLayer>
 
                 <ParallaxLayer offset={0.8} speed={0.1}>
                     <div className="absolute w-full flex justify-center items-center">
-                        <h1 className="text-7xl font-bold text-text">I'm Edward</h1>
+                        <h1 className="text-7xl font-bold text-text">Im Edward</h1>
                     </div>
                 </ParallaxLayer>
                 
                 <ParallaxLayer offset={0.9} speed={0.3}>
                     <div className="absolute w-full flex justify-center items-center">
-                        <h1 className="text-5xl font-bold text-text">I'm a Software Developer</h1>
+                        <h1 className="text-5xl font-bold text-text">Im a Software Developer</h1>
                     </div>
                 </ParallaxLayer>
                 <ParallaxLayer offset={0.95} speed={0.5}>
