@@ -4,8 +4,8 @@ import React from "react";
 
 const Welcome = () => {
     return (
-        <div>
-            <h1 className="text-5xl font-bold text-text z-50">Welcome</h1>
+        <div className="z-50 absolute left-0 top-0 transform translate-y-1/2 ml-60">
+            <p className="text-8xl font-bold text-text">Welcome</p>
         </div>
     )
 }

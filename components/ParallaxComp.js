@@ -1,13 +1,23 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+// import PageTwo.js from "./PageTwo.js";
 
-// using 3 pages for now
+
+                // IMPORTANT NOTES:
+                // EVERYTHING IS DONE IN THE PARALLAX
+                // from BG to animations
+                //
+
+
+// using 2 pages for now
+// add a cmponent for page {2} at before the closing tag of Parallax
+//
 
 const ParallaxComp = () => {
     const parallaxRef = React.useRef(null);
     
     return (
-        <div className="overflow-hidden">
+        <div>
             <Parallax pages={2} className="overflow-hidden">
 
                 <ParallaxLayer offset={0.25} speed={0.1}>
@@ -30,23 +40,36 @@ const ParallaxComp = () => {
                 <img src="/images/wave-1.svg" alt="wave 1" className="w-full mt-[-45px]" />
                 </ParallaxLayer>
 
+{/* Texts */}
+
+                <ParallaxLayer offset={0.25} speed={0.32}>
+                    <div className="absolute left-0 top-0 transform -translate-y-1/2 ml-60">
+                        <p className="text-8xl font-bold text-text">Welcome!</p>
+                    </div>
+                </ParallaxLayer>
+
                 <ParallaxLayer offset={0.8} speed={0.1}>
                     <div className="absolute w-full flex justify-center items-center">
-                        <h1 className="text-5xl font-bold text-text">Hello, I'm Edward</h1>
+                        <h1 className="text-7xl font-bold text-text">I'm Edward</h1>
                     </div>
                 </ParallaxLayer>
-                <ParallaxLayer offset={0.8} speed={0.3}>
+                
+                <ParallaxLayer offset={0.9} speed={0.3}>
                     <div className="absolute w-full flex justify-center items-center">
-                        <h1 className="text-5xl font-bold text-text">I'm a Full Stack Developer</h1>
+                        <h1 className="text-5xl font-bold text-text">I'm a Software Developer</h1>
                     </div>
                 </ParallaxLayer>
-                <ParallaxLayer offset={0.8} speed={0.5}>
+                <ParallaxLayer offset={0.95} speed={0.5}>
                     <div className="absolute w-full flex justify-center items-center">
-                        <h1 className="text-5xl font-bold text-text">I'm a Full Stack Developer</h1>
+                        <h1 className="text-5xl font-bold text-text">............</h1>
                     </div>
                 </ParallaxLayer>
 
-
+                <ParallaxLayer offset={1} speed={0.25}>
+                {/* Page 2 Component here
+                    Pass Footer Component here 
+                */}
+                </ParallaxLayer>
             </Parallax>
 
         </div>
