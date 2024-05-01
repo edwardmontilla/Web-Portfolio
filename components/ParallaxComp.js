@@ -38,7 +38,7 @@ const ParallaxComp = () => {
                 </ParallaxLayer>
 
                 <ParallaxLayer offset={0.25} speed={0.32}>
-                <img src="/images/wave-3.svg" alt="wave 3" className="w-full mt-[-108px] animate-waveX3" viewBox="0 0 1920 1080" />
+                <img src="/images/wave-3.svg" alt="wave 3" className="w-full mt-[-108px] animate-waveX1" viewBox="0 0 1920 1080" />
                 </ParallaxLayer>
 
                 <ParallaxLayer offset={0.25} speed={0.45}>

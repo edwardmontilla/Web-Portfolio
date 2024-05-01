@@ -63,10 +63,6 @@ module.exports = {
           '0%, 100%': {transform: 'translateX(5%)'},
           '50%': {transform: 'translateX(0%)'},
         },
-        waveX3: {
-          '0%, 100%': {transform: 'translateX(3%)'},
-          '50%': {transform: 'translateX(-3%)'},
-        },
 
         waveY1: {
           '0%, 100%': {transform: 'translateY(0)'},
@@ -76,12 +72,6 @@ module.exports = {
           '0%, 100%': {transform: 'translateY(5%)'},
           '50%': {transform: 'translateY(0%)'},
         },
-        waveY3: {
-          '0%, 100%': {transform: 'translateY(5%)'},
-          '50%': {transform: 'translateY(0%)'},
-        },
-
-
 
 
         /* add float animation */
