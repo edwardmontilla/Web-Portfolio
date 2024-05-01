@@ -30,23 +30,23 @@ const ParallaxComp = () => {
 {/* First Background */}
 
                 <ParallaxLayer offset={0.25} speed={0.1}>
-                <img src="/images/wave-5.svg" alt="wave 5" className="w-full mt-[-158px] animate-waveX1" viewBox="0 0 1920 1080" />
+                <img src="/images/wave-5.svg" alt="wave 5" className="w-full mt-[-158px]" viewBox="0 0 1920 1080" />
                 </ParallaxLayer>
 
                 <ParallaxLayer offset={0.25} speed={0.2}>
-                <img src="/images/wave-4.svg" alt="wave 4" className="w-full mt-[-120px] animate-waveX2" viewBox="0 0 1920 1080" />
+                <img src="/images/wave-4.svg" alt="wave 4" className="w-full mt-[-120px]" viewBox="0 0 1920 1080" />
                 </ParallaxLayer>
 
                 <ParallaxLayer offset={0.25} speed={0.32}>
-                <img src="/images/wave-3.svg" alt="wave 3" className="w-full mt-[-108px] animate-waveX1" viewBox="0 0 1920 1080" />
+                <img src="/images/wave-3.svg" alt="wave 3" className="w-full mt-[-108px] " viewBox="0 0 1920 1080" />
                 </ParallaxLayer>
 
                 <ParallaxLayer offset={0.25} speed={0.45}>
-                <img src="/images/wave-2.svg" alt="wave 2" className="w-full mt-[-45px] animate-waveX2" viewBox="0 0 1920 1080" />
+                <img src="/images/wave-2.svg" alt="wave 2" className="w-full mt-[-45px]" viewBox="0 0 1920 1080" />
                 </ParallaxLayer>
 
                 <ParallaxLayer offset={0.25} speed={0.58}>
-                <img src="/images/wave-1.svg" alt="wave 1" className="w-full mt-[-45px] animate-waveX1" viewBox="0 0 1920 1080" />
+                <img src="/images/wave-1.svg" alt="wave 1" className="w-full mt-[-45px]" viewBox="0 0 1920 1080" />
                 </ParallaxLayer>
 
 {/* Texts and Second Background */}

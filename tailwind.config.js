@@ -9,7 +9,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // added a new color scheme
+// added a new color scheme
       colors: {
         'text': '#333333',
         'background': '#E3FEF7',
@@ -17,7 +17,8 @@ module.exports = {
         'secondary': '#77B0AA',
         'accent': '#003C43',
        },
-      /* added keyframes to further play with the animations :D */
+
+// added default Tailwind animations
       keyframes: {
         bounce: {
           '0%, 100%': { transform: 'translateY(-25%)' },
@@ -74,7 +75,7 @@ module.exports = {
         },
 
 
-        /* add float animation */
+      /* add float animation maybe*/
       },
       /* added bounce property so we can change the animation timing */
       /* added wiggle, pulse animations as a test */
