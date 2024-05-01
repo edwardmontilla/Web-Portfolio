@@ -23,7 +23,7 @@ const ParallaxComp = () => {
 
                 <ParallaxLayer offset={0.25} speed={0.32}>
                     <div className="absolute left-0 top-0 transform -translate-y-1/2 ml-40">
-                        <p className="text-8xl font-bold text-text animate-slideFadeRight">Welcome!</p>
+                        <p className="text-6xl font-bold text-text animate-slideFadeRight">Welcome!</p>
                     </div>
                 </ParallaxLayer>
 
@@ -54,7 +54,7 @@ const ParallaxComp = () => {
 
                 <ParallaxLayer offset={0.8} speed={0.1}>
                     <div className="absolute w-full flex justify-center items-center">
-                        <h1 className="text-7xl font-bold text-text">Im Edward</h1>
+                        <h1 className="text-5xl font-bold text-text">Im Edward</h1>
                     </div>
                 </ParallaxLayer>
                 
