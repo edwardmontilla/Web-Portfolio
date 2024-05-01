@@ -1,8 +1,10 @@
+const { transform } = require('next/dist/build/swc')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './Components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
@@ -32,7 +34,56 @@ module.exports = {
         },
         ping: {
           '75%, 100%': { transform: 'scale(2)', opacity: 0 },
-        }
+        },
+
+// slideFade animations
+        slideFadeRight: {
+          '0%': { opacity: 0, transform: 'translateX(50%)' },
+          '100%': { opacity: 1, transform: 'translateX(0)' },
+        },
+        slideFadeLeft: {
+          '0%': { opacity: 0, transform: 'translateX(-50%)'},
+          '100%': { opacity: 1, transform: 'translateX(0)'},
+        },
+        slideFadeUp: {
+          '0%': { opacity: 0, transform: 'translateY(65%)'},
+          '100%': { opacity: 1, transform: 'translateY(0)'},
+        },
+        slideFadeDown: {
+          '0%': { opacity: 0, transform: 'translateY(-65%)'},
+          '100%': { opacity: 1, transform: 'translateY(0)'},
+        },
+
+// animations for waves svg
+        waveX1: {
+          '0%, 100%': {transform: 'translateX(0%)'},
+          '50%': {transform: 'translateX(5%)'},
+        },
+        waveX2: {
+          '0%, 100%': {transform: 'translateX(5%)'},
+          '50%': {transform: 'translateX(0%)'},
+        },
+        waveX3: {
+          '0%, 100%': {transform: 'translateX(3%)'},
+          '50%': {transform: 'translateX(-3%)'},
+        },
+
+        waveY1: {
+          '0%, 100%': {transform: 'translateY(0)'},
+          '50%': {transform: 'translateY(5%)'},
+        },
+        waveY2: {
+          '0%, 100%': {transform: 'translateY(5%)'},
+          '50%': {transform: 'translateY(0%)'},
+        },
+        waveY3: {
+          '0%, 100%': {transform: 'translateY(5%)'},
+          '50%': {transform: 'translateY(0%)'},
+        },
+
+
+
+
         /* add float animation */
       },
       /* added bounce property so we can change the animation timing */
@@ -42,6 +93,22 @@ module.exports = {
         wiggle: 'wiggle 0.5s ease-in-out infinite',
         pulse: 'pulse 2s infinite',
         ping: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
+
+// added slideFade animations
+        slideFadeRight: 'slideFadeLeft 2s',
+        slideFadeLeft: 'slideFadeRight 2s',
+        slideFadeUp: 'slideFadeUp 1.5s ease-in-out',
+        slideFadeDown: 'slideFadeDown 1.5s ease-in-out',
+
+// animation for waves svg
+        waveX1: 'waveX1 4s linear infinite',
+        waveX2: 'waveX2 4s linear infinite',
+        waveX3: 'waveX3 4s linear infinite',
+        waveY1: 'waveY 4s linear infinite',
+        waveY2: 'waveY2 4s linear infinite',
+        waveY3: 'waveY3 4s linear infinite',
+
+
         /* add float animation */
       },
       backgroundImage: {

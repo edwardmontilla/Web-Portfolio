@@ -1,5 +1,5 @@
 import React from "react";
-import NavMenu from "./NavMenu";
+
 
 // absolute is necessary to prevent double scrollbar
 // replaced right/left-0 with inset-x-0

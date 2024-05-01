@@ -11,6 +11,7 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 // using 2 pages for now
 // add a cmponent for page {2} at before the closing tag of Parallax
+// added viewbox to the svgs to make them responsive
 //
 
 const ParallaxComp = () => {
@@ -21,31 +22,31 @@ const ParallaxComp = () => {
             <Parallax pages={2} className="overflow-hidden">
 
                 <ParallaxLayer offset={0.25} speed={0.32}>
-                    <div className="absolute left-0 top-0 transform -translate-y-1/2 ml-60">
-                        <p className="text-8xl font-bold text-text">Welcome!</p>
+                    <div className="absolute left-0 top-0 transform -translate-y-1/2 ml-40">
+                        <p className="text-8xl font-bold text-text animate-slideFadeRight">Welcome!</p>
                     </div>
                 </ParallaxLayer>
 
 {/* First Background */}
 
                 <ParallaxLayer offset={0.25} speed={0.1}>
-                <img src="/images/wave-5.svg" alt="wave 5" className="w-full mt-[-158px]" />
+                <img src="/images/wave-5.svg" alt="wave 5" className="w-full mt-[-158px] animate-waveX1" viewBox="0 0 1920 1080" />
                 </ParallaxLayer>
 
                 <ParallaxLayer offset={0.25} speed={0.2}>
-                <img src="/images/wave-4.svg" alt="wave 4" className="w-full mt-[-120px]" />
+                <img src="/images/wave-4.svg" alt="wave 4" className="w-full mt-[-120px] animate-waveX2" viewBox="0 0 1920 1080" />
                 </ParallaxLayer>
 
                 <ParallaxLayer offset={0.25} speed={0.32}>
-                <img src="/images/wave-3.svg" alt="wave 3" className="w-full mt-[-108px]" />
+                <img src="/images/wave-3.svg" alt="wave 3" className="w-full mt-[-108px] animate-waveX3" viewBox="0 0 1920 1080" />
                 </ParallaxLayer>
 
                 <ParallaxLayer offset={0.25} speed={0.45}>
-                <img src="/images/wave-2.svg" alt="wave 2" className="w-full mt-[-45px]" />
+                <img src="/images/wave-2.svg" alt="wave 2" className="w-full mt-[-45px] animate-waveX2" viewBox="0 0 1920 1080" />
                 </ParallaxLayer>
 
                 <ParallaxLayer offset={0.25} speed={0.58}>
-                <img src="/images/wave-1.svg" alt="wave 1" className="w-full mt-[-45px]" />
+                <img src="/images/wave-1.svg" alt="wave 1" className="w-full mt-[-45px] animate-waveX1" viewBox="0 0 1920 1080" />
                 </ParallaxLayer>
 
 {/* Texts and Second Background */}
