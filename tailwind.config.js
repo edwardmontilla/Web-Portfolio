@@ -16,6 +16,7 @@ module.exports = {
         'primary': '#135D66',
         'secondary': '#77B0AA',
         'accent': '#003C43',
+        'middle': '#00474F',
        },
 
 // added default Tailwind animations
