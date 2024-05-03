@@ -1,7 +1,9 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Page2 from "./Page2";
+import Page3 from "./Page3";
 import Footer from "./Footer";
+
 
 
 // import a css file instead
@@ -23,7 +25,7 @@ const ParallaxComp = () => {
     const parallaxRef = React.useRef(null);
     
     return (
-        <Parallax pages={2} style={{ top: '0', left: '0' }} className="plxcontainer bg-background">
+        <Parallax pages={3} style={{ top: '0', left: '0' }} className="plxcontainer bg-background">
 
 {/* Page 1 */}
 {/* Welcome text */}
@@ -46,8 +48,8 @@ const ParallaxComp = () => {
             <ParallaxLayer offset={0} speed={0.22}>
                 <div className="plxlayer parallax animate-float2" id="wave-22"></div>
             </ParallaxLayer>
-            <ParallaxLayer offset={0} speed={0.12}>
-                <div className="plxlayer parallax animated-float" id="wave-11"></div>
+            <ParallaxLayer offset={0} speed={0.08}>
+                <div className="plxlayer parallax animate-float" id="wave-11"></div>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0}>
                 <div className="plxlayer parallax" id="wave-00"></div>
@@ -59,16 +61,24 @@ const ParallaxComp = () => {
 {/* Content Back */}
 {/* use grid-column start/end */}
 {/* css the svgs */}
-            <ParallaxLayer offset={1} speed={0.2}>
+            <ParallaxLayer offset={1} speed={0}>
                 <div className="flex justify-center h-3/4 w-screen ">
                     <div className="grid grid-cols-2 gap-20 text-text w-5/6">
-                        <div className="bg-white flex justify-center items-center bg-yellow-500 border-4 border-yellow">
-                            <img src="./next.svg" alt="Next.js Logo" id="lbox" />
+                        <div className="flex justify-center items-center bg-gray-300 border-4 round-md">
+                            <img src="./image/baked_macaroni_slice.png" alt="image" id="lbox" />01
                         </div>
-                        <div className="bg-white col-span-2 justify-self-end self-end">03</div>
-                        <div className="bg-white col-span-2 justify-self-start">04</div>
-                        <div className="bg-white">05</div>
-                        <div className="bg-white">06</div>
+                        <div className="bg-gray-300 col-span-2 justify-self-end self-end">03
+                            <img src="./images/mango_graham.png" alt="image" id="rbox" />
+                        </div>
+                        <div className="bg-gray-300 col-span-2 justify-self-start">04
+                            <img src="./images/baked_macaroni_slice.png" alt="image" id="lbox" />
+                        </div>
+                        <div className="bg-gray-300 col-span-2 justify-self-end self-end">05
+                            <img src="./images/mango_graham.png" alt="image" id="rbox" />
+                        </div>
+                        <div className="bg-gray-300 col-span-2 justify-self-start">06
+                            <img src="./images/baked_macaroni_slice.png" alt="image" id="lbox" />
+                        </div>
                     </div>
                 </div>
             </ParallaxLayer>
@@ -76,6 +86,16 @@ const ParallaxComp = () => {
 
 {/* Content Front */}
             <ParallaxLayer offset={1} speed={0}>
+                <div></div>
+            </ParallaxLayer>
+
+{/* Page 3 */}
+            <ParallaxLayer offset={2} speed={0}>
+                <Page3 />
+            </ParallaxLayer>
+
+{/* Footer is set at the last Page */}
+            <ParallaxLayer offset={2} speed={0}>
                 <Footer />
             </ParallaxLayer>
         </Parallax>

@@ -66,16 +66,17 @@
 
 /* Page 2 of the parallax */
 
-#page2-block {          /* from cssgradient.io */
+#page-block {          /* from cssgradient.io */
                         /* change height to 100vh */
                         /* get rid of margin-top */
     height: 100vh;
     /* margin-top: -75vh; */
-    background: linear-gradient(180deg, rgba(0,60,67,1) 0%, rgba(0,71,79,1) 22%, rgba(67,125,129,1) 57%, rgba(139,183,182,1) 84%, rgba(183,219,215,1) 93%, rgba(227,254,247,1) 100%);
+    /* background: linear-gradient(180deg, rgba(0,60,67,1) 0%, rgba(0,71,79,1) 22%, rgba(67,125,129,1) 57%, rgba(139,183,182,1) 84%, rgba(183,219,215,1) 93%, rgba(227,254,247,1) 100%); */
+    background: linear-gradient(180deg, rgba(1,47,53,1) 11%, rgba(39,82,86,1) 30%, rgba(115,152,151,1) 63%, rgba(227,254,247,1) 100%);
 }
 
 
-#page2-container {
+#page-container {
     width: 100%;
     margin: 0 auto;
     padding-top: 70px;
@@ -86,7 +87,7 @@
     width: 25%;
     height: 25%;
     padding-right: 20px;
-    margin-right: 40px;
+    margin-right: 0; /* content inside the box is centered */
 }
 
 #lbox {
@@ -94,7 +95,7 @@
     width: 25%;
     height: 25%;
     padding-left: 20px;
-    margin-left: 40px;
+    margin-left: 0; /* content inside the box is centered */
 }
 
 
