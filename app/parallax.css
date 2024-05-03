@@ -37,7 +37,7 @@
 .plxlayer {             /* this is ParallaxLayer */
     background-position: bottom-center;
     background-size: cover; /* instead of auto 1038px */
-    background-repeat: repeat; /* ofc no repeat */
+    background-repeat: no-repeat; /* ofc no repeat */
     width: 100%;
     position: absolute;
 }
@@ -69,16 +69,18 @@
 
 #rbox {
     float: right;
-    width: 50%;
-    height: 100%;
-    padding: 0 20px;
+    width: 25%;
+    height: 25%;
+    padding-right: 20px;
+    margin-right: 40px;
 }
 
 #lbox {
     float: left;
-    width: 50%;
-    height: 100%;
-    padding: 0 20px;
+    width: 25%;
+    height: 25%;
+    padding-left: 20px;
+    margin-left: 40px;
 }
 
 
