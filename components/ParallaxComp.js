@@ -32,7 +32,7 @@ const ParallaxComp = () => {
                     <p className="text-6xl font-bold text-text animate-slideFadeRight">Welcome!</p>
                 </div>
             </ParallaxLayer>
-
+        
 {/* Waves */}
             <ParallaxLayer offset={0} speed={0.1}>
                 <div className="plxlayer parallax animate-float" id="wave-55"></div>
@@ -46,8 +46,11 @@ const ParallaxComp = () => {
             <ParallaxLayer offset={0} speed={0.22}>
                 <div className="plxlayer parallax animate-float2" id="wave-22"></div>
             </ParallaxLayer>
+            <ParallaxLayer offset={0} speed={0.12}>
+                <div className="plxlayer parallax animated-float" id="wave-11"></div>
+            </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0}>
-                <div className="plxlayer parallax" id="wave-11"></div>
+                <div className="plxlayer parallax" id="wave-00"></div>
             </ParallaxLayer>
             <ParallaxLayer offset={1} speed={0}>
                 <Page2 />
