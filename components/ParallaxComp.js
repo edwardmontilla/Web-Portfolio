@@ -27,7 +27,7 @@ const ParallaxComp = () => {
 {/* Welcome text */}
             <ParallaxLayer offset={0.2} speed={0.32}>
                 <div className="absolute left-0 top-0 transform -translate-y-1/2 ml-40 sm:ml-20">
-                    <p className="text-6xl font-bold text-text animate-slideFadeRigh sm:text-xlt">Welcome!</p>
+                    <p className="text-6xl font-bold text-text animate-slideFadeRight sm:text-xl">Welcome!</p>
                 </div>
             </ParallaxLayer>
 
