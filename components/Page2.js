@@ -3,14 +3,14 @@ import Footer from "./Footer";
 
 const Page2 = () => {
     return (
-        <section id="page2-block">
-            <div className="page2-container">
-                <p className="rbox text-lg font-bold text-text text-white">Technologies here:</p>
+        <div id="page2-block">
+            <div id="page2-container" className="">
+                <p className="text-lg font-bold text-text text-white">1</p>
                     <img src="./next.svg" alt="Next.js Logo" id="rbox" />
-                <p className="lbox text-lg font-bold text-text text-white">React, Next.js, TailwindCSS, and more!</p>
+                <p className="text-lg font-bold text-text text-white">2</p>
             </div>
             <Footer />
-        </section>
+        </div>
         
     );
 }

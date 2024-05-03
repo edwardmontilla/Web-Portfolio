@@ -58,7 +58,8 @@
 
 #page2-block {
     background-color: #003C43;
-    height: 100vh;
+    height: 175vh;
+    margin-top: -75vh;
 }
 
 #page2-container {
