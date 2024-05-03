@@ -29,12 +29,14 @@
 /* Parallax container and Layers */
 
 .plxcontainer {             /* this is Parallax */
+
     display: block;
     position: relative;
     z-index: 10;
 }
 
 .plxlayer {             /* this is ParallaxLayer */
+    
     background-position: bottom-center;
     background-size: cover; /* instead of auto 1038px */
     background-repeat: no-repeat; /* ofc no repeat */
@@ -43,7 +45,8 @@
 }
 
 .plxcontainer, .plxlayer {
-    height: 1200px;
+    /* height: 1000px: */
+    height: 100%;
 }
 
 .plxlayer.parallax {
@@ -59,8 +62,8 @@
 #page2-block {          /* from cssgradient.io */
                         /* change height to 100vh */
                         /* get rid of margin-top */
-    height: 175vh;
-    margin-top: -75vh;
+    height: 100vh;
+    /* margin-top: -75vh; */
     background: linear-gradient(180deg, rgba(0,60,67,1) 0%, rgba(0,71,79,1) 22%, rgba(67,125,129,1) 57%, rgba(139,183,182,1) 84%, rgba(183,219,215,1) 93%, rgba(227,254,247,1) 100%);
 }
 
