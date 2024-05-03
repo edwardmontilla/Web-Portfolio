@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* BGs for first page*/
+
+#wave-55 {
+    background-image: url(/images/wave-55.svg);
+}
+
+#wave-44 {
+    background-image: url(/images/wave-44.svg);
+}
+
+#wave-33 {
+    background-image: url(/images/wave-33.svg);
+}
+
+#wave-22 {
+    background-image: url(/images/wave-22.svg);
+}
+
+#wave-11 {
+    background-image: url(/images/wave-11.svg);
+}
+
+
+/* Parallax container and Layers */
+
+.plxcontainer {             /* this is Parallax */
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+
+.plxlayer {             /* this is ParallaxLayer */
+    background-position: bottom-center;
+    background-size: cover; /* instead of auto 1038px */
+    background-repeat: no-repeat; /* ofc no repeat */
+    width: 100%;
+    position: absolute;
+}
+
+.plxcontainer, .plxlayer {
+    height: 1200px;
+}
+
+.plxlayer.parallax {
+    position: fixed;
+}
+
+.welcome {
+    z-index:20;
+}
+
+/* all parallax layers should have a fixed position */
+

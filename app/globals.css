@@ -19,11 +19,6 @@
   }
 } */
 
-html {
-  overflow-y: hidden;
-  overflow-x: hidden;
-  max-width: 100vh;
-}
 
 /* body {
   color: #27374e;
@@ -36,12 +31,13 @@ html {
 }
 
 /* Hide scrollbar */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
 }
 
 body { overflow: -moz-scrollbars-none; }
 
-body { -ms-overflow-style: none; }
+body { -ms-overflow-style: none; } */
 
 /*----------------*/
+
