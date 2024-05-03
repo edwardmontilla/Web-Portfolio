@@ -45,8 +45,8 @@
 }
 
 .plxcontainer, .plxlayer {
-    /* height: 1000px: */
-    height: 165%;
+    /* height: 1000px; */
+    height: 100%;
 }
 
 .plxlayer.parallax {
