@@ -21,7 +21,7 @@ const ParallaxComp = () => {
     const parallaxRef = React.useRef(null);
     
     return (
-        <Parallax pages={2} style={{ top: '0', left: '0' }} className="plxcontainer bg-accent">
+        <Parallax pages={2} style={{ top: '0', left: '0' }} className="plxcontainer bg-background">
 
 {/* Page 1 */}
 {/* Welcome text */}
