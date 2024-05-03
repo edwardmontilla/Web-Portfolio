@@ -43,7 +43,7 @@ const ParallaxComp = () => {
             <ParallaxLayer offset={0} speed={0.40}>
                 <div className="plxlayer parallax" id="wave-22"></div>
             </ParallaxLayer>
-            <ParallaxLayer offset={0} speed={0.53}>
+            <ParallaxLayer offset={0} speed={0.63}>
                 <div className="plxlayer parallax" id="wave-11"></div>
             </ParallaxLayer>
             <ParallaxLayer offset={1} speed={0.53}>
