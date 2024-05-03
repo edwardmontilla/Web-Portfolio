@@ -1,5 +1,6 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import PageTwo from "./PageTwo";
 // import a css file instead
 // import PageTwo.js from "./PageTwo.js";
 
@@ -44,6 +45,10 @@ const ParallaxComp = () => {
             <ParallaxLayer offset={0} speed={0.72}>
                 <div className="plxlayer parallax" id="wave-11"></div>
             </ParallaxLayer>
+            <ParallaxLayer offset={0} speed={0.72}>
+                <PageTwo />
+            </ParallaxLayer>
+
 
 
 

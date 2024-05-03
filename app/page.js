@@ -3,7 +3,6 @@
 import "./globals.css";
 import "./parallax.css";
 import React, { useState, useEffect } from "react";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Header from "@/components/Header";
 import NavMenu from "@/components/NavMenu";
 import Footer from "@/components/Footer";
