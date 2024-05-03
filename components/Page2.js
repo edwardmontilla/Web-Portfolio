@@ -8,6 +8,7 @@ const Page2 = () => {
                 <p className="sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold text-gray-100 mr-80 text-center">Hello</p>
                     <img src="./next.svg" alt="Next.js Logo" id="rbox" />
                 <p className="sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold text-gray-100 text-center">Baobao...Test test</p>
+                
             </div>
             
         </div>

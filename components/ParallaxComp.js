@@ -56,7 +56,7 @@ const ParallaxComp = () => {
 {/* Content Back */}
 {/* use grid-column start/end */}
 {/* css the svgs */}
-            <ParallaxLayer offset={1.2} speed={0.2}>
+            <ParallaxLayer offset={1} speed={0.2}>
                 <div className="flex justify-center h-3/4 w-screen ">
                     <div className="grid grid-cols-2 gap-20 text-text w-5/6">
                         <div className="bg-white flex justify-center items-center bg-yellow-500 border-4 border-yellow">
@@ -72,7 +72,7 @@ const ParallaxComp = () => {
 
 
 {/* Content Front */}
-            <ParallaxLayer offset={1.2} speed={0.3}>
+            <ParallaxLayer offset={1} speed={0}>
                 <Footer />
             </ParallaxLayer>
         </Parallax>
