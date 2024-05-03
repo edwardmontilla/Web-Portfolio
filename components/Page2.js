@@ -3,13 +3,14 @@ import Footer from "./Footer";
 
 const Page2 = () => {
     return (
-        <section className="pgbg h-screen">
-            <div className="w-full mx-auto pt-24">
-                <p className="text-lg font-bold text-text text-white">Technologies here:</p>
-                <p className="text-lg font-bold text-text text-white">React, Next.js, TailwindCSS, and more!</p>
+        <section id="page2-block">
+            <div className="page2-container">
+                <p className="rbox text-lg font-bold text-text text-white">Technologies here:</p>
+                <p className="lbox text-lg font-bold text-text text-white">React, Next.js, TailwindCSS, and more!</p>
             </div>
             <Footer />
         </section>
+        
     );
 }
 
