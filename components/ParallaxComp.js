@@ -1,5 +1,6 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+// import a css file instead
 // import PageTwo.js from "./PageTwo.js";
 
 
@@ -19,8 +20,9 @@ const ParallaxComp = () => {
     
     return (
         <div>
-            <Parallax pages={2} className="overflow-hidden bg-background">
+            <Parallax pages={2} className="overflow-hidden">
 
+{/* Page 1 */}
 {/* Welcome text */}
                 <ParallaxLayer offset={0.25} speed={0.32}>
                     <div className="absolute left-0 top-0 transform -translate-y-1/2 ml-40">
@@ -30,33 +32,34 @@ const ParallaxComp = () => {
 
 {/* First Background */}
                 <ParallaxLayer offset={0.25} speed={0.1}>
-                <img src="/images/wave-5.svg" alt="wave 5" className="w-full mt-[-198px]" viewBox="0 0 1920 1080" />
+                    <img src="/images/wave-55.svg" alt="wave 5" className="w-full" viewBox="0 0 1920 1080" />
                 </ParallaxLayer>
 
                 <ParallaxLayer offset={0.25} speed={0.2}>
-                <img src="/images/wave-4.svg" alt="wave 4" className="w-full mt-[-160px]" viewBox="0 0 1920 1080" />
+                    <img src="/images/wave-44.svg" alt="wave 4" className="w-full" viewBox="0 0 1920 1080" />
                 </ParallaxLayer>
 
                 <ParallaxLayer offset={0.25} speed={0.32}>
-                <img src="/images/wave-3.svg" alt="wave 3" className="w-full mt-[-148px] " viewBox="0 0 1920 1080" />
+                    <img src="/images/wave-33.svg" alt="wave 3" className="w-full" viewBox="0 0 1920 1080" />
                 </ParallaxLayer>
 
-                <ParallaxLayer offset={0.25} speed={0.45}>
-                <img src="/images/wave-2.svg" alt="wave 2" className="w-full mt-[-85px]" viewBox="0 0 1920 1080" />
+                <ParallaxLayer offset={0.25} speed={0.55}>
+                    <img src="/images/wave-22.svg" alt="wave 2" className="w-full" viewBox="0 0 1920 1080" />
                 </ParallaxLayer>
 
-                <ParallaxLayer offset={0.25} speed={0.58}>
-                <img src="/images/wave-1.svg" alt="wave 1" className="w-full mt-[-85px]" viewBox="0 0 1920 1080" />
+                <ParallaxLayer offset={0.25} speed={0.78}>
+                    <img src="/images/wave-11.svg" alt="wave 1" className="w-full" viewBox="0 0 1920 1080" />
                 </ParallaxLayer>
 
+{/* Page 2 */}
 {/* Second Background */}
-                <ParallaxLayer offset={1} speed={0.58} className="mt-0 md:mt-[-255px] bg-cover bg-gradient-to-b from-accent to-background
-                    ">
-                
+                <ParallaxLayer offset={0.85} speed={0.58} className="z-10 h-screen bg-gradient-to-b from-accent bg-background">
+
                 </ParallaxLayer>
 
 
 {/* Texts and Boxes*/}
+{/* z-20 index */}
                 <ParallaxLayer offset={1.18} speed={0.3}>
                     <div className="absolute w-full flex justify-center items-center">
                         <h1 className="text-5xl font-bold text-text">Im Edward</h1>

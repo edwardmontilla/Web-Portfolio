@@ -101,7 +101,7 @@ module.exports = {
         waveY3: 'waveY3 4s linear infinite',
 
 
-        /* add float animation */
+/* add float animation */
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
