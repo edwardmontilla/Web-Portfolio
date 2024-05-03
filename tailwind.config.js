@@ -37,6 +37,16 @@ module.exports = {
         ping: {
           '75%, 100%': { transform: 'scale(2)', opacity: 0 },
         },
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-5%)' },
+        },
+        float2: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(5%)' },
+        },
+
+        
 
 // slideFade animations
         slideFadeRight: {
@@ -85,6 +95,8 @@ module.exports = {
         wiggle: 'wiggle 0.5s ease-in-out infinite',
         pulse: 'pulse 2s infinite',
         ping: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
+        float: 'float 4s ease-in-out infinite',
+        float2: 'float2 4s ease-in-out infinite',
 
 // added slideFade animations
         slideFadeRight: 'slideFadeLeft 2s',

@@ -32,16 +32,16 @@ const ParallaxComp = () => {
             </ParallaxLayer>
 
             <ParallaxLayer offset={0} speed={0.1}>
-                <div className="plxlayer parallax" id="wave-55"></div>
+                <div className="plxlayer parallax animate-float" id="wave-55"></div>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0.15}>
-                <div className="plxlayer parallax" id="wave-44"></div>
+                <div className="plxlayer parallax animate-float2" id="wave-44"></div>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0.19}>
-                <div className="plxlayer parallax" id="wave-33"></div>
+                <div className="plxlayer parallax animate-float" id="wave-33"></div>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0.22}>
-                <div className="plxlayer parallax" id="wave-22"></div>
+                <div className="plxlayer parallax animate-float2" id="wave-22"></div>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0}>
                 <div className="plxlayer parallax" id="wave-11"></div>
