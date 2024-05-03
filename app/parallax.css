@@ -37,7 +37,7 @@
 .plxlayer {             /* this is ParallaxLayer */
     background-position: bottom-center;
     background-size: cover; /* instead of auto 1038px */
-    background-repeat: no-repeat; /* ofc no repeat */
+    background-repeat: repeat; /* ofc no repeat */
     width: 100%;
     position: absolute;
 }
