@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import './globals.css';
+import './parallax.css';
 import NavMenu from "@/components/NavMenu";
 
 export const metadata = {

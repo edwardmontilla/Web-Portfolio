@@ -54,5 +54,39 @@
     z-index:20;
 }
 
-/* all parallax layers should have a fixed position */
+/* Page 2 of the parallax */
+
+#page2-block {
+    background-color: #003C43;
+    height: 100vh;
+}
+
+.pgbg {
+    background-color: #003C43;
+}
+
+#page2-container {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+#rbox {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 0 20px;
+}
+
+#lbox {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 0 20px;
+}
+
+
+
+
+
 
