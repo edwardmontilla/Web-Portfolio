@@ -37,15 +37,6 @@ module.exports = {
         ping: {
           '75%, 100%': { transform: 'scale(2)', opacity: 0 },
         },
-        float: {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-5%)' },
-        },
-        float2: {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(5%)' },
-        },
-
         
 
 // slideFade animations
@@ -67,36 +58,23 @@ module.exports = {
         },
 
 // animations for waves svg
-        waveX1: {
-          '0%, 100%': {transform: 'translateX(0%)'},
-          '50%': {transform: 'translateX(5%)'},
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-5%)' },
         },
-        waveX2: {
-          '0%, 100%': {transform: 'translateX(5%)'},
-          '50%': {transform: 'translateX(0%)'},
-        },
-
-        waveY1: {
-          '0%, 100%': {transform: 'translateY(0)'},
-          '50%': {transform: 'translateY(5%)'},
-        },
-        waveY2: {
-          '0%, 100%': {transform: 'translateY(5%)'},
-          '50%': {transform: 'translateY(0%)'},
+        float2: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(5%)' },
         },
 
-
-      /* add float animation maybe*/
       },
-      /* added bounce property so we can change the animation timing */
-      /* added wiggle, pulse animations as a test */
+
+// added default Tailwind animations
       animation: {
         bounce: 'bounce 1s infinite',
         wiggle: 'wiggle 0.5s ease-in-out infinite',
         pulse: 'pulse 2s infinite',
         ping: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
-        float: 'float 4s ease-in-out infinite',
-        float2: 'float2 4s ease-in-out infinite',
 
 // added slideFade animations
         slideFadeRight: 'slideFadeLeft 2s',
@@ -105,16 +83,13 @@ module.exports = {
         slideFadeDown: 'slideFadeDown 1.5s ease-in-out',
 
 // animation for waves svg
-        waveX1: 'waveX1 4s linear infinite',
-        waveX2: 'waveX2 4s linear infinite',
-        waveX3: 'waveX3 4s linear infinite',
-        waveY1: 'waveY 4s linear infinite',
-        waveY2: 'waveY2 4s linear infinite',
-        waveY3: 'waveY3 4s linear infinite',
+        float: 'float 4s ease-in-out infinite',
+        float2: 'float2 4s ease-in-out infinite',
 
-
-/* add float animation */
       },
+
+
+      
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
