@@ -64,19 +64,19 @@ const ParallaxComp = () => {
             <ParallaxLayer offset={1} speed={0}>
                 <div className="flex justify-center h-3/4 w-screen ">
                     <div className="grid grid-cols-2 gap-20 text-text w-5/6">
-                        <div className="flex justify-center items-center bg-gray-300 border-4 round-md">
-                            <img src="./image/baked_macaroni_slice.png" alt="image" id="lbox" />01
+                        <div className="flex col-span-2 justify-self-start self-start bg-gray-300 border-4 round-md">
+                            <img src="./images/baked_macaroni_slice.png" alt="image" id="lbox" />01
                         </div>
                         <div className="bg-gray-300 col-span-2 justify-self-end self-end">03
                             <img src="./images/mango_graham.png" alt="image" id="rbox" />
                         </div>
-                        <div className="bg-gray-300 col-span-2 justify-self-start">04
+                        <div className="bg-gray-300 col-span-2 justify-self-start self-start">04
                             <img src="./images/baked_macaroni_slice.png" alt="image" id="lbox" />
                         </div>
                         <div className="bg-gray-300 col-span-2 justify-self-end self-end">05
                             <img src="./images/mango_graham.png" alt="image" id="rbox" />
                         </div>
-                        <div className="bg-gray-300 col-span-2 justify-self-start">06
+                        <div className="bg-gray-300 col-span-2 justify-self-start self-start">06
                             <img src="./images/baked_macaroni_slice.png" alt="image" id="lbox" />
                         </div>
                     </div>
@@ -86,7 +86,15 @@ const ParallaxComp = () => {
 
 {/* Content Front */}
             <ParallaxLayer offset={1} speed={0}>
-                <div></div>
+                <div className="flex justify-center w-screen">
+                    <div className="grid grid-cols-2 gap-20 w-5/6">
+                        <div className="bg-blue-100 flex justify-self-end self-end">Test
+
+                        </div>
+
+                    </div>
+
+                </div>
             </ParallaxLayer>
 
 {/* Page 3 */}
