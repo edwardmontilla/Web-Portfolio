@@ -9,7 +9,7 @@ const Page2 = () => {
                     <img src="./next.svg" alt="Next.js Logo" id="rbox" />
                 <p className="sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold text-gray-100 text-center">Baobao...Test test</p>
             </div>
-            <Footer />
+            
         </div>
         
     );

@@ -1,6 +1,8 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Page2 from "./Page2";
+import Footer from "./Footer";
+
 
 // import a css file instead
 // import PageTwo.js from "./PageTwo.js";
@@ -31,6 +33,7 @@ const ParallaxComp = () => {
                 </div>
             </ParallaxLayer>
 
+{/* Waves */}
             <ParallaxLayer offset={0} speed={0.1}>
                 <div className="plxlayer parallax animate-float" id="wave-55"></div>
             </ParallaxLayer>
@@ -50,83 +53,28 @@ const ParallaxComp = () => {
                 <Page2 />
             </ParallaxLayer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-{/* First Background */}
-            {/* <ParallaxLayer offset={0.25} speed={0.1}>
-                <img src="/images/wave-55.svg" alt="wave 5" className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-bottom bg-center bg-repeat-x w-full"/>
-            </ParallaxLayer>
-
-            <ParallaxLayer offset={0.25} speed={0.2}>
-                <img src="/images/wave-44.svg" alt="wave 4" className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-bottom bg-center bg-repeat-x w-full"/>
-            </ParallaxLayer>
-
-            <ParallaxLayer offset={0.25} speed={0.32}>
-                <img src="/images/wave-33.svg" alt="wave 3" className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-bottom bg-center bg-repeat-x w-full" />
-            </ParallaxLayer>
-
-            <ParallaxLayer offset={0.25} speed={0.50}>
-                <img src="/images/wave-22.svg" alt="wave 2" className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-bottom bg-center bg-repeat-x w-full"/>
-            </ParallaxLayer>
-
-            <ParallaxLayer offset={0.25} speed={0.72}>
-                <img src="/images/wave-11.svg" alt="wave 1" className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-bottom bg-center bg-repeat-x w-full"/>
-            </ParallaxLayer> */}
-
-{/* Page 2 */}
-{/* Second Background */}
-            {/* <ParallaxLayer offset={0.85} speed={0.58}>
-
-            </ParallaxLayer> */}
-
-
-{/* Texts and Boxes*/}
-{/* z-20 index */}
-            {/* <ParallaxLayer offset={1} speed={0.3}>
-                <div className="absolute w-full flex justify-center items-center">
-                    <h1 className="text-5xl font-bold text-text">Im Edward</h1>
-                </div>
-            </ParallaxLayer>
-            
-            <ParallaxLayer offset={1} speed={0.3}>
-                <div className="absolute w-full flex justify-center items-center">
-                    <h1 className="text-5xl font-bold text-text">Im a Software Developer</h1>
-                </div>
-            </ParallaxLayer>
-            <ParallaxLayer offset={1} speed={0.5}>
-                <div className="absolute w-full flex justify-center items-center">
-                    <h1 className="text-5xl font-bold text-text">............</h1>
+{/* Content Back */}
+{/* use grid-column start/end */}
+{/* css the svgs */}
+            <ParallaxLayer offset={1.2} speed={0.2}>
+                <div className="flex justify-center h-3/4 w-screen ">
+                    <div className="grid grid-cols-2 gap-20 text-text w-5/6">
+                        <div className="bg-white flex justify-center items-center bg-yellow-500 border-4 border-yellow">
+                            <img src="./next.svg" alt="Next.js Logo" id="lbox" />
+                        </div>
+                        <div className="bg-white col-span-2 justify-self-end self-end">03</div>
+                        <div className="bg-white col-span-2 justify-self-start">04</div>
+                        <div className="bg-white">05</div>
+                        <div className="bg-white">06</div>
+                    </div>
                 </div>
             </ParallaxLayer>
 
-            <ParallaxLayer offset={1} speed={0.25}>
-            {/* Page 2 Component here
-                Pass Footer Component here 
-            */}
-            {/* </ParallaxLayer> */}
 
-{/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-
+{/* Content Front */}
+            <ParallaxLayer offset={1.2} speed={0.3}>
+                <Footer />
+            </ParallaxLayer>
         </Parallax>
 
     );

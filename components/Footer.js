@@ -1,6 +1,6 @@
 import React from "react";
 
-// z-10 to place it on top of parallax/scrollbar
+// 
 // replaced right/left-0 with inset-x-0
 // 
 
