@@ -97,7 +97,8 @@
 
 #page-block {          /* from cssgradient.io */
                         /* change height to 100vh */
-                   
+    /* border-color: aqua;
+    border-width: 4px; */
     height: 200vh;
     background-color: #27374D;
     /* background: linear-gradient(180deg, rgba(0,60,67,1) 11%, rgba(39,82,86,1) 30%, rgba(115,152,151,1) 63%, rgba(227,254,247,1) 100%); */
@@ -105,6 +106,8 @@
 }
 
 #page-container {
+    /* border-color: rgb(99, 131, 131);
+    border-width: 4px; */
     height: 100%;
     width: 100%;
     margin: 0 auto;
@@ -113,7 +116,9 @@
 
 /* contents inside */
 #rbox {
-    /* float: right; */
+    float: right;
+    border-color: aqua;
+    border-width: 4px;
     width: 490px;
     height: 260px;
     /* padding-right: 20px; */
@@ -121,7 +126,9 @@
 }
 
 #lbox {
-    /* float: left; */
+    float: left;
+    border-color: aqua;
+    border-width: 4px;
     width: 490px;
     height: 260px;
     /* padding-left: 20px; */
@@ -129,6 +136,10 @@
 }
 
 
+/* adjust box content if going to use
+OTHERWISE
+use <p> tags for text inside the boxes
+*/
 
 
 

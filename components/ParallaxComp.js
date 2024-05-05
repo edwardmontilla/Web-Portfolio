@@ -31,7 +31,7 @@ const ParallaxComp = () => {
 {/* Welcome text */}
             <ParallaxLayer offset={0.2} speed={0.32}>
                 <div className="absolute top-0 left-0 ml-40 transform -translate-y-1/2">
-                    <p className="text-6xl font-bold text-text animate-slideFadeRight">Welcome!</p>
+                    <p className="text-6xl font-bold text-text animate-slideFadeRight">Hello!</p>
                 </div>
             </ParallaxLayer>
         
@@ -100,9 +100,9 @@ const ParallaxComp = () => {
 
 {/* Content Front */}
             <ParallaxLayer offset={1} speed={0}>
-                <div className="flex justify-center w-screen">
-                    <div className="grid w-5/6 grid-cols-2 gap-20">
-                        <div className="flex self-end bg-slate-100 justify-self-end">Front Content goes here
+                <div className="flex items-center justify-center mt-60">
+                    <div className="">
+                        <div className="text-4xl font-bold border-2 rounded-lg bg-slate-100 border-slate-500">Front Content goes on top here
 
                         </div>
 
