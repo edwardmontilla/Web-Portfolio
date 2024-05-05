@@ -152,7 +152,11 @@
 
 /* --------------- screen size adjustments --------------- */
 @media (max-width: 576px) {
-    
+    nav {
+        font-size: 0.7rem;
+        margin-left: 5px;
+    }
+
     .plxcontainer, .plxlayer {
         /* Adjust styles for smartphones */
         background-size: contain;
