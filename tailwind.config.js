@@ -10,13 +10,23 @@ module.exports = {
   theme: {
     extend: {
 // added a new color scheme
-      colors: {
+      // colors: {
+      //   'text': '#333333',
+      //   'background': '#E3FEF7',
+      //   'primary': '#135D66',
+      //   'secondary': '#77B0AA',
+      //   'accent': '#003C43',
+      //   'middle': '#00474F',
+      //  },
+
+// second color scheme       
+       colors: {
         'text': '#333333',
-        'background': '#E3FEF7',
-        'primary': '#135D66',
-        'secondary': '#77B0AA',
-        'accent': '#003C43',
-        'middle': '#00474F',
+        'background': '#DDE6ED',
+        'primary': '#526D82',
+        'secondary': '#9DB2BF',
+        'accent': '#27374D',
+        'middle': '#7B91A2',
        },
 
 // added default Tailwind animations
@@ -60,11 +70,11 @@ module.exports = {
 // animations for waves svg
         float: {
           '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-5%)' },
+          '50%': { transform: 'translateY(-1%)' },
         },
         float2: {
           '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(5%)' },
+          '50%': { transform: 'translateY(1%)' },
         },
 
       },

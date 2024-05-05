@@ -3,7 +3,32 @@
 @tailwind utilities;
 
 
-/* BGs for first page*/
+/* BG set 1 */
+
+#wave-5 {
+    background-image: url(/images/wave-5.svg);
+}
+
+#wave-4 {
+    background-image: url(/images/wave-4.svg);
+}
+
+#wave-3 {
+    background-image: url(/images/wave-3.svg);
+}
+
+#wave-2 {
+    background-image: url(/images/wave-2.svg);
+}
+
+#wave-1 {
+    background-image: url(/images/wave-1.svg);
+}
+#wave-0 {
+    background-image: url(/images/wave-0.svg);
+}
+
+/* BG set 2 */
 
 #wave-55 {
     background-image: url(/images/wave-55.svg);
@@ -26,6 +51,9 @@
 }
 #wave-00 {
     background-image: url(/images/wave-00.svg);
+}
+#wave-0 {
+    background-image: url(/images/wave-0.svg);
 }
 
 
@@ -61,41 +89,43 @@
 }
 
 .footer {
-    z-index: 40;
+    z-index: 50;
 }
+
 
 /* Page 2 of the parallax */
 
 #page-block {          /* from cssgradient.io */
                         /* change height to 100vh */
-                        /* get rid of margin-top */
-    height: 100vh;
-    /* margin-top: -75vh; */
-    /* background: linear-gradient(180deg, rgba(0,60,67,1) 0%, rgba(0,71,79,1) 22%, rgba(67,125,129,1) 57%, rgba(139,183,182,1) 84%, rgba(183,219,215,1) 93%, rgba(227,254,247,1) 100%); */
-    background: linear-gradient(180deg, rgba(1,47,53,1) 11%, rgba(39,82,86,1) 30%, rgba(115,152,151,1) 63%, rgba(227,254,247,1) 100%);
+                   
+    height: 200vh;
+    background-color: #27374D;
+    /* background: linear-gradient(180deg, rgba(0,60,67,1) 11%, rgba(39,82,86,1) 30%, rgba(115,152,151,1) 63%, rgba(227,254,247,1) 100%); */
+
 }
 
-
 #page-container {
+    height: 100%;
     width: 100%;
     margin: 0 auto;
     padding-top: 70px;
 }
 
+/* contents inside */
 #rbox {
-    float: right;
-    width: 50%;
-    height: 50%;
-    padding-right: 20px;
-    margin-right: 0; /* content inside the box is centered */
+    /* float: right; */
+    width: 490px;
+    height: 260px;
+    /* padding-right: 20px; */
+    margin-right: 0; /* content centering */
 }
 
 #lbox {
-    float: left;
-    width: 50%;
-    height: 50%;
-    padding-left: 20px;
-    margin-left: 0; /* content inside the box is centered */
+    /* float: left; */
+    width: 490px;
+    height: 260px;
+    /* padding-left: 20px; */
+    margin-left: 0; /* content centering */
 }
 
 

@@ -5,10 +5,38 @@ const Page2 = () => {
     return (
         <div id="page-block">
             <div id="page-container" className="">
-                <p className="sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold text-gray-100 mr-80 text-center">Hello</p>
-                    {/* <img src="./next.svg" alt="Next.js Logo" id="rbox" /> */}
-                <p className="sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold text-gray-100 text-center">Front Content goes here</p>
-                
+                <div className="flex justify-center w-screen h-3/4">
+                        <div className="grid w-4/6 grid-cols-2 gap-20 text-text">
+                            
+                            <div className="flex self-start col-span-2 justify-self-start">
+                                <div className="box-content border-2 border-yellow-200">
+                                    <img src="./images/BG-Full-Opacity.png" alt="image" id="lbox"/>
+                                </div>
+                            </div>
+                            <div className="self-end col-span-2 justify-self-end">
+                                <div className="box-content border-2 border-yellow-200">
+                                    <img src="./images/mango_graham.png" alt="image" id="rbox"/>
+                                </div>
+                            </div>
+                            <div className="self-start col-span-2 justify-self-start">
+                                <div className="box-content border-2 border-yellow-200">
+                                    <img src="./images/baked_macaroni_slice.png" alt="image" id="lbox" />
+                                </div>
+                            </div>
+                            <div className="self-end col-span-2 justify-self-end">
+                                <div className="box-content border-2 border-yellow-200">
+                                    <img src="./images/mango_graham.png" alt="image" id="rbox" />
+                                </div>
+                            </div>
+                            <div className="self-start col-span-2 justify-self-start">
+                                <div className="box-content border-2 border-yellow-200">
+                                    <img src="./images/baked_macaroni_slice.png" alt="image" id="lbox" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
             </div>
             
         </div>

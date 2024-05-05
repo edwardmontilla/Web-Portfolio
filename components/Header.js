@@ -8,7 +8,7 @@ import React from "react";
 const Header = ({ NavMenu }) => {
     return (
         <header className="fixed inset-x-0 z-40">
-            <div className="bg-primary overflow-hidden p-5">
+            <div className="p-2 overflow-hidden bg-primary">
                 {NavMenu}
             </div>
         </header>
