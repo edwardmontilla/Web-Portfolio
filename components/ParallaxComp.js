@@ -54,47 +54,13 @@ const ParallaxComp = () => {
             <ParallaxLayer offset={0} speed={0}>
                 <div className="plxlayer parallax" id="wave-0"></div>
             </ParallaxLayer>
-            
-            <ParallaxLayer offset={1} speed={0}>
-                <Page2 />
-            </ParallaxLayer>
 
 {/* Content Back */}
 {/* use grid-column start/end */}
 {/* css the svgs */}
             <ParallaxLayer offset={1} speed={0}>
                 <Page2 />
-                    {/* <div className="flex justify-center w-screen h-3/4">
-                        <div className="grid w-5/6 grid-cols-2 gap-20 text-text">
-                            
-                            <div className="flex self-end col-span-2 justify-self-end">
-                                <div className="box-content border-2 border-red-200">
-                                    <img src="./images/baked_macaroni_slice.png" alt="image" id="lbox"/>01
-                                </div>
-                            </div>
-                            <div className="self-start col-span-2 justify-self-start">
-                                <div className="box-content border-2 border-red-200">
-                                    <img src="./images/mango_graham.png" alt="image" id="rbox"/>02
-                                </div>
-                            </div>
-                            <div className="self-end col-span-2 justify-self-end">
-                                <div className="box-content border-2 border-red-200">
-                                    <img src="./images/baked_macaroni_slice.png" alt="image" id="lbox" />03
-                                </div>
-                            </div>
-                            <div className="self-start col-span-2 justify-self-start">
-                                <div className="box-content border-2 border-red-200">
-                                    <img src="./images/mango_graham.png" alt="image" id="rbox" />04
-                                </div>
-                            </div>
-                            <div className="self-end col-span-2 justify-self-end">
-                                <div className="box-content border-2 border-red-200">
-                                    <img src="./images/baked_macaroni_slice.png" alt="image" id="lbox" />05
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
-                
+
             </ParallaxLayer>
 
 
