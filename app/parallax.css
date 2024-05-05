@@ -157,7 +157,7 @@
         /* Adjust styles for smartphones */
         background-size: contain;
         margin-top: 315px;
-        height: 150vh;
+        height: 100vh;
     }
     .text-6xl { /* Hello! */
         margin-left: -110px;
@@ -165,7 +165,9 @@
         font-size: 1.1rem;
         z-index: 50;
     }
-
+    #wave-0 {
+        height: 150%;
+    }
     .text-4xl {
         font-size: 0.75rem;
         z-index: 50;}
