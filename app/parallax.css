@@ -156,9 +156,21 @@
 }
 
 @media (max-width: 576px) {
-    .plxlayer {
+    .plxcontainer, .plxlayer {
         /* Adjust styles for smartphones */
         background-size: contain;
+    }
+    .text-6xl {
+        font-size: 3rem;
+    }
+    .page-container {
+        width: 100%;
+    }
+    .page-block {
+        height: 100vh;
+    }
+    .rbox, .lbox {
+        width: 100%;
     }
 }
 
