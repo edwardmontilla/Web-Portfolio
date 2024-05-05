@@ -149,29 +149,40 @@
     column-gap: 2rem;
 }
 
-@media (min-width: 768px) {
-    .grid {
-        row-gap: 1rem; /* Adjust the row gap for larger viewports using a fixed value */
-    }
-}
 
+/* --------------- screen size adjustments --------------- */
 @media (max-width: 576px) {
+    
     .plxcontainer, .plxlayer {
         /* Adjust styles for smartphones */
         background-size: contain;
+        margin-top: 315px;
+        height: 150vh;
     }
-    .text-6xl {
-        font-size: 3rem;
+    .text-6xl { /* Hello! */
+        margin-left: -110px;
+        margin-top: 85px;
+        font-size: 1.1rem;
+        z-index: 50;
     }
-    .page-container {
+
+    .text-4xl {
+        font-size: 0.75rem;
+        z-index: 50;}
+
+    .page-container, .page-block {
+        height: 100vh;
         width: 100%;
     }
-    .page-block {
-        height: 100vh;
+    .grid {
+        margin-top: -40px;
+        row-gap: 5rem; /* Adjust the row gap for larger viewports using a fixed value */
     }
+
     .rbox, .lbox {
         width: 100%;
     }
+    
 }
 
 /* adjust box content if going to use
