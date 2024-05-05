@@ -156,7 +156,7 @@
     .plxcontainer, .plxlayer {
         /* Adjust styles for smartphones */
         background-size: contain;
-        margin-top: 315px;
+        margin-top: 365px;
         height: 100vh;
     }
     .text-6xl { /* Hello! */
