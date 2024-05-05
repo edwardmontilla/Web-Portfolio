@@ -156,7 +156,7 @@
     .plxcontainer, .plxlayer {
         /* Adjust styles for smartphones */
         background-size: contain;
-        margin-top: 388px;
+        margin-top: 255px;
         height: 100vh;
     }
     .text-6xl { /* Hello! */
@@ -169,9 +169,10 @@
         font-size: 0.75rem;
         z-index: 50;}
 
-    .page-container, .page-block {
-        height: 100vh;
-        width: 100%;
+    #page-container, #page-block {
+        margin-top: -290px;
+        height: 250vh;
+        width: 50% auto;
     }
     .grid {
         margin-top: -40px;
