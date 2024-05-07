@@ -71,10 +71,11 @@ const ParallaxComp = () => {
                     <div id="page-container2" className="">
                         <p className="inline-block text-4xl font-bold ml-100 bg-slate-100">Front Content Next</p>
                         <div className="flex justify-center h-full">
-                            <div className="grid grid-rows-1 text-white">
+                            <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-2">
                                     <div className="lbox2">
-                                        <img src="./images/cat.jpg" alt="image1" className="rounded-lg shadow-lg shadow-slate-900/50" />
+                                        <p className="box-content w-full p-3 text-3xl font-bold text-gray-200 bg-black border-2 border-yellow-300">Title</p>
+                                        {/* <img src="./images/cat.jpg" alt="image1" className="rounded-lg shadow-lg shadow-slate-900/50" /> */}
                                     </div>
                                 </div>
                             </div>
