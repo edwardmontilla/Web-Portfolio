@@ -105,6 +105,12 @@
     background-color: #27374D;
 
 }
+#page-block2 {          /* from cssgradient.io */
+                       
+    /* border-color: aqua;
+    border-width: 4px; */
+    height: 200vh; /* change depending on the page number {4} */
+}
 
 #page-container {
     /* border-color: rgb(99, 131, 131);
@@ -114,44 +120,83 @@
     margin: 0 auto;
     padding-top: 70px;
 }
+#page-container2 {
+    /* border-color: rgb(99, 131, 131);
+    border-width: 4px; */
+    height: auto;
+    /* width: 75%;     for the grid */
+    margin: 0 auto;
+}
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 5rem;
     row-gap: 6rem;
-    border-width: 3px;
-    border-color: red;
+    /* border-width: 3px;
+    border-color: red; */
     width: 60%; /* width 75% or w-9/12 */
     margin-top: 30px;
     /* height: 200vh; */
 }
 
-/* contents inside */
+/* ---------- rbox, lbox Contents ---------- */
 .rbox, .lbox {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-color: aqua;
-    border-width: 4px;
+    /* border-color: aqua;
+    border-width: 4px; */
     min-width: 30%;
     min-height: 90px;
     width: 85%;
     height: auto;
-    background-color: black;
+
 }
 
-.rbox img, .lbox img {
+.rbox img, .lbox img{
     width: 100%;
-    height: auto;   
+    height: auto;
 }
 
 .rbox {
     float: right;
+
 }
 
 .lbox {
     float: left;
+
+}
+
+
+/* ---------- rbox2, lbox2 Contents ---------- */
+.rbox2, .lbox2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-color: aqua;
+    border-width: 4px; */
+    min-width: 30%;
+    min-height: 90px;
+    width: 85%;
+    height: auto;
+
+}
+
+.rbox2 img, .lbox2 img{
+    width: 100%;
+    height: auto;
+}
+
+.rbox2 {
+    float: left;
+
+}
+
+.lbox2 {
+    float: right;
+
 }
 
 

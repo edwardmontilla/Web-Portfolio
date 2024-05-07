@@ -58,29 +58,102 @@ const ParallaxComp = () => {
 {/* Content Back */}
 {/* use grid-column start/end */}
 {/* css the svgs */}
-            <ParallaxLayer offset={1} speed={0} factor={3}>
-                <Page2 />
-
-            </ParallaxLayer>
-
-
-{/* Content Front */}
+{/* Page 2 */}
             <ParallaxLayer offset={1} speed={0}>
-                <div className="flex items-center justify-center mt-60">
-                    <div className="">
-                        <div className="text-4xl font-bold border-2 rounded-lg bg-slate-100 border-slate-500">Front Content goes on top here
-
+                <Page2 />
+            </ParallaxLayer>
+            
+{/* <Page3 contents/> */}
+{/* FRONT */}
+            {/* 1st row */}
+            <ParallaxLayer offset={1.1} speed={0.40}>
+                <div id="page-block2">
+                    <div id="page-container2" className="">
+                        <p className="inline-block text-4xl font-bold ml-100 bg-slate-100">Front Content Next</p>
+                        <div className="flex justify-center h-full">
+                            <div className="grid grid-rows-1 text-white">
+                                <div className="col-span-1 col-start-2">
+                                    <div className="lbox2">
+                                        <img src="./images/cat.jpg" alt="image1" className="rounded-lg shadow-lg shadow-slate-900/50" />
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
-
                 </div>
             </ParallaxLayer>
 
-{/* Page 3 */}
-            {/* <ParallaxLayer offset={2} speed={0}>
-                <Page3 />
+            {/* 2nd row */}
+            <ParallaxLayer offset={1.2} speed={0.40}>
+                <div id="page-block2">
+                    <div id="page-container2" className="">
+                        <div className="flex justify-center h-full">
+                            <div className="grid grid-rows-1 text-white">
+                                <div className="col-span-1 col-start-1 row-start-2">
+                                    <div className="rbox2">
+                                        <div className="lbox2">
+                                            <img src="./images/cat.jpg" alt="image1" className="rounded-lg shadow-lg shadow-slate-900/50" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ParallaxLayer>
+
+            {/* 3rd row */}
+            {/* <ParallaxLayer offset={1.3} speed={0.40}>
+                <div id="page-block2">
+                    <div id="page-container2" className="">
+                        <div className="flex justify-center h-full">
+                            <div className="col-span-1 col-start-2 row-start-3">
+                                <div className="lbox2">
+                                    <div className="lbox2">
+                                        <img src="./images/cat.jpg" alt="image1" className="rounded-lg shadow-lg shadow-slate-900/50" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </ParallaxLayer> */}
+
+            {/* 4th row */}
+            {/* <ParallaxLayer offset={1.4} speed={0.40}>
+                <div id="page-block2">
+                    <div id="page-container2" className="">
+                        <div className="flex justify-center h-full">
+                            <div className="col-span-1 col-start-1 row-start-4">
+                                <div className="rbox2">
+                                    <div className="lbox2">
+                                        <img src="./images/cat.jpg" alt="image1" className="rounded-lg shadow-lg shadow-slate-900/50" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ParallaxLayer> */}
+
+            {/* 5th row */}
+            {/* <ParallaxLayer offset={1.5} speed={0.40}>
+                <div id="page-block2">
+                    <div id="page-container2" className="">
+                        <div className="flex justify-center h-full">
+                            <div className="col-span-1 col-start-2 row-start-5">
+                                <div className="lbox2">
+                                    <div className="lbox2">
+                                        <img src="./images/cat.jpg" alt="image1" className="rounded-lg shadow-lg shadow-slate-900/50" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ParallaxLayer> */}
+
+
 
 {/* Footer is set at the last Page */}
             <ParallaxLayer offset={3} speed={0}>
