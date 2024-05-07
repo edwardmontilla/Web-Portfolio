@@ -66,7 +66,7 @@ const ParallaxComp = () => {
 {/* <Page3 contents/> */}
 {/* FRONT */}
             {/* 1st row */}
-            <ParallaxLayer offset={1.1} speed={0.40}>
+            <ParallaxLayer offset={1.08} speed={0.30}>
                 <div id="page-block2">
                     <div id="page-container2" className="">
                         <p className="inline-block text-4xl font-bold ml-100 bg-slate-100">Front Content Next</p>
@@ -84,16 +84,14 @@ const ParallaxComp = () => {
             </ParallaxLayer>
 
             {/* 2nd row */}
-            <ParallaxLayer offset={1.2} speed={0.40}>
+            <ParallaxLayer offset={1.74} speed={0.30}>
                 <div id="page-block2">
                     <div id="page-container2" className="">
                         <div className="flex justify-center h-full">
-                            <div className="grid grid-rows-1 text-white">
-                                <div className="col-span-1 col-start-1 row-start-2">
+                            <div className="grid grid-rows-1 border-2 border-yellow-300">
+                                <div className="col-span-1 col-start-1 row-start-1">
                                     <div className="rbox2">
-                                        <div className="lbox2">
-                                            <img src="./images/cat.jpg" alt="image1" className="rounded-lg shadow-lg shadow-slate-900/50" />
-                                        </div>
+                                        <img src="./images/cat.jpg" alt="image1" className="rounded-lg shadow-lg shadow-slate-900/50" />
                                     </div>
                                 </div>
                             </div>
@@ -103,12 +101,12 @@ const ParallaxComp = () => {
             </ParallaxLayer>
 
             {/* 3rd row */}
-            {/* <ParallaxLayer offset={1.3} speed={0.40}>
+            <ParallaxLayer offset={2.05} speed={0.30}>
                 <div id="page-block2">
                     <div id="page-container2" className="">
                         <div className="flex justify-center h-full">
-                            <div className="col-span-1 col-start-2 row-start-3">
-                                <div className="lbox2">
+                            <div className="grid grid-rows-1 border-2 border-yellow-300">
+                                <div className="col-span-1 col-start-2 row-start-1">
                                     <div className="lbox2">
                                         <img src="./images/cat.jpg" alt="image1" className="rounded-lg shadow-lg shadow-slate-900/50" />
                                     </div>
@@ -117,16 +115,16 @@ const ParallaxComp = () => {
                         </div>
                     </div>
                 </div>
-            </ParallaxLayer> */}
+            </ParallaxLayer>
 
             {/* 4th row */}
-            {/* <ParallaxLayer offset={1.4} speed={0.40}>
+            <ParallaxLayer offset={2.66} speed={0.30}>
                 <div id="page-block2">
                     <div id="page-container2" className="">
                         <div className="flex justify-center h-full">
-                            <div className="col-span-1 col-start-1 row-start-4">
-                                <div className="rbox2">
-                                    <div className="lbox2">
+                            <div className="grid grid-rows-1 border-2 border-yellow-300">
+                                <div className="col-span-1 col-start-1 row-start-1">
+                                    <div className="rbox2">
                                         <img src="./images/cat.jpg" alt="image1" className="rounded-lg shadow-lg shadow-slate-900/50" />
                                     </div>
                                 </div>
@@ -134,15 +132,15 @@ const ParallaxComp = () => {
                         </div>
                     </div>
                 </div>
-            </ParallaxLayer> */}
+            </ParallaxLayer>
 
             {/* 5th row */}
-            {/* <ParallaxLayer offset={1.5} speed={0.40}>
+            <ParallaxLayer offset={3} speed={0.30}>
                 <div id="page-block2">
                     <div id="page-container2" className="">
                         <div className="flex justify-center h-full">
-                            <div className="col-span-1 col-start-2 row-start-5">
-                                <div className="lbox2">
+                            <div className="grid grid-rows-1 border-2 border-yellow-300">
+                                <div className="col-span-1 col-start-2 row-start-1">
                                     <div className="lbox2">
                                         <img src="./images/cat.jpg" alt="image1" className="rounded-lg shadow-lg shadow-slate-900/50" />
                                     </div>
@@ -151,7 +149,7 @@ const ParallaxComp = () => {
                         </div>
                     </div>
                 </div>
-            </ParallaxLayer> */}
+            </ParallaxLayer>
 
 
 
