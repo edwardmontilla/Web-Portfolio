@@ -6,6 +6,7 @@ import Footer from "./Footer";
 
 
 
+
 // import a css file instead
 // import PageTwo.js from "./PageTwo.js";
 
@@ -66,17 +67,16 @@ const ParallaxComp = () => {
 {/* <Page3 contents/> */}
 {/* FRONT */}
             {/* 1st row */}
-            <ParallaxLayer offset={1.08} speed={0.33}>
+            <ParallaxLayer offset={1.06} speed={0.33}>
                 <div id="page-block2">
                     <div id="page-container2" className="">
-                        <p className="inline-block text-4xl font-bold ml-100 bg-slate-100">Front Content Next</p>
                         <div className="flex justify-center h-full">
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-2">
-                                    <div className="lbox2">
-                                        <p className="box-content w-full p-3 text-3xl font-bold text-gray-200 bg-black border-2 border-yellow-300">Title</p>
-                                        {/* <img src="./images/cat.jpg" alt="image1" className="rounded-lg shadow-lg shadow-slate-900/50" /> */}
+                                    <div className="lbox2"  id="titleR">
+                                        <p className="box-content h-12 p-3 text-2xl font-semibold text-white bg-middle lnFont">Full Stack Development</p>
                                     </div>
+                                    <div><p className="text-lg text-white metropolisR">Descriptions here aaaaaaaaaa aaaaaaa aaaa aa a aaaaaaaaa aaaaaaaaaaaa</p></div>
                                 </div>
                             </div>
                         </div>
@@ -85,14 +85,14 @@ const ParallaxComp = () => {
             </ParallaxLayer>
 
             {/* 2nd row */}
-            <ParallaxLayer offset={1.74} speed={0.33}>
+            <ParallaxLayer offset={1.69} speed={0.33}>
                 <div id="page-block2">
                     <div id="page-container2" className="">
                         <div className="flex justify-center h-full">
-                            <div className="grid grid-rows-1 border-2 border-yellow-300">
+                            <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-1 row-start-1">
-                                    <div className="rbox2">
-                                        <img src="./images/cat.jpg" alt="image1" className="rounded-lg shadow-lg shadow-slate-900/50" />
+                                    <div className="rbox2" id="titleL">
+                                        <p className="box-content h-12 p-3 text-2xl font-semibold text-white bg-middle lnFont">More Titles hereere</p>
                                     </div>
                                 </div>
                             </div>

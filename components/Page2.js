@@ -10,8 +10,6 @@ const Page2 = () => {
     return (
         <div id="page-block">
             <div id="page-container" className="">
-                <p className="inline-block ml-40 text-4xl font-bold bg-slate-100">Back Content first</p>
-
         {/* BACK */}
                 <div className="flex justify-center h-full">
                     <div className="grid text-white grid-rows-7">

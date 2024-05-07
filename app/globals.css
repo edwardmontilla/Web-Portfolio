@@ -41,3 +41,38 @@ body { -ms-overflow-style: none; }
 
 /*----------------*/
 
+@font-face {
+  font-family: "lnFont";
+  src: url(./fonts/ITCAvantGardeStd-Md.otf) format("opentype");;
+}
+
+@font-face {
+  font-family: 'Metropolis Light';
+  src: url(./fonts/metropolis.light.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Metropolis Regular';
+  src: url(./fonts/metropolis.regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Metropolis Semi-Bold';
+  src: url(./fonts/metropolis.semi-bold.otf) format('opentype');
+}
+
+.lnFont {
+  font-family: "lnFont";
+} 
+
+.metropolisL {
+  font-family: "Metropolis Light";
+}
+
+.metropolisR {
+  font-family: "Metropolis Regular";
+}
+
+.metropolisSB {
+  font-family: "Metropolis Semi-Bold";
+}

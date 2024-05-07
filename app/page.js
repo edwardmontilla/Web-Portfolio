@@ -5,7 +5,6 @@ import "./parallax.css";
 import React, { useState, useEffect } from "react";
 import Header from "@/components/Header";
 import NavMenu from "@/components/NavMenu";
-import Footer from "@/components/Footer";
 import ParallaxComp from "@/components/ParallaxComp";
 
 
@@ -34,10 +33,9 @@ export default function Home() {
     <>
       <section>
         <Header NavMenu={<NavMenu />} />
-        {/* <Welcome /> */}
 
         <ParallaxComp />
-        {/* <Footer /> */}
+        {/* Footer */}
       </section>
     </>
   );

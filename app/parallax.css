@@ -199,6 +199,24 @@
 
 }
 
+/* ---------- box-content title ---------- */
+#titleR .box-content {
+    transform: translateX(-20%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%); */
+
+}
+#titleL .box-content {
+    transform: translateX(20%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%); */
+
+}
+.box-content{
+    min-width: 161%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 /* --------------- screen size adjustments --------------- */
