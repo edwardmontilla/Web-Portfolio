@@ -25,7 +25,7 @@ const ParallaxComp = () => {
     const parallaxRef = React.useRef(null);
     
     return (
-        <Parallax pages={3} style={{ top: '0', left: '0' }} className="bg-white">
+        <Parallax pages={4} style={{ top: '0', left: '0' }} className="bg-white">
 
 {/* Page 1 */}
 {/* Welcome text */}
@@ -58,7 +58,7 @@ const ParallaxComp = () => {
 {/* Content Back */}
 {/* use grid-column start/end */}
 {/* css the svgs */}
-            <ParallaxLayer offset={1} speed={0}>
+            <ParallaxLayer offset={1} speed={0} factor={3}>
                 <Page2 />
 
             </ParallaxLayer>
@@ -83,7 +83,7 @@ const ParallaxComp = () => {
             </ParallaxLayer> */}
 
 {/* Footer is set at the last Page */}
-            <ParallaxLayer offset={2} speed={0}>
+            <ParallaxLayer offset={3} speed={0}>
                 <Footer />
             </ParallaxLayer>
         </Parallax>

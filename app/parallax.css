@@ -98,56 +98,62 @@
 /* Page 2 of the parallax */
 
 #page-block {          /* from cssgradient.io */
-                        /* change height to 100vh */
+                       
     /* border-color: aqua;
     border-width: 4px; */
-    height: 200vh;
+    height: 300vh; /* change depending on the page number {4} */
     background-color: #27374D;
-    /* background: linear-gradient(180deg, rgba(0,60,67,1) 11%, rgba(39,82,86,1) 30%, rgba(115,152,151,1) 63%, rgba(227,254,247,1) 100%); */
 
 }
 
 #page-container {
     /* border-color: rgb(99, 131, 131);
     border-width: 4px; */
-    height: 100%;
-    width: 75%;     /* for the grid */
+    height: auto;
+    /* width: 75%;     for the grid */
     margin: 0 auto;
     padding-top: 70px;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+    row-gap: 6rem;
+    border-width: 3px;
+    border-color: red;
+    width: 60%; /* width 75% or w-9/12 */
+    margin-top: 30px;
+    /* height: 200vh; */
+}
+
 /* contents inside */
-.rbox {
-    float: right;
+.rbox, .lbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-color: aqua;
     border-width: 4px;
-    min-width: 20%;
+    min-width: 30%;
     min-height: 90px;
-    width: 75%;
+    width: 85%;
     height: auto;
-    /* padding-right: 20px; */
-    margin-right: 0; /* content centering */
+    background-color: black;
+}
+
+.rbox img, .lbox img {
+    width: 100%;
+    height: auto;   
+}
+
+.rbox {
+    float: right;
 }
 
 .lbox {
     float: left;
-    border-color: aqua;
-    border-width: 4px;
-    min-width: 20%;
-    min-height: 90px;
-    width: 75%;
-    height: auto;
-    /* padding-left: 20px; */
-    margin-left: 0; /* content centering */
 }
 
-.grid {
-    display: grid;
-    border-width: 3px;
-    border-color: red;
-    min-width: 100%; /* width 75% or w-9/12 */
-    column-gap: 2rem;
-}
 
 
 /* --------------- screen size adjustments --------------- */
