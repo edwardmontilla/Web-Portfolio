@@ -234,22 +234,25 @@
         width: 50% auto;
     }
     .grid {
-        margin-top: -40px;
-        row-gap: 5rem; /* Adjust the row gap for larger viewports using a fixed value */
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+        gap: 0rem; /* Adjust the gap between rows */
     }
-    .rbox, .lbox {
+
+    .rbox, .lbox, .rbox2, .lbox2 {
+        float: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100%;
     }
-    .rbox2, .lbox2 {
+    .rbox img, .lbox img, .rbox2 img, .lbox2 img {
         width: 100%;
+        height: auto;
+        
     }
-    .rbox img, .lbox img {
-        width: 100%;
-    }
-    .rbox2 img, .lbox2 img {
-        width: 100%;
-    }
-    
+
 }
 
 /* adjust box content if going to use
