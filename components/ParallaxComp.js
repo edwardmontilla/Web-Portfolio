@@ -56,6 +56,11 @@ const ParallaxComp = () => {
                 <div className="translate-y-4 plxlayer parallax" id="wave-000"></div>
             </ParallaxLayer>
 
+{/* About Me */}
+            <ParallaxLayer offset={0} speed={0.1}>
+                
+            </ParallaxLayer>
+
 {/* Content Back */}
 {/* use grid-column start/end */}
 {/* css the svgs */}
@@ -76,7 +81,9 @@ const ParallaxComp = () => {
                                     <div className="lbox2"  id="titleR">
                                         <p className="box-content h-12 p-3 text-2xl font-semibold text-white bg-middle lnFont">Full Stack Development</p>
                                     </div>
-                                    <div><p className="text-lg text-white metropolisR">Descriptions here aaaaaaaaaa aaaaaaa aaaa aa a aaaaaaaaa aaaaaaaaaaaa</p></div>
+                                    <div>
+                                        <p className="text-lg text-white metropolisR">Descriptions here aaaaaaaaaa aaaaaaa aaaa aa a aaaaaaaaa aaaaaaaaaaaa</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +99,10 @@ const ParallaxComp = () => {
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-1 row-start-1">
                                     <div className="rbox2" id="titleL">
-                                        <p className="box-content h-12 p-3 text-2xl font-semibold text-white bg-middle lnFont">More Titles hereere</p>
+                                        <p className="box-content h-12 p-3 text-2xl font-semibold text-white bg-middle lnFont">UI/UX Design</p>
+                                    </div>
+                                    <div>
+                                        <p className="text-lg text-white metropolisR">Descriptions here aaaaaaaaaa aaaaaaa aaaa aa a aaaaaaaaa aaaaaaaaaaaa</p>
                                     </div>
                                 </div>
                             </div>
@@ -109,7 +119,10 @@ const ParallaxComp = () => {
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-2 row-start-1">
                                     <div className="lbox2" id="titleR">
-                                        <p className="box-content h-12 p-3 text-2xl font-semibold text-white bg-middle lnFont">Full Stack Development</p>
+                                        <p className="box-content h-12 p-3 text-2xl font-semibold text-white bg-middle lnFont">Education</p>
+                                    </div>
+                                    <div>
+                                        <p className="text-lg text-white metropolisR">Descriptions here aaaaaaaaaa aaaaaaa aaaa aa a aaaaaaaaa aaaaaaaaaaaa</p>
                                     </div>
                                 </div>
                             </div>
@@ -126,7 +139,10 @@ const ParallaxComp = () => {
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-1 row-start-1">
                                     <div className="rbox2" id="titleL">
-                                        <p className="box-content h-12 p-3 text-2xl font-semibold text-white bg-middle lnFont">Full Stack Development</p>
+                                        <p className="box-content h-12 p-3 text-2xl font-semibold text-white bg-middle lnFont">Projects</p>
+                                    </div>
+                                    <div>
+                                        <p className="text-lg text-white metropolisR">Descriptions here aaaaaaaaaa aaaaaaa aaaa aa a aaaaaaaaa aaaaaaaaaaaa</p>
                                     </div>
                                 </div>
                             </div>
@@ -135,7 +151,7 @@ const ParallaxComp = () => {
                 </div>
             </ParallaxLayer>
 
-            {/* 5th row */}
+            {/* 5th row
             <ParallaxLayer offset={3} speed={0.33}>
                 <div id="page-block2">
                     <div id="page-container2" className="">
@@ -150,7 +166,7 @@ const ParallaxComp = () => {
                         </div>
                     </div>
                 </div>
-            </ParallaxLayer>
+            </ParallaxLayer> */}
 
 
 

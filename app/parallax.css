@@ -60,6 +60,10 @@
     background-image: url(/images/wave-000.svg);
 }
 
+#rectangle {
+    background-image: url(/images/rectangle.svg);
+}
+
 
 /* Parallax container and Layers */
 
@@ -90,8 +94,11 @@
     position: fixed;
 }
 
-.welcome {
+#about-me {
     z-index:20;
+    text-align: left;
+    margin: 50px;
+    transform: translate(10%, -40px); /* transform Y, then X */
 }
 
 .footer {
@@ -141,7 +148,7 @@
     row-gap: 6rem;
     /* border-width: 3px;
     border-color: red; */
-    width: 60%; /* width 75% or w-9/12 */
+    width: 70%; /* width 75% or w-9/12 */
     margin-top: 30px;
     /* height: 200vh; */
 }
@@ -154,8 +161,8 @@
     /* border-color: aqua;
     border-width: 4px; */
     min-width: 30%;
-    min-height: 90px;
-    width: 85%;
+    min-height: 83%;
+    width: 90%;
     height: auto;
 
 }
