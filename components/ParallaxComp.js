@@ -106,10 +106,10 @@ const ParallaxComp = () => {
                 <div id="page-block2">
                     <div id="page-container2" className="">
                         <div className="flex justify-center h-full">
-                            <div className="grid grid-rows-1 border-2 border-yellow-300">
+                            <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-2 row-start-1">
-                                    <div className="lbox2">
-                                        <img src="./images/cat.jpg" alt="image1" className="rounded-lg shadow-lg shadow-slate-900/50" />
+                                    <div className="lbox2" id="titleR">
+                                        <p className="box-content h-12 p-3 text-2xl font-semibold text-white bg-middle lnFont">Full Stack Development</p>
                                     </div>
                                 </div>
                             </div>
@@ -123,10 +123,10 @@ const ParallaxComp = () => {
                 <div id="page-block2">
                     <div id="page-container2" className="">
                         <div className="flex justify-center h-full">
-                            <div className="grid grid-rows-1 border-2 border-yellow-300">
+                            <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-1 row-start-1">
-                                    <div className="rbox2">
-                                        <img src="./images/cat.jpg" alt="image1" className="rounded-lg shadow-lg shadow-slate-900/50" />
+                                    <div className="rbox2" id="titleL">
+                                        <p className="box-content h-12 p-3 text-2xl font-semibold text-white bg-middle lnFont">Full Stack Development</p>
                                     </div>
                                 </div>
                             </div>
@@ -140,10 +140,10 @@ const ParallaxComp = () => {
                 <div id="page-block2">
                     <div id="page-container2" className="">
                         <div className="flex justify-center h-full">
-                            <div className="grid grid-rows-1 border-2 border-yellow-300">
+                            <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-2 row-start-1">
-                                    <div className="lbox2">
-                                        <img src="./images/cat.jpg" alt="image1" className="rounded-lg shadow-lg shadow-slate-900/50" />
+                                    <div className="lbox2" id="titleR">
+                                        <p className="box-content h-12 p-3 text-2xl font-semibold text-white bg-middle lnFont">Full Stack Development</p>
                                     </div>
                                 </div>
                             </div>
