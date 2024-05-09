@@ -95,10 +95,21 @@
 }
 
 #about-me {
+    width: 30%;
     z-index:20;
+    text-align: center;
+    margin: 10px 50px, 10px, 50px;
+    transform: translate(42%, -40px); /* transform Y, then X */
+}
+
+#desc-me {
+    width: 30%;
+    z-index:20;
+    text-align: center;
+    margin-bottom: 112px;
+    transform: translateX(51%);
     text-align: left;
-    margin: 50px;
-    transform: translate(10%, -40px); /* transform Y, then X */
+
 }
 
 .footer {
