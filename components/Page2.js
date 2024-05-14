@@ -68,7 +68,7 @@ const Page2 = () => {
                             </div>
                         </div>
                         
-                        <div className="col-span-1 col-start-2 row-start-2">
+                        <div className="col-span-1 col-start-2 row-start-2 h-1/2"> {/* box height adjusted to h-1/2 */}
                             <div className="border-2 rounded-lg shadow-lg shadow-background/15 border-background rbox" id="rectangle">
                                 
                                 <div className="middle-icon">
