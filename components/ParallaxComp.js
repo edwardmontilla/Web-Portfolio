@@ -168,7 +168,7 @@ const ParallaxComp = () => {
                                         </p>
                                     </div>
                                     <div>
-                                        <p className="mt-24 text-lg text-white translate-x-8 metropolisR">Miggy's Munchies, Python projects</p>
+                                        <p className="mt-24 text-lg text-white translate-x-8 metropolisR">Miggys Munchies, Python projects</p>
                                     </div>
                                 </div>
                             </div>
