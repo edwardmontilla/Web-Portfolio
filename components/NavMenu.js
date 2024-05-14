@@ -7,20 +7,25 @@ import Link from "next/link";
 
 const NavMenu = () => {
     return (
-        <nav className="flex justify-end text-center text-white">
-            <div className="ml-4 mr-4 p-2">
+        <nav className="flex justify-end gap-4 mr-8 text-center text-white">
+            <div className="p-2">
                 <Link href="/">
                     Home
                 </Link>
             </div>
-            <div className="ml-4 mr-4 p-2">
+            <div className="p-2">
+                <Link href="/">
+                    About
+                </Link>
+            </div>
+            <div className="p-2">
                 <Link href="/">
                     Projects
                 </Link>
             </div>
-            <div className="ml-4 mr-4 p-2">
+            <div className="p-2">
                 <Link href="/">
-                    Contact Me
+                    Contact
                 </Link>
             </div>
                 

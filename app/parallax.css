@@ -64,6 +64,71 @@
     background-image: url(/images/rectangle.svg);
 }
 
+/* ---------- Icons ---------- */
+#css-icon {
+    background-image: url(/icons/css-icon.svg);
+}
+#database-icon {
+    background-image: url(/icons/database-icon.svg);
+}
+#html5-icon {
+    background-image: url(/icons/html5-icon.svg);
+}
+#javascript-icon {
+    background-image: url(/icons/javascript-icon.svg);
+}
+#mongodb-icon {
+    background-image: url(/icons/mongodb-icon.svg);
+}
+#nodejs-icon {
+    background-image: url(/icons/nodejs-icon.svg);
+}
+#npm-icon {
+    background-image: url(/icons/npm-icon.svg);
+}
+#oracle-icon {
+    background-image: url(/icons/oracle-icon.svg);
+}
+#python-icon {
+    background-image: url(/icons/python-icon.svg);
+}
+#react-icon {
+    background-image: url(/icons/react-icon.svg);
+}
+#tailwind-icon {
+    background-image: url(/icons/tailwind-icon.svg);
+}
+
+.icon-container {
+    width: calc(10%);
+    position: relative;
+    /* width: 10%; */
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 12px;
+}
+.icon-container span {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 45px;
+}
+
+.top-icon, .bottom-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
 
 /* Parallax container and Layers */
 
@@ -166,6 +231,7 @@
 
 /* ---------- rbox, lbox Contents ---------- */
 .rbox, .lbox {
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,13 +251,13 @@
 
 .rbox {
     float: right;
-
 }
 
 .lbox {
     float: left;
-
 }
+
+
 
 
 /* ---------- rbox2, lbox2 Contents ---------- */
