@@ -60,9 +60,6 @@
     background-image: url(/images/wave-000.svg);
 }
 
-#rectangle {
-    background-image: url(/images/rectangle.svg);
-}
 
 /* ---------- Icons ---------- */
 #css-icon {
@@ -70,6 +67,8 @@
 }
 #database-icon {
     background-image: url(/icons/database-icon.svg);
+    width: 10%;
+    height: 10%;
 }
 #html5-icon {
     background-image: url(/icons/html5-icon.svg);
@@ -94,13 +93,20 @@
 }
 #react-icon {
     background-image: url(/icons/react-icon.svg);
+    transform: translateY(2.5px);
 }
 #tailwind-icon {
     background-image: url(/icons/tailwind-icon.svg);
+    transform: translateY(10px);
+}
+
+
+#rectangle {
+    background-image: url(/images/rectangle.svg);
 }
 
 .icon-container {
-    width: calc(10%);
+    width: calc(10% + 6px);
     position: relative;
     /* width: 10%; */
     height: 10%;
@@ -108,18 +114,27 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    justify-self: center;
     align-items: center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 0 12px;
+    margin: 12px 12px 0 12px;
 }
 .icon-container span {
     text-align: center;
     font-size: 14px;
     margin-top: 45px;
+    visibility: hidden;
 }
 
-.top-icon, .bottom-icon {
+.top-icon {
+    transform: translateX(30px);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+.bottom-icon {
     display: flex;
     justify-content: center;
     align-items: center;

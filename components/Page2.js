@@ -31,6 +31,7 @@ const Page2 = () => {
                             <div className="border-2 rounded-lg shadow-lg shadow-background/15 border-background lbox" id="rectangle">
                                 
                                 <div className="top-icon">
+
                                     <div className="icon-container" id="html5-icon">
                                         <span>HTML5</span>
                                     </div>
@@ -44,7 +45,12 @@ const Page2 = () => {
                                         <span>React</span>
                                     </div>
                                 </div>
+
                                 <div className="bottom-icon">
+                                    
+                                    <div className="icon-container" id="tailwind-icon">
+                                        <span>Tailwind</span>
+                                    </div>
                                     <div className="icon-container" id="nodejs-icon">
                                         <span>Nodejs</span>
                                     </div>

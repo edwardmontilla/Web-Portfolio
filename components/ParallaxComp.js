@@ -79,7 +79,7 @@ const ParallaxComp = () => {
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-2">
                                     <div className="lbox2"  id="titleR">
-                                        <p className="box-content h-12 p-3 text-2xl text-white bg-middle lnFont">Full Stack Development</p>
+                                        <p className="box-content h-12 p-3 text-2xl text-white shadow-sm bg-middle lnFont">Full Stack Development</p>
                                     </div>
                                     <div>
                                         <p className="text-lg text-white metropolisR">Descriptions here aaaaaaaaaa aaaaaaa aaaa aa a aaaaaaaaa aaaaaaaaaaaa</p>
@@ -99,7 +99,7 @@ const ParallaxComp = () => {
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-1 row-start-1">
                                     <div className="rbox2" id="titleL">
-                                        <p className="box-content h-12 p-3 text-2xl font-semibold text-white bg-middle lnFont">UI/UX Design</p>
+                                        <p className="box-content h-12 p-3 text-2xl text-white bg-middle lnFont">Education and Background</p>
                                     </div>
                                     <div>
                                         <p className="text-lg text-white metropolisR">Descriptions here aaaaaaaaaa aaaaaaa aaaa aa a aaaaaaaaa aaaaaaaaaaaa</p>
@@ -119,7 +119,7 @@ const ParallaxComp = () => {
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-2 row-start-1">
                                     <div className="lbox2" id="titleR">
-                                        <p className="box-content h-12 p-3 text-2xl font-semibold text-white bg-middle lnFont">Education</p>
+                                        <p className="box-content h-12 p-3 text-2xl text-white bg-middle lnFont">UI/UX Design</p>
                                     </div>
                                     <div>
                                         <p className="text-lg text-white metropolisR">Descriptions here aaaaaaaaaa aaaaaaa aaaa aa a aaaaaaaaa aaaaaaaaaaaa</p>
@@ -139,7 +139,7 @@ const ParallaxComp = () => {
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-1 row-start-1">
                                     <div className="rbox2" id="titleL">
-                                        <p className="box-content h-12 p-3 text-2xl font-semibold text-white bg-middle lnFont">Projects</p>
+                                        <p className="box-content h-12 p-3 text-2xl text-white bg-middle lnFont">Projects</p>
                                     </div>
                                     <div>
                                         <p className="text-lg text-white metropolisR">Descriptions here aaaaaaaaaa aaaaaaa aaaa aa a aaaaaaaaa aaaaaaaaaaaa</p>
@@ -159,7 +159,7 @@ const ParallaxComp = () => {
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-2 row-start-1">
                                     <div className="lbox2" id="titleR">
-                                        <p className="box-content h-12 p-3 text-2xl font-semibold text-white bg-middle lnFont">Full Stack Development</p>
+                                        <p className="box-content h-12 p-3 text-2xl text-white bg-middle lnFont">Full Stack Development</p>
                                     </div>
                                 </div>
                             </div>
