@@ -6,7 +6,6 @@ import Footer from "./Footer";
 
 
 
-
 // import a css file instead
 // import PageTwo.js from "./PageTwo.js";
 
@@ -98,7 +97,7 @@ const ParallaxComp = () => {
             </ParallaxLayer>
 
             {/* 2nd row */}
-            <ParallaxLayer offset={2.05} speed={0.33}>
+            <ParallaxLayer offset={2} speed={0.33}>
                 <div id="page-block2">
                     <div id="page-container2" className="">
                         <div className="flex justify-center h-full">
@@ -124,7 +123,7 @@ const ParallaxComp = () => {
             </ParallaxLayer>
 
             {/* 3rd row */}
-            <ParallaxLayer offset={2.8} speed={0.33}>
+            <ParallaxLayer offset={2.74} speed={0.33}>
                 <div id="page-block2">
                     <div id="page-container2" className="">
                         <div className="flex justify-center h-full">
@@ -132,11 +131,25 @@ const ParallaxComp = () => {
                                 <div className="col-span-1 col-start-2 row-start-1">
                                     <div className="lbox2" id="titleR">
                                         <p className="box-content h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
-                                            Education and Background
+                                            Education
                                         </p>
                                     </div>
                                     <div>
-                                        <p className="mt-24 text-lg text-white metropolisR translate-x-[-2rem]">Descriptions here aaaaaaaaaa aaaaaaa</p>
+                                        <p className="mt-24 text-lg text-white metropolisR translate-x-[-2rem] text-right">
+                                            <ul>
+                                                <li className="underline underline-offset-[5px]">Southern Alberta Institute of Technology </li>
+                                                <li>Software Development (Diploma)</li>
+                                                <li>2022 - 2024 </li>
+                                            </ul>
+                                        </p>
+                                        <p className="mt-4 text-lg text-white metropolisR translate-x-[-2rem] text-right">
+                                            <ul>
+                                                <li className="underline underline-offset-[5px]">Vancouver Film School </li>
+                                                <li>2D Classical Animation (Diploma)</li>
+                                                <li>2019 - 2020 </li>
+                                            </ul>
+                                        </p>
+
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +171,7 @@ const ParallaxComp = () => {
                                         </p>
                                     </div>
                                     <div>
-                                        <p className="mt-24 text-lg text-white translate-x-8 metropolisR">Descriptions here aaaaaaaaaa aaaaaaa</p>
+                                        <p className="mt-24 text-lg text-white translate-x-8 metropolisR">Miggy's Munchies, Python projects</p>
                                     </div>
                                 </div>
                             </div>

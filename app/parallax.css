@@ -111,10 +111,10 @@
 #vfs-logo2 {
     background-image: url(/icons/vfs-logo2.svg);
     width: 50%;
-    height: 50%;
 }
 #sait-logo {
     background-image: url(/icons/sait-logo.png);
+    width: 10%;
 }
 
 
@@ -167,17 +167,23 @@
     height: 100%;
 }
 .cust-icon {
+    transform: translateY(5px);
     display: flex;
-    justify-items: start;
+    justify-content: center;
     align-items: center;
     width: 100%;
 }
 .cust-icon2 {
+    position: relative;
+    transform: translate(15px, -15px);
     display: flex;
-    justify-items: end;
-    align-items: center;
-    width: 100%;
+    justify-content: end;
+    align-items: end;
+    width: 75%;
+    height: 75%;
+    right: 19.5%;
 }
+
 
 
 /* Parallax container and Layers */
@@ -240,10 +246,13 @@
     border-width: 4px; */
     /* height: 300vh; change depending on the page number {4} */
     /* background-color: #27374D; */
+    /* background: rgb(39,55,77);
+    background: linear-gradient(180deg, rgba(39,55,77,1) 6%, rgba(221,230,237,1) 100%); */
     background: rgb(39,55,77);
-    background: linear-gradient(180deg, rgba(39,55,77,1) 6%, rgba(221,230,237,1) 100%);
-
+    background: linear-gradient(180deg, rgba(39,55,77,1) 6%, rgba(100,125,153,1) 39%, rgba(39,55,77,1) 72%);
 }
+
+
 /* #page-block2 {          /* from cssgradient.io */
                        
     /* border-color: aqua;
@@ -370,6 +379,7 @@
     align-items: center;
     justify-content: center;
 }
+
 
 
 

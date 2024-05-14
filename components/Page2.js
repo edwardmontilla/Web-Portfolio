@@ -19,16 +19,19 @@ const Page2 = () => {
                 committed to leveraging expertise in web design and proficient software languages 
                 to create dynamic and engaging online experiences.
                 {/* <FaFish className="text-white translate-x-56 animate-fish"/> */}
+                
                 </p>
             </div>
             <div>
-                {/* insert github and linkedin icons here */}
+                {/* insert github and linkedin icons here if you want */}
             </div>
-        {/* BACK */}
+            
+{/* BACK */}
+        {/* 1st Row */}
                 <div className="flex justify-center h-full">
                     <div className="grid text-white grid-rows-7">
                         <div className="col-span-1 col-start-1">
-                            <div className="border-2 rounded-lg shadow-lg shadow-background/25 border-background lbox" id="rectangle">
+                            <div className="border-[1px] rounded-lg shadow-lg shadow-background/25 border-background lbox" id="rectangle">
                                 
                                 <div className="top-icon">
 
@@ -68,8 +71,9 @@ const Page2 = () => {
                             </div>
                         </div>
                         
+        {/* 2nd Row */}
                         <div className="col-span-1 col-start-2 row-start-2 h-1/2"> {/* box height adjusted to h-1/2 */}
-                            <div className="border-2 rounded-lg shadow-lg shadow-background/20 border-background rbox" id="rectangle">
+                            <div className="border-[1px] rounded-lg shadow-lg shadow-background/20 border-background rbox" id="rectangle">
                                 
                                 <div className="middle-icon">
                                     
@@ -84,38 +88,49 @@ const Page2 = () => {
                             </div>
                         </div>
 
-
-                        <div className="col-span-1 col-start-1 row-start-3">
-                            <div className="border-2 rounded-lg shadow-lg shadow-accent/50 border-background lbox" id="rectangle">
+        {/* 3rd Row */}
+                        <div className="col-span-1 col-start-1 row-start-3 h-4/5">
+                            <div className="border-[1px] rounded-lg shadow-lg shadow-background/20 border-background lbox" id="rectangle">
                                 
                                 <div className="cust-icon">
                                     <div className="icon-container" id="sait-logo">
                                         <span>SAIT</span>
                                     </div>
                                 </div>
-                                <div className="cust-icon">
+                                <div className="cust-icon2">
                                     <div className="icon-container" id="vfs-logo2">
                                         <span>VFS</span>
                                     </div>
                                 </div>
                             </div>
-                            
                         </div>
 
-
+        {/* 4th Row */}
                         <div className="col-span-1 col-start-2 row-start-4">
-                            <div className="border-2 rounded-lg shadow-lg shadow-background/15 border-background rbox" id="rectangle">
+                            <div className="border-[1px] rounded-lg shadow-lg shadow-background/25 border-background rbox" id="rectangle">
                                 
                             </div>
                         </div>
 
+        {/* 5th Row */}
+                        <div className="col-span-1 col-start-1 row-start-4">
+                        <div className="border-[1px] rounded-lg shadow-lg shadow-background/25 border-background lbox" id="rectangle">
+                            </div>
+                        </div>
 
-                        <div className="col-span-1 col-start-1 row-start-5">
-                            <div className="invisible lbox">
+        {/* 6th Row */}
+                        <div className="col-span-1 col-start-2 row-start-5">
+                            <div className="invisible rbox">
                                 <img src="./images/cat.jpg" alt="image5" className="rounded-lg shadow-lg shadow-slate-900/50" />
                             </div>
                         </div>
 
+        {/* 7th Row */}
+                        {/* <div className="col-span-1 col-start-1 row-start-7">
+                            <div className="invisible lbox">
+                                <img src="./images/cat.jpg" alt="image5" className="rounded-lg shadow-lg shadow-slate-900/50" />
+                            </div>
+                        </div> */}
                         
                     </div>
                 </div>
