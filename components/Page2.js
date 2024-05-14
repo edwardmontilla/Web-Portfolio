@@ -28,7 +28,7 @@ const Page2 = () => {
                 <div className="flex justify-center h-full">
                     <div className="grid text-white grid-rows-7">
                         <div className="col-span-1 col-start-1">
-                            <div className="border-2 rounded-lg shadow-lg shadow-background/15 border-background lbox" id="rectangle">
+                            <div className="border-2 rounded-lg shadow-lg shadow-background/25 border-background lbox" id="rectangle">
                                 
                                 <div className="top-icon">
 
@@ -69,11 +69,11 @@ const Page2 = () => {
                         </div>
                         
                         <div className="col-span-1 col-start-2 row-start-2 h-1/2"> {/* box height adjusted to h-1/2 */}
-                            <div className="border-2 rounded-lg shadow-lg shadow-background/15 border-background rbox" id="rectangle">
+                            <div className="border-2 rounded-lg shadow-lg shadow-background/20 border-background rbox" id="rectangle">
                                 
                                 <div className="middle-icon">
                                     
-                                    <div className="icon-container shadow-white/50" id="figma-icon">
+                                    <div className="icon-container" id="figma-icon">
                                         <span>Figma</span>
                                     </div>
                                     <div className="icon-container" id="ps-icon">
@@ -86,13 +86,26 @@ const Page2 = () => {
 
 
                         <div className="col-span-1 col-start-1 row-start-3">
-                            <div className="border-2 rounded-lg shadow-lg shadow-background/15 border-background lbox" id="rectangle">
+                            <div className="border-2 rounded-lg shadow-lg shadow-accent/50 border-background lbox" id="rectangle">
+                                
+                                <div className="cust-icon">
+                                    <div className="icon-container" id="sait-logo">
+                                        <span>SAIT</span>
+                                    </div>
+                                </div>
+                                <div className="cust-icon">
+                                    <div className="icon-container" id="vfs-logo2">
+                                        <span>VFS</span>
+                                    </div>
+                                </div>
                             </div>
+                            
                         </div>
 
 
                         <div className="col-span-1 col-start-2 row-start-4">
                             <div className="border-2 rounded-lg shadow-lg shadow-background/15 border-background rbox" id="rectangle">
+                                
                             </div>
                         </div>
 
