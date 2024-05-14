@@ -18,7 +18,7 @@ const Page2 = () => {
                 A recent Software Development graduate with a background in 2D Digital Animation, 
                 committed to leveraging expertise in web design and proficient software languages 
                 to create dynamic and engaging online experiences.
-                <FaFish className="text-white"/>
+                {/* <FaFish className="text-white translate-x-56 animate-fish"/> */}
                 </p>
             </div>
             <div>
@@ -70,22 +70,40 @@ const Page2 = () => {
                         
                         <div className="col-span-1 col-start-2 row-start-2">
                             <div className="border-2 rounded-lg shadow-lg shadow-background/15 border-background rbox" id="rectangle">
+                                
+                                <div className="middle-icon">
+                                    
+                                    <div className="icon-container shadow-white/50" id="figma-icon">
+                                        <span>Figma</span>
+                                    </div>
+                                    <div className="icon-container" id="ps-icon">
+                                        <span>Photoshop</span>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
+
+
                         <div className="col-span-1 col-start-1 row-start-3">
                             <div className="border-2 rounded-lg shadow-lg shadow-background/15 border-background lbox" id="rectangle">
                             </div>
                         </div>
+
+
                         <div className="col-span-1 col-start-2 row-start-4">
                             <div className="border-2 rounded-lg shadow-lg shadow-background/15 border-background rbox" id="rectangle">
                             </div>
-                        
                         </div>
+
+
                         <div className="col-span-1 col-start-1 row-start-5">
                             <div className="invisible lbox">
                                 <img src="./images/cat.jpg" alt="image5" className="rounded-lg shadow-lg shadow-slate-900/50" />
                             </div>
                         </div>
+
+                        
                     </div>
                 </div>
                 

@@ -79,10 +79,16 @@ const ParallaxComp = () => {
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-2">
                                     <div className="lbox2"  id="titleR">
-                                        <p className="box-content h-12 p-3 text-2xl text-white shadow-sm bg-middle lnFont">Full Stack Development</p>
+                                        <p className="box-content h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
+                                            Full Stack Development
+                                        </p>
                                     </div>
                                     <div>
-                                        <p className="text-lg text-white metropolisR">Descriptions here aaaaaaaaaa aaaaaaa aaaa aa a aaaaaaaaa aaaaaaaaaaaa</p>
+                                        <p className="mt-24 text-lg text-white translate-x-[-2rem] text-right metropolisR">
+                                            While my passion for designing interactive and smooth user experiences shines through on the front-end side, 
+                                            utilizing proprietary tools, and allowing me to craft unique and engaging digital solutions, I also enjoy 
+                                            back-end development, which enables me to familiarize myself with the full-stack development process.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -99,10 +105,16 @@ const ParallaxComp = () => {
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-1 row-start-1">
                                     <div className="rbox2" id="titleL">
-                                        <p className="box-content h-12 p-3 text-2xl text-white bg-middle lnFont">Education and Background</p>
+                                        <p className="box-content h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
+                                            UI/UX Design
+                                        </p>
                                     </div>
                                     <div>
-                                        <p className="text-lg text-white metropolisR">Descriptions here aaaaaaaaaa aaaaaaa aaaa aa a aaaaaaaaa aaaaaaaaaaaa</p>
+                                        <p className="mt-24 text-lg text-white translate-x-8 metropolisR">
+                                            Equipped with a background in 2D Digital Animation, I have a keen eye for detail and a strong understanding 
+                                            of spatial relationships in design. My proficiency in software tools like Photoshop and Figma further 
+                                            enhances my ability to translate creative concepts into visually compelling digital experiences.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -119,10 +131,12 @@ const ParallaxComp = () => {
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-2 row-start-1">
                                     <div className="lbox2" id="titleR">
-                                        <p className="box-content h-12 p-3 text-2xl text-white bg-middle lnFont">UI/UX Design</p>
+                                        <p className="box-content h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
+                                            Education and Background
+                                        </p>
                                     </div>
                                     <div>
-                                        <p className="text-lg text-white metropolisR">Descriptions here aaaaaaaaaa aaaaaaa aaaa aa a aaaaaaaaa aaaaaaaaaaaa</p>
+                                        <p className="mt-24 text-lg text-white metropolisR translate-x-[-2rem]">Descriptions here aaaaaaaaaa aaaaaaa</p>
                                     </div>
                                 </div>
                             </div>
@@ -139,10 +153,12 @@ const ParallaxComp = () => {
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-1 row-start-1">
                                     <div className="rbox2" id="titleL">
-                                        <p className="box-content h-12 p-3 text-2xl text-white bg-middle lnFont">Projects</p>
+                                        <p className="box-content h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
+                                            Projects
+                                        </p>
                                     </div>
                                     <div>
-                                        <p className="text-lg text-white metropolisR">Descriptions here aaaaaaaaaa aaaaaaa aaaa aa a aaaaaaaaa aaaaaaaaaaaa</p>
+                                        <p className="mt-24 text-lg text-white translate-x-8 metropolisR">Descriptions here aaaaaaaaaa aaaaaaa</p>
                                     </div>
                                 </div>
                             </div>
@@ -159,7 +175,7 @@ const ParallaxComp = () => {
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-2 row-start-1">
                                     <div className="lbox2" id="titleR">
-                                        <p className="box-content h-12 p-3 text-2xl text-white bg-middle lnFont">Full Stack Development</p>
+                                        <p className="box-content h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">Full Stack Development</p>
                                     </div>
                                 </div>
                             </div>

@@ -66,6 +66,12 @@ module.exports = {
           '0%': { opacity: 0, transform: 'translateY(-65%)'},
           '100%': { opacity: 1, transform: 'translateY(0)'},
         },
+        fish: {
+          '0%': { opacity: 0, transform: 'translateX(0%)'},
+          '6%': { opacity: 1, transform: 'translateX(0%)' },
+          '80%': { transform: 'translateX(400%)' },
+          '95%, 100%': { opacity: 0, transform: 'translateX(0%)' },
+        },
 
 // animations for waves svg
         float: {
@@ -91,6 +97,7 @@ module.exports = {
         slideFadeLeft: 'slideFadeRight 2s',
         slideFadeUp: 'slideFadeUp 1.5s ease-in-out',
         slideFadeDown: 'slideFadeDown 1.5s ease-in-out',
+        fish: 'fish 4s ease-in-out infinite',
 
 // animation for waves svg
         float: 'float 4s ease-in-out infinite',

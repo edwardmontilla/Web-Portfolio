@@ -99,6 +99,15 @@
     background-image: url(/icons/tailwind-icon.svg);
     transform: translateY(10px);
 }
+#figma-icon {
+    background-image: url(/icons/figma-icon.svg);
+    width: 10%;
+    height: 10%;
+}
+#ps-icon {
+    background-image: url(/icons/ps-icon.svg);
+    transform: translateY(-2px);
+}
 
 
 #rectangle {
@@ -128,19 +137,27 @@
 }
 
 .top-icon {
-    transform: translateX(30px);
+    transform: translate(30px, 20px);
     display: flex;
     justify-content: start;
     align-items: center;
     width: 100%;
 }
 .bottom-icon {
+    transform: translateY(-15px);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-
+.middle-icon {
+    transform: translateY(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
 
 
 
@@ -209,12 +226,12 @@
     background: linear-gradient(180deg, rgba(39,55,77,1) 6%, rgba(221,230,237,1) 100%);
 
 }
-#page-block2 {          /* from cssgradient.io */
+/* #page-block2 {          /* from cssgradient.io */
                        
     /* border-color: aqua;
     border-width: 4px; */
     /* height: 200vh; change depending on the page number {4} */
-}
+
 
 #page-container {
     /* border-color: rgb(99, 131, 131);
