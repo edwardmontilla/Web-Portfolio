@@ -86,8 +86,8 @@ const ParallaxComp = () => {
                                     <div>
                                         <p className="mt-24 text-lg text-white translate-x-[-2rem] text-right metropolisR">
                                             While my passion for designing interactive and smooth user experiences shines through on the front-end side, 
-                                            utilizing proprietary tools, and allowing me to craft unique and engaging digital solutions, I also enjoy 
-                                            back-end development, which enables me to familiarize myself with the full-stack development process.
+                                            utilizing proprietary tools, and allowing me to craft unique and engaging digital solutions, I also recognize the 
+                                            importance of back-end development, which motivates me to engage with it as part of the full-stack development process.
                                         </p>
                                     </div>
                                 </div>
