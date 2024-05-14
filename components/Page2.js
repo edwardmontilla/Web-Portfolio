@@ -89,7 +89,7 @@ const Page2 = () => {
                         </div>
 
         {/* 3rd Row */}
-                        <div className="col-span-1 col-start-1 row-start-3 h-4/5">
+                        <div className="col-span-1 col-start-1 row-start-3 h-4/5 translate-y-[-7rem]">
                             <div className="border-[1px] rounded-lg shadow-lg shadow-background/20 border-background lbox" id="rectangle">
                                 
                                 <div className="cust-icon">

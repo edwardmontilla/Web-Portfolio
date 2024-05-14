@@ -45,8 +45,8 @@ const ParallaxComp = () => {
             <ParallaxLayer offset={0} speed={0.19}>
                 <div className="plxlayer parallax animate-float" id="wave-3"></div>
             </ParallaxLayer>
-            <ParallaxLayer offset={0} speed={0.22}>
-                <div className="plxlayer parallax animate-float2" id="wave-2"></div>
+            <ParallaxLayer offset={0} speed={0.2}>
+                <div className="plxlayer parallax animate-fish"></div>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0.1}>
                 <div className="plxlayer parallax animate-float" id="wave-1"></div>
@@ -128,28 +128,25 @@ const ParallaxComp = () => {
                     <div id="page-container2" className="">
                         <div className="flex justify-center h-full">
                             <div className="grid grid-rows-1">
-                                <div className="col-span-1 col-start-2 row-start-1">
+                                <div className="col-span-1 col-start-2 row-start-1 translate-y-[-7rem]">
                                     <div className="lbox2" id="titleR">
                                         <p className="box-content h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
                                             Education
                                         </p>
                                     </div>
-                                    <div>
-                                        <p className="mt-24 text-lg text-white metropolisR translate-x-[-2rem] text-right">
-                                            <ul>
-                                                <li className="underline underline-offset-[5px]">Southern Alberta Institute of Technology </li>
-                                                <li>Software Development (Diploma)</li>
-                                                <li>2022 - 2024 </li>
-                                            </ul>
-                                        </p>
-                                        <p className="mt-4 text-lg text-white metropolisR translate-x-[-2rem] text-right">
-                                            <ul>
-                                                <li className="underline underline-offset-[5px]">Vancouver Film School </li>
-                                                <li>2D Classical Animation (Diploma)</li>
-                                                <li>2019 - 2020 </li>
-                                            </ul>
-                                        </p>
-
+                                    <div className="mt-24 text-lg text-white metropolisR translate-x-[-2rem] text-right">
+                                        <ul>
+                                            <li className="underline underline-offset-[5px]">Southern Alberta Institute of Technology </li>
+                                            <li>Software Development (Diploma)</li>
+                                            <li>2022 - 2024 </li>
+                                        </ul>
+                                    </div>
+                                    <div className="mt-4 text-lg text-white metropolisR translate-x-[-2rem] text-right">
+                                        <ul>
+                                            <li className="underline underline-offset-[5px]">Vancouver Film School </li>
+                                            <li>2D Classical Animation (Diploma)</li>
+                                            <li>2019 - 2020 </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
