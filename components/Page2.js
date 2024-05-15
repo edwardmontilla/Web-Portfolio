@@ -107,9 +107,9 @@ const Page2 = () => {
 
     {/* PROJECTS */}
         {/* 4th Row */}
-                        {/* <div className="col-span-1 col-start-1 row-start-4"> */}
-                            <h2 className="inset-x-0 bottom-0 w-[30%] z-20 text-center block text-3xl text-white lnFont" id="projects">Projects</h2>
-                        {/* </div> */}
+                        <div className="flex justify-center col-span-2 col-start-1 row-start-4 mt-[-8rem]">
+                            <h2 className="z-40 text-4xl text-white lnFont">Projects</h2>
+                        </div>
                         <div className="col-span-1 col-start-1 row-start-4">
                             <div className="bg-primary rounded-xl h-[85%] w-full backdrop-blur-[6px]">
                                 <div className="border-[1px] border-background rounded-xl shadow-lg shadow-background/25 lbox absolute top-[25%] right-[15%]" id="rectangle2">
@@ -118,20 +118,20 @@ const Page2 = () => {
                             </div>
                         </div>
 
-        {/* 5th Row */}
+        {/* 4th Row */}
                         <div className="col-span-1 col-start-2 row-start-4 bg-primary rounded-xl h-[85%] w-full backdrop-blur-[6px]">
-                        <div className="border-[1px] rounded-xl shadow-lg shadow-background/25 border-b-background rbox absolute top-[25%] left-[15%]" id="rectangle2">
+                            <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25  rbox absolute top-[25%] left-[15%]" id="rectangle2">
                             </div>
                         </div>
 
-        {/* 6th Row */}
+        {/* 5th Row */}
                         <div className="col-span-1 col-start-2 row-start-5">
                             <div className="invisible rbox">
                                 <img src="./images/cat.jpg" alt="image5" className="rounded-lg shadow-lg shadow-slate-900/50" />
                             </div>
                         </div>
 
-        {/* 7th Row */}
+        {/* 6th Row */}
                         {/* <div className="col-span-1 col-start-1 row-start-7">
                             <div className="invisible lbox">
                                 <img src="./images/cat.jpg" alt="image5" className="rounded-lg shadow-lg shadow-slate-900/50" />

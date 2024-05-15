@@ -163,14 +163,23 @@ const ParallaxComp = () => {
                         <div className="flex justify-center h-full">
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-1 row-start-1">
+
                                     {/* <div className="rbox2" id="titleL"> <--- rbox2 was removed here --->
                                         <p className="box-content rounded-md h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
                                             Projects
                                         </p>
                                     </div> */}
+                                    
                                     <div className="rbox2"> {/* added this here for now */}
-                                        <p className="mt-24 text-lg text-white translate-x-8 metropolisR">Miggys Munchies, Python projects</p>
+                                        <p className="mt-24 text-lg text-white translate-x-8 metropolisR">Miggys Munchies, Python projects asdfadfad adfadfa asdfadfa dfa</p>
                                     </div>
+                                </div>
+                                
+                                <div className="col-span-1 col-start-2 row-start-1">
+                                    <div className="lbox2"> {/* added this here for now */}
+                                        <p className="mt-24 text-lg text-right text-white translate-x-[-2rem] metropolisR">Another Project here Web Dev/Python projects asdfadfa dfa</p>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
