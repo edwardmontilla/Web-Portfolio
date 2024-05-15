@@ -31,7 +31,7 @@ const Page2 = () => {
                 <div className="flex justify-center h-full">
                     <div className="grid text-white grid-rows-7">
                         <div className="col-span-1 col-start-1">
-                            <div className="border-[1px] rounded-lg shadow-lg shadow-background/25 border-background lbox" id="rectangle">
+                            <div className="border-[1px] rounded-xl shadow-lg shadow-background/25 border-background lbox" id="rectangle">
                                 
                                 <div className="top-icon">
 
@@ -73,7 +73,7 @@ const Page2 = () => {
                         
         {/* 2nd Row */}
                         <div className="col-span-1 col-start-2 row-start-2 h-1/2"> {/* box height adjusted to h-1/2 */}
-                            <div className="border-[1px] rounded-lg shadow-lg shadow-background/20 border-background rbox" id="rectangle">
+                            <div className="border-[1px] rounded-xl shadow-lg shadow-background/20 border-background rbox" id="rectangle">
                                 
                                 <div className="middle-icon">
                                     
@@ -90,7 +90,7 @@ const Page2 = () => {
 
         {/* 3rd Row */}
                         <div className="col-span-1 col-start-1 row-start-3 h-4/5 translate-y-[-7rem]">
-                            <div className="border-[1px] rounded-lg shadow-lg shadow-background/20 border-background lbox" id="rectangle">
+                            <div className="border-[1px] rounded-xl shadow-lg shadow-background/20 border-background lbox" id="rectangle">
                                 
                                 <div className="cust-icon">
                                     <div className="icon-container" id="sait-logo">
@@ -105,16 +105,22 @@ const Page2 = () => {
                             </div>
                         </div>
 
+    {/* PROJECTS */}
         {/* 4th Row */}
-                        <div className="col-span-1 col-start-2 row-start-4">
-                            <div className="border-[1px] rounded-lg shadow-lg shadow-background/25 border-background rbox" id="rectangle">
-                                
+                        {/* <div className="col-span-1 col-start-1 row-start-4"> */}
+                            <h2 className="inset-x-0 bottom-0 w-[30%] z-20 text-center block text-3xl text-white lnFont" id="projects">Projects</h2>
+                        {/* </div> */}
+                        <div className="col-span-1 col-start-1 row-start-4">
+                            <div className="bg-primary rounded-xl h-[85%] w-full backdrop-blur-[6px]">
+                                <div className="border-[1px] border-background rounded-xl shadow-lg shadow-background/25 lbox absolute top-[25%] right-[15%]" id="rectangle2">
+                                    
+                                </div>
                             </div>
                         </div>
 
         {/* 5th Row */}
-                        <div className="col-span-1 col-start-1 row-start-4">
-                        <div className="border-[1px] rounded-lg shadow-lg shadow-background/25 border-background lbox" id="rectangle">
+                        <div className="col-span-1 col-start-2 row-start-4 bg-primary rounded-xl h-[85%] w-full backdrop-blur-[6px]">
+                        <div className="border-[1px] rounded-xl shadow-lg shadow-background/25 border-b-background rbox absolute top-[25%] left-[15%]" id="rectangle2">
                             </div>
                         </div>
 

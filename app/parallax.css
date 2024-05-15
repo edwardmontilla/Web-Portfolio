@@ -121,6 +121,9 @@
 #rectangle {
     background-image: url(/images/rectangle.svg);
 }
+#rectangle2 {
+    background-image: url(/images/rectangle2.svg);
+}
 
 .icon-container {
     width: calc(10% + 6px);
@@ -230,7 +233,6 @@
     margin-bottom: 112px;
     transform: translateX(51%);
     text-align: left;
-
 }
 
 .footer {
@@ -248,9 +250,12 @@
     /* background-color: #27374D; */
     /* background: rgb(39,55,77);
     background: linear-gradient(180deg, rgba(39,55,77,1) 6%, rgba(221,230,237,1) 100%); */
-    background: rgb(39,55,77);
-    background: linear-gradient(180deg, rgba(39,55,77,1) 6%, rgba(100,125,153,1) 35%, rgba(39,55,77,1) 58%);}
 
+    /* background: rgb(39,55,77);
+    background: linear-gradient(180deg, rgba(39,55,77,1) 6%, rgba(100,125,153,1) 35%, rgba(39,55,77,1) 58%);} */
+    background: rgb(39,55,77);
+    background: linear-gradient(180deg, rgba(39,55,77,1) 6%, rgba(100,125,153,1) 29%, rgba(45,64,89,1) 42%, rgba(26,40,61,1) 55%);
+}
 
 /* #page-block2 {          /* from cssgradient.io */
                        

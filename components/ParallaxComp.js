@@ -25,7 +25,7 @@ const ParallaxComp = () => {
     const parallaxRef = React.useRef(null);
     
     return (
-        <Parallax pages={4} style={{ top: '0', left: '0' }} className="bg-white">
+        <Parallax pages={4.5} style={{ top: '0', left: '0' }} className="bg-white">
 
 {/* Page 1 */}
 {/* Welcome text */}
@@ -78,7 +78,7 @@ const ParallaxComp = () => {
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-2">
                                     <div className="lbox2"  id="titleR">
-                                        <p className="box-content h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
+                                        <p className="rounded-md box-content h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
                                             Full Stack Development
                                         </p>
                                     </div>
@@ -104,7 +104,7 @@ const ParallaxComp = () => {
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-1 row-start-1">
                                     <div className="rbox2" id="titleL">
-                                        <p className="box-content h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
+                                        <p className="box-content rounded-md h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
                                             UI/UX Design
                                         </p>
                                     </div>
@@ -130,7 +130,7 @@ const ParallaxComp = () => {
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-2 row-start-1 translate-y-[-7rem]">
                                     <div className="lbox2" id="titleR">
-                                        <p className="box-content h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
+                                        <p className="rounded-md box-content h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
                                             Education
                                         </p>
                                     </div>
@@ -155,19 +155,20 @@ const ParallaxComp = () => {
                 </div>
             </ParallaxLayer>
 
+            {/* PROJECTS */}
             {/* 4th row */}
-            <ParallaxLayer offset={3.19} speed={0.33}>
+            <ParallaxLayer offset={3.05} speed={0.33}>
                 <div id="page-block2">
                     <div id="page-container2" className="">
                         <div className="flex justify-center h-full">
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-1 row-start-1">
-                                    <div className="rbox2" id="titleL">
-                                        <p className="box-content h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
+                                    {/* <div className="rbox2" id="titleL"> <--- rbox2 was removed here --->
+                                        <p className="box-content rounded-md h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
                                             Projects
                                         </p>
-                                    </div>
-                                    <div>
+                                    </div> */}
+                                    <div className="rbox2"> {/* added this here for now */}
                                         <p className="mt-24 text-lg text-white translate-x-8 metropolisR">Miggys Munchies, Python projects</p>
                                     </div>
                                 </div>
@@ -197,7 +198,7 @@ const ParallaxComp = () => {
 
 
 {/* Footer is set at the last Page */}
-            <ParallaxLayer offset={3} speed={0}>
+            <ParallaxLayer offset={3.5} speed={0}>
                 <Footer />
             </ParallaxLayer>
         </Parallax>
