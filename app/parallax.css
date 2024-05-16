@@ -391,7 +391,7 @@
 
 /* --------------- screen size adjustments --------------- */
 
-/* ---------- For most Android ---------- */
+/* ---------- For my Android phone ---------- */
 @media screen and (min-width: 360px) and (max-width: 375px) and (max-height:740px) {
     nav {
         font-size: 0.8rem;
@@ -421,7 +421,7 @@
     .plxcontainer, .plxlayer {
         /* Adjust styles for smartphones */
         background-size: contain;
-        margin-top: 220px;
+        margin-top: 240px;
         height: 100vh;
     }
     .text-6xl { /* Hello! */
