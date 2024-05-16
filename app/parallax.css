@@ -388,18 +388,18 @@
 
 
 /* --------------- screen size adjustments --------------- */
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     nav {
         font-size: 0.7rem;
         margin-left: 5px;
     }
     .plxcontainer, .plxlayer {
-        /* Adjust styles for smartphones */
+         Adjust styles for smartphones 
         background-size: contain;
         margin-top: 245px;
         height: 100vh;
     }
-    .text-6xl { /* Hello! */
+    .text-6xl { /* Hello! 
         margin-left: -110px;
         margin-top: 85px;
         font-size: 1.1rem;
@@ -423,7 +423,7 @@
         display: grid;
         grid-template-columns: 1fr;
         row-gap: 2rem;
-        gap: 0rem; /* Adjust the gap between rows */
+        gap: 0rem;  Adjust the gap between rows 
     }
 
     .rbox, .lbox, .rbox2, .lbox2 {
@@ -439,6 +439,80 @@
         
     }
 
+ */
+
+@media screen and (min-width: 360px) and (max-width: 790px) {
+    nav {
+        font-size: 0.8rem;
+        transform: translateX(10%);
+    }
+    #about-me { /*Edward Montilla */
+        font-size: 1.3rem;
+        text-wrap: nowrap;
+        width: 30%;
+        z-index:20;
+        text-align: center;
+        margin-top: 50px;
+    }
+    #desc-me { /* Description about me */
+        font-size: 0.8rem;
+        width: 80%;
+        z-index:20;
+        margin: 0 0 112px 45px;
+        transform: none;
+    }
+    .plxcontainer, .plxlayer {
+        /* Adjust styles for smartphones */
+        background-size: contain;
+        margin-top: 280px;
+        height: 100vh;
+    }
+    .text-6xl { /* Hello! */
+        margin-left: -110px;
+        margin-top: 85px;
+        font-size: 0.8rem;
+        z-index: 50;
+    }
+    .text-4xl { /* Edward Montilla */
+        font-size: 0.75rem;
+        z-index: 50;}
+
+    #page-container, #page-block {
+        margin-top: -350px;
+        height: 390vh;
+        width: 100%;
+    }
+    #page-container2, #page-block2 {
+        margin-top: -200px;
+        height: 350vh;
+        width: 50% auto;
+    }
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 2rem;
+        gap: 0rem; /* Adjust the gap between rows */
+    }
+    .rbox, .lbox, .rbox2, .lbox2 {
+        flex-direction: column;
+        width: 100%;
+        float: none;
+        min-width: 100%;
+    }
+    .box-content {
+        min-width: 100%;
+        transform: none; /* Reset transform for smaller screens */
+    }
+    #titleR .box-content, #titleL .box-content {
+        transform: none; /* Reset transform for smaller screens */
+        text-align: center;
+    }
+    .icon-container {
+        width: 14%;
+        margin: 10px 3px;
+        height: auto;
+    }
 }
 
 /* adjust box content if going to use
