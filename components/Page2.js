@@ -10,7 +10,7 @@ import { FaFish } from "react-icons/fa6";
 const Page2 = () => {
     return (
         <div id="page-block">
-            <div id="page-container" className="">
+            <div id="page-container">
         {/* ABOUT ME */}
             <h2 className="text-5xl text-white lnFont" id="about-me">Edward Montilla</h2>
             <div>
@@ -72,7 +72,7 @@ const Page2 = () => {
                         </div>
                         
         {/* 2nd Row */}
-                        <div className="col-span-1 col-start-2 row-start-2 h-1/2"> {/* box height adjusted to h-1/2 */}
+                        <div className="col-span-1 col-start-2 row-start-2 h-1/2" id="ui-box"> {/* box height adjusted to h-1/2 */}
                             <div className="border-[1px] rounded-xl shadow-lg shadow-background/20 border-background rbox" id="rectangle">
                                 
                                 <div className="middle-icon">
@@ -89,7 +89,7 @@ const Page2 = () => {
                         </div>
 
         {/* 3rd Row */}
-                        <div className="col-span-1 col-start-1 row-start-3 h-4/5 translate-y-[-7rem]">
+                        <div className="col-span-1 col-start-1 row-start-3 h-4/5 translate-y-[-7rem]" id="edu-box">
                             <div className="border-[1px] rounded-xl shadow-lg shadow-background/20 border-background lbox" id="rectangle">
                                 
                                 <div className="cust-icon">
@@ -108,9 +108,9 @@ const Page2 = () => {
     {/* PROJECTS */}
         {/* 4th Row */}
                         <div className="flex justify-center col-span-2 col-start-1 row-start-4 mt-[-8rem]">
-                            <h2 className="z-40 text-4xl text-white lnFont">Projects</h2>
+                            <h2 className="z-40 text-4xl text-white lnFont" id="proj-heading">Projects</h2>
                         </div>
-                        <div className="col-span-1 col-start-1 row-start-4">
+                        <div className="col-span-1 col-start-1 row-start-4" id="proj-box">
                             <div className="bg-primary rounded-xl h-[85%] w-full backdrop-blur-[6px]">
                                 <div className="border-[1px] border-background rounded-xl shadow-lg shadow-background/25 lbox absolute top-[25%] right-[15%]" id="rectangle2">
                                     
@@ -119,7 +119,7 @@ const Page2 = () => {
                         </div>
 
         {/* 4th Row */}
-                        <div className="col-span-1 col-start-2 row-start-4 bg-primary rounded-xl h-[85%] w-full backdrop-blur-[6px]">
+                        <div className="col-span-1 col-start-2 row-start-4 bg-primary rounded-xl h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
                             <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25  rbox absolute top-[25%] left-[15%]" id="rectangle2">
                             </div>
                         </div>

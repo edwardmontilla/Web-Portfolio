@@ -31,7 +31,7 @@ const ParallaxComp = () => {
 {/* Welcome text */}
             <ParallaxLayer offset={0.2} speed={0.32}>
                 <div className="absolute top-0 left-0 ml-40 transform -translate-y-1/2">
-                    <p className="text-6xl font-bold text-text animate-slideFadeRight">Hello!</p>
+                    <p className="text-6xl font-bold text-text animate-slideFadeRight" id="hello">Hello!</p>
                 </div>
             </ParallaxLayer>
         
@@ -83,7 +83,7 @@ const ParallaxComp = () => {
                                         </p>
                                     </div>
                                     <div>
-                                        <p className="mt-24 text-lg text-white translate-x-[-2rem] text-right metropolisR">
+                                        <p className="mt-24 text-lg text-white translate-x-[-2rem] text-right metropolisR" id="mobile-desc1">
                                             While my passion for designing interactive and smooth user experiences shines through on the front-end side, 
                                             utilizing proprietary tools, and allowing me to craft unique and engaging digital solutions, I also recognize the 
                                             importance of back-end development, which motivates me to engage with it as part of the full-stack development process.
@@ -109,7 +109,7 @@ const ParallaxComp = () => {
                                         </p>
                                     </div>
                                     <div>
-                                        <p className="mt-24 text-lg text-white translate-x-8 metropolisR">
+                                        <p className="mt-24 text-lg text-white translate-x-8 metropolisR" id="mobile-desc2">
                                             Equipped with a background in 2D Digital Animation, I have a keen eye for detail and a strong understanding 
                                             of spatial relationships in design. My proficiency in software tools like Photoshop and Figma further 
                                             enhances my ability to translate creative concepts into visually compelling digital experiences.
@@ -125,7 +125,7 @@ const ParallaxComp = () => {
             {/* 3rd row */}
             <ParallaxLayer offset={2.74} speed={0.33}>
                 <div id="page-block2">
-                    <div id="page-container2" className="">
+                    <div id="page-container2">
                         <div className="flex justify-center h-full">
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-2 row-start-1 translate-y-[-7rem]">
@@ -134,14 +134,14 @@ const ParallaxComp = () => {
                                             Education
                                         </p>
                                     </div>
-                                    <div className="mt-24 text-lg text-white metropolisR translate-x-[-2rem] text-right">
+                                    <div className="mt-24 text-lg text-white metropolisR translate-x-[-2rem] text-right" id="mobile-desc3">
                                         <ul>
                                             <li className="underline underline-offset-[5px]">Southern Alberta Institute of Technology </li>
                                             <li>Software Development (Diploma)</li>
                                             <li>2022 - 2024 </li>
                                         </ul>
                                     </div>
-                                    <div className="mt-4 text-lg text-white metropolisR translate-x-[-2rem] text-right">
+                                    <div className="mt-4 text-lg text-white metropolisR translate-x-[-2rem] text-right" id="mobile-desc3">
                                         <ul>
                                             <li className="underline underline-offset-[5px]">Vancouver Film School </li>
                                             <li>2D Classical Animation (Diploma)</li>

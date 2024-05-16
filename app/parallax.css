@@ -117,7 +117,6 @@
     width: 10%;
 }
 
-
 #rectangle {
     background-image: url(/images/rectangle.svg);
 }
@@ -388,63 +387,15 @@
 
 
 /* --------------- screen size adjustments --------------- */
-/* @media (max-width: 576px) {
-    nav {
-        font-size: 0.7rem;
-        margin-left: 5px;
-    }
-    .plxcontainer, .plxlayer {
-         Adjust styles for smartphones 
-        background-size: contain;
-        margin-top: 245px;
-        height: 100vh;
-    }
-    .text-6xl { /* Hello! 
-        margin-left: -110px;
-        margin-top: 85px;
-        font-size: 1.1rem;
-        z-index: 50;
-    }
-    .text-4xl {
-        font-size: 0.75rem;
-        z-index: 50;}
-
-    #page-container, #page-block {
-        margin-top: -200px;
-        height: 350vh;
-        width: 50% auto;
-    }
-    #page-container2, #page-block2 {
-        margin-top: -200px;
-        height: 350vh;
-        width: 50% auto;
-    }
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        row-gap: 2rem;
-        gap: 0rem;  Adjust the gap between rows 
-    }
-
-    .rbox, .lbox, .rbox2, .lbox2 {
-        float: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-    .rbox img, .lbox img, .rbox2 img, .lbox2 img {
-        width: 100%;
-        height: auto;
-        
-    }
-
- */
-
 @media screen and (min-width: 360px) and (max-width: 790px) {
     nav {
         font-size: 0.8rem;
         transform: translateX(10%);
+    }
+    #hello { /* Hello! */
+        font-size: 1.3rem;
+        margin-top: 10px;
+        
     }
     #about-me { /*Edward Montilla */
         font-size: 1.3rem;
@@ -460,6 +411,7 @@
         z-index:20;
         margin: 0 0 112px 45px;
         transform: none;
+        line-height: 1.7;
     }
     .plxcontainer, .plxlayer {
         /* Adjust styles for smartphones */
@@ -500,13 +452,58 @@
         float: none;
         min-width: 100%;
     }
-    .box-content {
-        min-width: 100%;
+    .box-content { /* Title Box */
+        min-width: 60%;
         transform: none; /* Reset transform for smaller screens */
     }
-    #titleR .box-content, #titleL .box-content {
+    #titleR .box-content, #titleL .box-content { /* Title */
+        margin-top: -520px;
         transform: none; /* Reset transform for smaller screens */
         text-align: center;
+        font-size: small;
+    }
+    #mobile-desc1 { /* Full Stack description */
+        font-size: 0.8rem;
+        text-align: center;
+        transform: translate(1%, -90%);
+        white-space: wrap;
+        line-height: 1.6;
+    }
+    #mobile-desc2 { /* UI description */
+        font-size: 0.8rem;
+        text-align: center;
+        transform: translate(1%, -135%);
+        white-space: wrap;
+        line-height: 1.6;
+    }
+    #mobile-desc3 { /* Edu description */
+        font-size: 0.8rem;
+        text-align: center;
+        transform: translate(1%, -290%);
+        white-space: wrap;
+        line-height: 1.6;
+    }
+    #ui-box {
+        width: 100%;
+        height: 5%;
+        margin-top: 195px;
+        z-index: 30;
+    }
+    #edu-box {
+        width: 100%;
+        height: 5%;
+        margin-top: 275px;
+        z-index: 30;
+    }
+    #proj-heading {
+        font-size: large;
+        transform: translateY(210px);
+    }
+    #proj-box {
+        width: 100%;
+        height: 5%;
+        margin-top: 195px;
+        z-index: 30;
     }
     .icon-container {
         width: 14%;
