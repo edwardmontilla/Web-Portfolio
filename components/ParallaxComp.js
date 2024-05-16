@@ -128,7 +128,7 @@ const ParallaxComp = () => {
                     <div id="page-container2">
                         <div className="flex justify-center h-full">
                             <div className="grid grid-rows-1">
-                                <div className="col-span-1 col-start-2 row-start-1 translate-y-[-7rem]">
+                                <div className="col-span-1 col-start-2 row-start-1 translate-y-[-7rem]" id="edu-title">
                                     <div className="lbox2" id="titleR">
                                         <p className="rounded-md box-content h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
                                             Education
