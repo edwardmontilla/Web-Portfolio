@@ -392,7 +392,7 @@
 /* --------------- screen size adjustments --------------- */
 
 /* ---------- For my Android phone ---------- */
-@media screen and (min-width: 360px) and (max-width: 375px) and (min-height:740px) {
+@media screen and (min-width: 360px) and (max-width: 375px) and (max-height:760px) {
     nav {
         font-size: 0.8rem;
         transform: translateX(10%);
