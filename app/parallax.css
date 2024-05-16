@@ -124,6 +124,9 @@
     background-image: url(/images/rectangle2.svg);
 }
 
+@media screen and (min-width:1025px) {
+    
+}
 .icon-container {
     width: calc(10% + 6px);
     position: relative;
@@ -387,7 +390,7 @@
 
 
 /* --------------- screen size adjustments --------------- */
-@media screen and (min-width: 320px) and (max-width: 481px) {
+@media screen and (min-width: 360px) and (max-width: 481px) {
     nav {
         font-size: 0.8rem;
         transform: translateX(10%);
