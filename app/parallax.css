@@ -390,6 +390,8 @@
 
 
 /* --------------- screen size adjustments --------------- */
+
+/* ---------- For most Android ---------- */
 @media screen and (min-width: 360px) and (max-width: 375px) and (max-height:740px) {
     nav {
         font-size: 0.8rem;
@@ -433,7 +435,7 @@
         z-index: 50;}
 
     #page-container, #page-block {
-        margin-top: -300px;
+        margin-top: -200px;
         height: 390vh;
         width: 100%;
     }
