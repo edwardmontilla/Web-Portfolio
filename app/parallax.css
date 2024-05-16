@@ -392,7 +392,7 @@
 /* --------------- screen size adjustments --------------- */
 
 /* ---------- For my Android phone ---------- */
-@media screen and (min-width: 360px) and (max-width: 375px) and (max-height:760px) {
+@media screen and (min-width: 360px) and (max-width: 385px) and (max-height:760px) {
     nav {
         font-size: 0.8rem;
         transform: translateX(10%);
@@ -461,7 +461,7 @@
         transform: none; /* Reset transform for smaller screens */
     }
     #titleR .box-content, #titleL .box-content { /* Title */
-        margin-top: -520px;
+        margin-top: -150px;
         transform: none; /* Reset transform for smaller screens */
         text-align: center;
         font-size: small;
@@ -469,7 +469,7 @@
     #mobile-desc1 { /* Full Stack description */
         font-size: 0.8rem;
         text-align: center;
-        transform: translate(1%, -90%);
+        transform: translate(1%, 0%);
         white-space: wrap;
         line-height: 1.6;
     }
