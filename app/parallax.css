@@ -392,7 +392,7 @@
 /* --------------- screen size adjustments --------------- */
 
 /* ---------- For my Android phone ---------- */
-@media screen and (min-width: 360px) and (max-width: 375px) and (max-height:740px) {
+@media screen and (min-width: 360px) and (max-width: 365px) and (min-height:650px) {
     nav {
         font-size: 0.8rem;
         transform: translateX(10%);
@@ -418,10 +418,9 @@
         transform: none;
         line-height: 1.7;
     }
-    .plxcontainer, .plxlayer {
-        /* Adjust styles for smartphones */
+    .plxcontainer, .plxlayer { /* Adjust the wave page height */
         background-size: contain;
-        margin-top: 240px;
+        margin-top: 260px;
         height: 100vh;
     }
     .text-6xl { /* Hello! */
@@ -434,13 +433,13 @@
         font-size: 0.75rem;
         z-index: 50;}
 
-    #page-container, #page-block {
+    #page-container, #page-block { /* Adjust the page after wave height */
         margin-top: -210px;
         height: 390vh;
         width: 100%;
     }
     #page-container2, #page-block2 {
-        margin-top: -200px;
+        margin-top: -210px;
         height: 350vh;
         width: 50% auto;
     }
