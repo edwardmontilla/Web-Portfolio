@@ -171,13 +171,18 @@ const ParallaxComp = () => {
                                     </div> */}
                                     
                                     <div className="rbox2"> {/* added this here for now */}
-                                        <p className="mt-24 text-lg text-white translate-x-8 metropolisR">Miggys Munchies, Python projects asdfadfad adfadfa asdfadfa dfa</p>
+                                        <p className="mt-24 text-lg text-white translate-x-8 metropolisR">
+                                            A capstone project built to simplify operations with a dedicated web app, automating ordering and payment 
+                                            for enhanced convenience.
+                                        </p>
                                     </div>
                                 </div>
                                 
                                 <div className="col-span-1 col-start-2 row-start-1">
                                     <div className="lbox2"> {/* added this here for now */}
-                                        <p className="mt-24 text-lg text-right text-white translate-x-[-2rem] metropolisR">Another Project here Web Dev/Python projects asdfadfa dfa</p>
+                                        <p className="mt-24 text-lg text-right text-white translate-x-[-2rem] metropolisR">
+                                            This is a fan-made website for a game series called Little Nightmares.
+                                        </p>
                                     </div>
 
                                 </div>

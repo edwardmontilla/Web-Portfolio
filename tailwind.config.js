@@ -72,6 +72,10 @@ module.exports = {
           '80%': { transform: 'translateX(400%)' },
           '95%, 100%': { opacity: 0, transform: 'translateX(0%)' },
         },
+        fadeInOut: {
+          '0%, 20%, 80%, 100%': { opacity: 0 },
+          '25%, 75%': { opacity: 1 },
+        },
 
 // animations for waves svg
         float: {
@@ -98,6 +102,7 @@ module.exports = {
         slideFadeUp: 'slideFadeUp 1.5s ease-in-out',
         slideFadeDown: 'slideFadeDown 1.5s ease-in-out',
         fish: 'fish 4s ease-in-out infinite',
+        fadeInOut: 'fadeInOut 10s ease-in-out infinite',
 
 // animation for waves svg
         float: 'float 4s ease-in-out infinite',
@@ -114,5 +119,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require ('tailwindcss-animation-delay'),
+  ],
 };

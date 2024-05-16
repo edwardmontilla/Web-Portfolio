@@ -117,13 +117,63 @@
     width: 10%;
 }
 
-#rectangle {
+#rectangle { /* this is for the rectangle image ABOVE Projects*/
     background-image: url(/images/rectangle.svg);
 }
 #rectangle2 {
     background-image: url(/images/rectangle2.svg);
+    width: 440px;
+    height: 250px;
+    border-radius: 0.5rem; /* rounded-lg or 8px */
+    transform: translate(-2.5%, -2%); /* to move the rectangle and photo */
+}
+#rectangle3 {
+    background-image: url(/images/rectangle2.svg);
+    width: 440px;
+    height: 250px;
+    border-radius: 0.5rem; /* rounded-lg or 8px */
+    transform: translate(2.5%, -2%); /* to move the rectangle and photo */
 }
 
+/* ---------- Project Images ---------- */
+#mg1 {
+    background-image: url(/images/mg-1.png);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+#mg2 {
+    background-image: url(/images/mg-2.png);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+#ln1 {
+    background-image: url(/images/ln-1.png);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+#ln2 {
+    background-image: url(/images/ln-2.png);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+/* ---------- Laptop 1920 x 1080 (default) ---------- */
 @media screen and (min-width:1025px) {
     
 }
