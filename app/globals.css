@@ -77,11 +77,3 @@ body { -ms-overflow-style: none; }
   font-family: "Metropolis Semi-Bold";
 }
 
-#blowfish {
-  background-image: url(/icons/blowfish.svg);
-  width: 130px;
-  height: 130px;
-  display: block;
-  top: 61%;
-  left: 58.3%;
-}

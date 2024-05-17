@@ -59,6 +59,14 @@
 #wave-000 {
     background-image: url(/images/wave-000.svg);
 }
+#blowfish {
+    background-image: url(/icons/blowfish.svg);
+    width: 130px;
+    height: 130px;
+    display: block;
+    top: 61%;
+    left: 58.3%;
+}
 
 
 /* ---------- Icons ---------- */
@@ -491,6 +499,13 @@
         font-size: 0.8rem;
         transform: translateX(10%);
     }
+    #blowfish {
+        width: 130px;
+        height: 130px;
+        display: block;
+        top: 61%;
+        left: 58.3%;
+    }
     #hello { /* Hello! */
         font-size: 1.3rem;
         margin-top: 10px;
@@ -514,7 +529,7 @@
     }
     .plxcontainer, .plxlayer { /* Adjust the wave page height */
         background-size: contain;
-        margin-top: 260px;
+        margin-top: 255px;
         height: 100vh;
     }
     .text-6xl { /* Hello! */
