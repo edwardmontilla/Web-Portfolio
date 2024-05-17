@@ -101,7 +101,7 @@ const ParallaxComp = () => {
                     <div id="page-container2">
                         <div className="flex justify-center h-full">
                             <div className="grid grid-rows-1">
-                                <div className="col-span-1 col-start-1 row-start-1">
+                                <div className="col-span-1 col-start-1 row-start-1" id="ui-title">
                                     <div className="rbox2" id="titleL">
                                         <p className="box-content rounded-md h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
                                             UI/UX Design
