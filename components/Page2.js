@@ -113,7 +113,7 @@ const Page2 = () => {
 
                         <div className="col-span-1 col-start-1 row-start-4 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">  
                             <div className="lbox rounded-xl bg-primary/50 absolute top-[5%] right-[10%] backdrop-blur-[6px]">back box</div>
-                                <div className="lbox rounded-xl bg-primary/70 absolute top-[15%] right-[13%] backdrop-blur-[6px]">middle box</div>
+                                <div className="lbox rounded-xl opacity-75 absolute top-[14%] right-[14%] backdrop-blur-[6px]" id="bgFull"></div>
                                     <div className="border-[1px] border-background rounded-xl shadow-lg shadow-background/25 lbox absolute top-[25%] right-[15%]" id="rectangle2">
                                         <div className="rounded-lg" id="mg2"></div>
                                     </div>
@@ -125,7 +125,7 @@ const Page2 = () => {
         {/* 4th Row */}
                         <div className="col-span-1 col-start-2 row-start-4 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
                             <div className="rbox rounded-xl bg-primary/50 absolute top-[5%] left-[10%] backdrop-blur-[6px]">back box</div>
-                                <div className="rbox rounded-xl bg-primary/70 absolute top-[15%] left-[13%] backdrop-blur-[6px]">middle box</div>
+                                <div className="rbox rounded-xl opacity-75 absolute top-[14%] left-[14%] backdrop-blur-[6px]" id="ln3"></div>
                                     <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%]" id="rectangle3">
                                         <div className="rounded-lg" id="ln2"></div>
                                     </div>
