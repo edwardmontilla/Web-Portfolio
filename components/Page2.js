@@ -110,15 +110,13 @@ const Page2 = () => {
                         <div className="flex justify-center col-span-2 col-start-1 row-start-4 mt-[-8rem]">
                             <h2 className="z-40 text-4xl text-white lnFont" id="proj-heading">Projects and Other Works</h2>
                         </div>
+
+                        <div className="mt-[40px] col-span-1 col-start-1 row-start-4 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">                        
                         <div>
                             <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc44">Miggy&apos; Munchies</p>
                             <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc44">(Food Ordering Webapp)</p>
                         </div>
-                        <div>
-                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc55">Online Business Profit Calculator</p>
-                        </div>
-
-                        <div className="mt-[40px] col-span-1 col-start-1 row-start-4 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">  
+ 
                             <div className="lbox rounded-xl bg-primary/50 absolute top-[5%] right-[10%] backdrop-blur-[6px]" id="back-box">back box</div>
                                 <div className="lbox rounded-xl border-[1px] opacity-75 absolute top-[14%] right-[14%] backdrop-blur-[6px]" id="mg3"></div>
                                     <div className="border-[1px] border-background rounded-xl shadow-lg shadow-background/25 lbox absolute top-[25%] right-[15%]" id="rectangle2">
@@ -131,6 +129,10 @@ const Page2 = () => {
 
         {/* 4th Row */}
                         <div className="mt-[40px] col-span-1 col-start-2 row-start-4 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
+                        <div>
+                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc55">Online Business Profit Calculator</p>
+                        </div>
+
                             <div className="rbox rounded-xl bg-primary/50 absolute top-[5%] left-[10%] backdrop-blur-[6px]" id="back-box">back box</div>
                                 <div className="rbox rounded-xl border-[1px] opacity-75 absolute top-[14%] left-[14%] backdrop-blur-[6px]" id="py3"></div>
                                     <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%]" id="rectangle3">
@@ -142,7 +144,10 @@ const Page2 = () => {
                         </div>
 
         {/* 5th Row */}
-                        <div className="mt-[40px] col-span-1 col-start-1 row-start-5 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">  
+                        <div className="mt-[40px] col-span-1 col-start-1 row-start-5 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
+                        <div>
+                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc66">Fan-made Website from a video game series</p>
+                        </div> 
                             <div className="lbox rounded-xl bg-primary/50 absolute top-[5%] right-[10%] backdrop-blur-[6px]" id="back-box">back box</div>
                                 <div className="lbox rounded-xl border-[1px] opacity-75 absolute top-[14%] right-[14%] backdrop-blur-[6px]" id="ln3"></div>
                                     <div className="border-[1px] border-background rounded-xl shadow-lg shadow-background/25 lbox absolute top-[25%] right-[15%]" id="rectangle4">

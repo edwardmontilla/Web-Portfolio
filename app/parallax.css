@@ -656,17 +656,17 @@
     #rectangle2 { /* Miggy box in projects */
         width: 60%;
         height: 50%;
-        transform: translate(15%, -68%);
+        transform: translate(15%, -28%);
     }
     #rectangle3 { /* Python box in projects */
         width: 60%;
         height: 50%;
-        transform: translate(-15%, -160%);
+        transform: translate(-15%, -140%);
     }
     #rectangle4 { /* Little Nightmares box in projects */
         width: 60%;
         height: 50%;
-        transform: translate(15%, -180%);
+        transform: translate(15%, -240%);
     }
     #rectangle5 { /* last project boxes in projects */
         width: 60%;
@@ -681,19 +681,19 @@
     }
     #mobile-desc44 { /* miggy description */
         text-align: center;
-        transform: translate(1%, 200px);
+        transform: translate(1%, -50px);
         white-space: wrap;
         line-height: 1.6;
     }
     #mobile-desc55 { /* python description */
         text-align: center;
-        transform: translate(1%, 480px);
+        transform: translate(1%, -223px);
         white-space: wrap;
         line-height: 1.6;
     }
     #mobile-desc66 { /* little nightmares description */
         text-align: center;
-        transform: translate(1%, -10%);
+        transform: translate(1%, -430px);
         white-space: wrap;
         line-height: 1.6;
     }
