@@ -113,7 +113,7 @@ const Page2 = () => {
 
                         <div className="mt-[40px] col-span-1 col-start-1 row-start-4 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">                        
                         <div>
-                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc44">Miggy&apos; Munchies</p>
+                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc44">Miggy&apos;s Munchies</p>
                             <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc44">(Food Ordering Webapp)</p>
                         </div>
  
