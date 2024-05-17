@@ -666,12 +666,12 @@
     #rectangle4 { /* Little Nightmares box in projects */
         width: 60%;
         height: 50%;
-        transform: translate(15%, -252%);
+        transform: translate(15%, -255%);
     }
     #rectangle5 { /* last project boxes in projects */
         width: 60%;
         height: 50%;
-        transform: translate(-15%, -365%);
+        transform: translate(-15%, -368%);
     }
     #mobile-desc4, #mobile-desc5, #mobile-desc6, #mobile-desc7 { /* hide desktop description */
         display: none;
@@ -693,13 +693,13 @@
     }
     #mobile-desc66 { /* little nightmares description */
         text-align: center;
-        transform: translate(1%, -453px);
+        transform: translate(1%, -456px);
         white-space: wrap;
         line-height: 1.6;
     }
     #mobile-desc77 { /* last project description */
         text-align: center;
-        transform: translate(1%, -10%);
+        transform: translate(1%, -700px);
         white-space: wrap;
         line-height: 1.6;
     }

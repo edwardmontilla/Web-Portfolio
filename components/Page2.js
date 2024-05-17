@@ -160,6 +160,10 @@ const Page2 = () => {
                         
         {/* 5th Row */}
                         <div className="mt-[40px] col-span-1 col-start-2 row-start-5 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
+                        <div>
+                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc77">Project/Work description here</p>
+                        </div>
+
                             <div className="rbox rounded-xl bg-primary/50 absolute top-[5%] left-[10%] backdrop-blur-[6px]" id="back-box">back box</div>
                                 <div className="rbox rounded-xl border-[1px] opacity-75 absolute top-[14%] left-[14%] backdrop-blur-[6px]" id="">add img here</div>
                                     <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%]" id="rectangle5">

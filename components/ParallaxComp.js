@@ -211,7 +211,6 @@ const ParallaxComp = () => {
                                         <p className="mt-24 text-lg text-right text-white translate-x-[-2rem] metropolisR" id="mobile-desc7">
                                             Project/Work description here
                                         </p>
-                                        <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc77">Project/Work description here</p>
                                     </div>
 
                                 </div>
@@ -224,7 +223,7 @@ const ParallaxComp = () => {
 
 
 {/* Footer is set at the last Page */}
-            <ParallaxLayer offset={3.8} speed={0}>
+            <ParallaxLayer offset={4} speed={0}>
                 <Footer />
             </ParallaxLayer>
         </Parallax>
