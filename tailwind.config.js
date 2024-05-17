@@ -66,12 +66,6 @@ module.exports = {
           '0%': { opacity: 0, transform: 'translateY(-65%)'},
           '100%': { opacity: 1, transform: 'translateY(0)'},
         },
-        fish: {
-          '0%': { opacity: 0, transform: 'translateX(0%)'},
-          '6%': { opacity: 1, transform: 'translateX(0%)' },
-          '80%': { transform: 'translateX(400%)' },
-          '95%, 100%': { opacity: 0, transform: 'translateX(0%)' },
-        },
         fadeInOut: {
           '0%, 20%, 80%, 100%': { opacity: 0 },
           '25%, 75%': { opacity: 1 },
@@ -86,13 +80,18 @@ module.exports = {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(1%)' },
         },
+        fish: { //change rotation degree and X position if need be
+          '0%, 100%': { transform: 'translateX(-25%) rotate(3deg)' },
+          '50%': { transform: 'translate(0) rotate(-5deg)' },
+        },
+        // add bubbles animation
 
       },
 
 // added default Tailwind animations
       animation: {
         bounce: 'bounce 1s infinite',
-        wiggle: 'wiggle 0.5s ease-in-out infinite',
+        wiggle: 'wiggle 4s ease-in-out infinite',
         pulse: 'pulse 2s infinite',
         ping: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
 
@@ -101,12 +100,13 @@ module.exports = {
         slideFadeLeft: 'slideFadeRight 2s',
         slideFadeUp: 'slideFadeUp 1.5s ease-in-out',
         slideFadeDown: 'slideFadeDown 1.5s ease-in-out',
-        fish: 'fish 4s ease-in-out infinite',
         fadeInOut: 'fadeInOut 10s ease-in-out infinite',
 
 // animation for waves svg
         float: 'float 4s ease-in-out infinite',
         float2: 'float2 4s ease-in-out infinite',
+        fish: 'fish 4s ease-in-out infinite',
+        // add bubbles animation
 
       },
 

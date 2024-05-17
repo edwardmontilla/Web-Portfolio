@@ -1,7 +1,6 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Page2 from "./Page2";
-import Page3 from "./Page3";
 import Footer from "./Footer";
 
 
@@ -42,17 +41,17 @@ const ParallaxComp = () => {
             <ParallaxLayer offset={0} speed={0.15}>
                 <div className="plxlayer parallax animate-float2" id="wave-4"></div>
             </ParallaxLayer>
+            <ParallaxLayer offset={0} speed={0.2}>
+                <div className="plxlayer parallax animate-fish" id="blowfish"></div> {/* blowfish */}
+            </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0.19}>
                 <div className="plxlayer parallax animate-float" id="wave-3"></div>
-            </ParallaxLayer>
-            <ParallaxLayer offset={0} speed={0.2}>
-                <div className="plxlayer parallax animate-fish"></div>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0.1}>
                 <div className="plxlayer parallax animate-float" id="wave-1"></div>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0}>
-                <div className="translate-y-4 plxlayer parallax" id="wave-000"></div>
+                <div className="translate-y-4 plxlayer parallax" id="wave-000"></div> {/* wave cover*/}
             </ParallaxLayer>
 
 {/* About Me */}
