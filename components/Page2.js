@@ -112,7 +112,7 @@ const Page2 = () => {
                         </div>
 
                         <div className="mt-[40px] col-span-1 col-start-1 row-start-4 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">  
-                            <div className="lbox rounded-xl bg-primary/50 absolute top-[5%] right-[10%] backdrop-blur-[6px]">back box</div>
+                            <div className="lbox rounded-xl bg-primary/50 absolute top-[5%] right-[10%] backdrop-blur-[6px]" id="back-box">back box</div>
                                 <div className="lbox rounded-xl border-[1px] opacity-75 absolute top-[14%] right-[14%] backdrop-blur-[6px]" id="mg3"></div>
                                     <div className="border-[1px] border-background rounded-xl shadow-lg shadow-background/25 lbox absolute top-[25%] right-[15%]" id="rectangle2">
                                         <div className="rounded-lg" id="mg2"></div>
@@ -124,7 +124,7 @@ const Page2 = () => {
 
         {/* 4th Row */}
                         <div className="mt-[40px] col-span-1 col-start-2 row-start-4 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
-                            <div className="rbox rounded-xl bg-primary/50 absolute top-[5%] left-[10%] backdrop-blur-[6px]">back box</div>
+                            <div className="rbox rounded-xl bg-primary/50 absolute top-[5%] left-[10%] backdrop-blur-[6px]" id="back-box">back box</div>
                                 <div className="rbox rounded-xl border-[1px] opacity-75 absolute top-[14%] left-[14%] backdrop-blur-[6px]" id="py3"></div>
                                     <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%]" id="rectangle3">
                                         <div className="rounded-lg" id="py2"></div>
@@ -136,7 +136,7 @@ const Page2 = () => {
 
         {/* 5th Row */}
                         <div className="mt-[40px] col-span-1 col-start-1 row-start-5 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">  
-                            <div className="lbox rounded-xl bg-primary/50 absolute top-[5%] right-[10%] backdrop-blur-[6px]">back box</div>
+                            <div className="lbox rounded-xl bg-primary/50 absolute top-[5%] right-[10%] backdrop-blur-[6px]" id="back-box">back box</div>
                                 <div className="lbox rounded-xl border-[1px] opacity-75 absolute top-[14%] right-[14%] backdrop-blur-[6px]" id="ln3"></div>
                                     <div className="border-[1px] border-background rounded-xl shadow-lg shadow-background/25 lbox absolute top-[25%] right-[15%]" id="rectangle2">
                                         <div className="rounded-lg" id="ln2"></div>
@@ -148,7 +148,7 @@ const Page2 = () => {
                         
         {/* 5th Row */}
                         <div className="mt-[40px] col-span-1 col-start-2 row-start-5 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
-                            <div className="rbox rounded-xl bg-primary/50 absolute top-[5%] left-[10%] backdrop-blur-[6px]">back box</div>
+                            <div className="rbox rounded-xl bg-primary/50 absolute top-[5%] left-[10%] backdrop-blur-[6px]" id="back-box">back box</div>
                                 <div className="rbox rounded-xl border-[1px] opacity-75 absolute top-[14%] left-[14%] backdrop-blur-[6px]" id="">add img here</div>
                                     <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%]" id="rectangle3">
                                         <div className="rounded-lg" id="">2</div>
