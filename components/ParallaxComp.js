@@ -172,7 +172,7 @@ const ParallaxComp = () => {
                                     
                                     <div className="rbox2"> {/* added this here for now */}
                                         <p className="mt-24 text-lg text-white translate-x-8 metropolisR">
-                                            A capstone project built to simplify operations with a dedicated web app, automating ordering and payment 
+                                            A capstone project built to simplify food ordering operations with a dedicated web app, automating ordering and payment 
                                             for enhanced convenience.
                                         </p>
                                     </div>
