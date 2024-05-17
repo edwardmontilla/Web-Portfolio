@@ -146,7 +146,8 @@ const Page2 = () => {
         {/* 5th Row */}
                         <div className="mt-[40px] col-span-1 col-start-1 row-start-5 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
                         <div>
-                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc66">Fan-made Website from a video game series</p>
+                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc66">Fan-made Website from a video</p>
+                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc66"> game series</p>
                         </div> 
                             <div className="lbox rounded-xl bg-primary/50 absolute top-[5%] right-[10%] backdrop-blur-[6px]" id="back-box">back box</div>
                                 <div className="lbox rounded-xl border-[1px] opacity-75 absolute top-[14%] right-[14%] backdrop-blur-[6px]" id="ln3"></div>
