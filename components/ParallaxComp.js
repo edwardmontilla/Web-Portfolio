@@ -169,8 +169,8 @@ const ParallaxComp = () => {
                                             A capstone project built to simplify food ordering operations with a dedicated web app, automating ordering and payment 
                                             for enhanced convenience.
                                         </p>
-                                        <p className="text-base text-white translate-x-2 metropolisR" id="mobiles-desc44">Miggy&apos; Munchies</p>
-                                            <p className="text-base text-white translate-x-2 metropolisR">(Food Ordering Webapp)</p>
+                                        <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc44">Miggy&apos; Munchies</p>
+                                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc44">(Food Ordering Webapp)</p>
                                     </div>
                                 </div>
                                 
@@ -180,7 +180,7 @@ const ParallaxComp = () => {
                                         <p className="mt-24 text-lg text-right text-white translate-x-[-2rem] metropolisR" id="mobile-desc5">
                                             An application to calculate an online retail business&apos; daily profits.
                                         </p>
-                                        <p className="text-base text-white translate-x-2 metropolisR" id="mobiles-desc55">Online Business Profit Calculator</p>
+                                        <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc55">Online Business Profit Calculator</p>
 
                                     </div>
 
@@ -205,7 +205,7 @@ const ParallaxComp = () => {
                                         <p className="mt-24 text-lg text-white translate-x-8 metropolisR" id="mobile-desc6">
                                             This is a fan-made simple website for a game series called Little Nightmares built for fun.
                                         </p>
-                                        <p className="text-base text-white translate-x-2 metropolisR" id="mobiles-desc66">Fan-made Website from a video game series</p>
+                                        <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc66">Fan-made Website from a video game series</p>
 
                                     </div>
                                 </div>
@@ -217,7 +217,7 @@ const ParallaxComp = () => {
                                         <p className="mt-24 text-lg text-right text-white translate-x-[-2rem] metropolisR" id="mobile-desc7">
                                             Project/Work description here
                                         </p>
-                                        <p className="text-base text-white translate-x-2 metropolisR" id="mobiles-desc77">Project/Work description here</p>
+                                        <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc77">Project/Work description here</p>
                                     </div>
 
                                 </div>

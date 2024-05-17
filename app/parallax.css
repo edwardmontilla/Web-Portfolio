@@ -487,7 +487,7 @@
     align-items: center;
     justify-content: center;
 }
-#mobile-desc1, #mobile-desc2, #mobile-desc3 {
+#mobile-desc4, #mobile-desc5, #mobile-desc6, #mobile-desc7 {
     display: block;
 }
 #mobile-desc44, #mobile-desc55, #mobile-desc66, #mobile-desc77 {
@@ -687,31 +687,28 @@
     #mobile-desc4, #mobile-desc5, #mobile-desc6, #mobile-desc7 { /* initial desktop description */
         display: none;
     }
-    #mobile-desc44 { /* capstone description */
+    #mobile-desc44, #mobile-desc55, #mobile-desc66, #mobile-desc77 { /* show mobile description */
         display: block;
+    }
+    #mobile-desc44 { /* capstone description */
         text-align: center;
         transform: translate(1%, 145%);
         white-space: wrap;
         line-height: 1.6;
     }
     #mobile-desc55 { /* python description */
-        display: block;
         text-align: center;
         transform: translate(1%, 50%);
         white-space: wrap;
         line-height: 1.6;
     }
     #mobile-desc66 { /* little nightmares description */
-        display: block;
-        font-size: 0.8rem;
         text-align: center;
         transform: translate(1%, -10%);
         white-space: wrap;
         line-height: 1.6;
     }
     #mobile-desc77 { /* last project description */
-        display: block;
-        font-size: 0.8rem;
         text-align: center;
         transform: translate(1%, -10%);
         white-space: wrap;
