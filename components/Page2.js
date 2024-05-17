@@ -137,15 +137,16 @@ const Page2 = () => {
         {/* 5th Row */}
                         <div className="mt-[40px] col-span-1 col-start-1 row-start-5 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">  
                             <div className="lbox rounded-xl bg-primary/50 absolute top-[5%] right-[10%] backdrop-blur-[6px]">back box</div>
-                                <div className="lbox rounded-xl border-[1px] opacity-75 absolute top-[14%] right-[14%] backdrop-blur-[6px]" id="">add img here</div>
+                                <div className="lbox rounded-xl border-[1px] opacity-75 absolute top-[14%] right-[14%] backdrop-blur-[6px]" id="py3"></div>
                                     <div className="border-[1px] border-background rounded-xl shadow-lg shadow-background/25 lbox absolute top-[25%] right-[15%]" id="rectangle2">
-                                        <div className="rounded-lg" id="">second img</div>
+                                        <div className="rounded-lg" id="py2"></div>
                                     </div>
                                     <div className="border-[1px] border-background rounded-xl shadow-lg shadow-background/25 lbox absolute top-[25%] right-[15%] animate-fadeInOut" id="rectangle2">
-                                        <div className="rounded-lg" id="">front img</div>
+                                        <div className="rounded-lg" id="py1"></div>
                                     </div>
                         </div>
-
+                        
+        {/* 5th Row */}
                         <div className="mt-[40px] col-span-1 col-start-2 row-start-5 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
                             <div className="rbox rounded-xl bg-primary/50 absolute top-[5%] left-[10%] backdrop-blur-[6px]">back box</div>
                                 <div className="rbox rounded-xl border-[1px] opacity-75 absolute top-[14%] left-[14%] backdrop-blur-[6px]" id="">add img here</div>

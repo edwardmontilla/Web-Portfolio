@@ -190,7 +190,33 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-
+}
+#py1 {
+    background-image: url(/images/py1.png);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+#py2 {
+    background-image: url(/images/py2.png);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+#py3 {
+    background-image: url(/images/py3.png);
+    width: 440px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
 }
 
 /* ---------- Laptop 1920 x 1080 (default) ---------- */
