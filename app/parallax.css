@@ -687,19 +687,19 @@
     }
     #mobile-desc55 { /* python description */
         text-align: center;
-        transform: translate(1%, -238px);
+        transform: translate(1%, -240px);
         white-space: wrap;
         line-height: 1.6;
     }
     #mobile-desc66 { /* little nightmares description */
         text-align: center;
-        transform: translate(1%, -456px);
+        transform: translate(1%, -460px);
         white-space: wrap;
         line-height: 1.6;
     }
     #mobile-desc77 { /* last project description */
         text-align: center;
-        transform: translate(1%, -700px);
+        transform: translate(1%, -680px);
         white-space: wrap;
         line-height: 1.6;
     }
