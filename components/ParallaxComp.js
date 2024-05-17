@@ -169,8 +169,6 @@ const ParallaxComp = () => {
                                             A capstone project built to simplify food ordering operations with a dedicated web app, automating ordering and payment 
                                             for enhanced convenience.
                                         </p>
-                                        <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc44">Miggy&apos; Munchies</p>
-                                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc44">(Food Ordering Webapp)</p>
                                     </div>
                                 </div>
                                 
@@ -180,8 +178,6 @@ const ParallaxComp = () => {
                                         <p className="mt-24 text-lg text-right text-white translate-x-[-2rem] metropolisR" id="mobile-desc5">
                                             An application to calculate an online retail business&apos; daily profits.
                                         </p>
-                                        <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc55">Online Business Profit Calculator</p>
-
                                     </div>
 
                                 </div>
