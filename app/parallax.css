@@ -475,7 +475,7 @@
 /* --------------- screen size adjustments --------------- */
 
 /* ---------- For my Android phone ---------- */
-/* ---------- 360 x 613 ---------- */
+/* ---------- 360 x 613 (665 for projects)---------- */
 @media screen and (min-width: 360px) and (max-width: 400px) and (max-height:760px) {
     nav {
         font-size: 0.8rem;
@@ -666,12 +666,12 @@
     #rectangle4 { /* Little Nightmares box in projects */
         width: 60%;
         height: 50%;
-        transform: translate(15%, -240%);
+        transform: translate(15%, -252%);
     }
     #rectangle5 { /* last project boxes in projects */
         width: 60%;
         height: 50%;
-        transform: translate(-15%, -180%);
+        transform: translate(-15%, -365%);
     }
     #mobile-desc4, #mobile-desc5, #mobile-desc6, #mobile-desc7 { /* hide desktop description */
         display: none;
@@ -687,13 +687,13 @@
     }
     #mobile-desc55 { /* python description */
         text-align: center;
-        transform: translate(1%, -223px);
+        transform: translate(1%, -238px);
         white-space: wrap;
         line-height: 1.6;
     }
     #mobile-desc66 { /* little nightmares description */
         text-align: center;
-        transform: translate(1%, -430px);
+        transform: translate(1%, -453px);
         white-space: wrap;
         line-height: 1.6;
     }
