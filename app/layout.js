@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import './globals.css';
 import './parallax.css';
 import NavMenu from "@/components/NavMenu";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
   title: 'Edward Montilla',
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
  return (
   <html>
     <body>
+      <Analytics />
       {/* <Header NavMenu={<NavMenu />} /> */}
       {children}
       {/* <Footer /> */}

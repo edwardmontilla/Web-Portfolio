@@ -108,12 +108,12 @@ const Page2 = () => {
     {/* PROJECTS */}
         {/* 4th Row */}
                         <div className="flex justify-center col-span-2 col-start-1 row-start-4 mt-[-8rem]">
-                            <h2 className="z-40 text-4xl text-white lnFont" id="proj-heading">Projects</h2>
+                            <h2 className="z-40 text-4xl text-white lnFont" id="proj-heading">Projects and Other Works</h2>
                         </div>
 
                         <div className="mt-[40px] col-span-1 col-start-1 row-start-4 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">  
                             <div className="lbox rounded-xl bg-primary/50 absolute top-[5%] right-[10%] backdrop-blur-[6px]">back box</div>
-                                <div className="lbox rounded-xl border-[1px] opacity-75 absolute top-[14%] right-[14%] backdrop-blur-[6px]" id="bgFull"></div>
+                                <div className="lbox rounded-xl border-[1px] opacity-75 absolute top-[14%] right-[14%] backdrop-blur-[6px]" id="mg3"></div>
                                     <div className="border-[1px] border-background rounded-xl shadow-lg shadow-background/25 lbox absolute top-[25%] right-[15%]" id="rectangle2">
                                         <div className="rounded-lg" id="mg2"></div>
                                     </div>
@@ -125,24 +125,24 @@ const Page2 = () => {
         {/* 4th Row */}
                         <div className="mt-[40px] col-span-1 col-start-2 row-start-4 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
                             <div className="rbox rounded-xl bg-primary/50 absolute top-[5%] left-[10%] backdrop-blur-[6px]">back box</div>
-                                <div className="rbox rounded-xl border-[1px] opacity-75 absolute top-[14%] left-[14%] backdrop-blur-[6px]" id="ln3"></div>
+                                <div className="rbox rounded-xl border-[1px] opacity-75 absolute top-[14%] left-[14%] backdrop-blur-[6px]" id="py3"></div>
                                     <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%]" id="rectangle3">
-                                        <div className="rounded-lg" id="ln2"></div>
+                                        <div className="rounded-lg" id="py2"></div>
                                     </div>
                                     <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%] animate-fadeInOut animation-delay-2000" id="rectangle3">
-                                        <div className="rounded-lg" id="ln1"></div>
+                                        <div className="rounded-lg" id="py1"></div>
                                     </div>
                         </div>
 
         {/* 5th Row */}
                         <div className="mt-[40px] col-span-1 col-start-1 row-start-5 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">  
                             <div className="lbox rounded-xl bg-primary/50 absolute top-[5%] right-[10%] backdrop-blur-[6px]">back box</div>
-                                <div className="lbox rounded-xl border-[1px] opacity-75 absolute top-[14%] right-[14%] backdrop-blur-[6px]" id="py3"></div>
+                                <div className="lbox rounded-xl border-[1px] opacity-75 absolute top-[14%] right-[14%] backdrop-blur-[6px]" id="ln3"></div>
                                     <div className="border-[1px] border-background rounded-xl shadow-lg shadow-background/25 lbox absolute top-[25%] right-[15%]" id="rectangle2">
-                                        <div className="rounded-lg" id="py2"></div>
+                                        <div className="rounded-lg" id="ln2"></div>
                                     </div>
-                                    <div className="border-[1px] border-background rounded-xl shadow-lg shadow-background/25 lbox absolute top-[25%] right-[15%] animate-fadeInOut" id="rectangle2">
-                                        <div className="rounded-lg" id="py1"></div>
+                                    <div className="border-[1px] border-background rounded-xl shadow-lg shadow-background/25 lbox absolute top-[25%] right-[15%] animate-fadeInOut animation-delay-2000" id="rectangle2">
+                                        <div className="rounded-lg" id="ln1"></div>
                                     </div>
                         </div>
                         
@@ -151,10 +151,10 @@ const Page2 = () => {
                             <div className="rbox rounded-xl bg-primary/50 absolute top-[5%] left-[10%] backdrop-blur-[6px]">back box</div>
                                 <div className="rbox rounded-xl border-[1px] opacity-75 absolute top-[14%] left-[14%] backdrop-blur-[6px]" id="">add img here</div>
                                     <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%]" id="rectangle3">
-                                        <div className="rounded-lg" id="">second img</div>
+                                        <div className="rounded-lg" id="">2</div>
                                     </div>
-                                    <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%] animate-fadeInOut animation-delay-2000" id="rectangle3">
-                                        <div className="rounded-lg" id="">front img</div>
+                                    <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%] animate-fadeInOut" id="rectangle3">
+                                        <div className="rounded-lg" id="">1</div>
                                     </div>
                         </div>
 

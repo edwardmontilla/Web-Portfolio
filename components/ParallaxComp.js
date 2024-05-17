@@ -73,7 +73,7 @@ const ParallaxComp = () => {
             {/* 1st row */}
             <ParallaxLayer offset={1.62} speed={0.33}>
                 <div id="page-block2">
-                    <div id="page-container2" className="">
+                    <div id="page-container2">
                         <div className="flex justify-center h-full">
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-2">
@@ -99,7 +99,7 @@ const ParallaxComp = () => {
             {/* 2nd row */}
             <ParallaxLayer offset={2} speed={0.33}>
                 <div id="page-block2">
-                    <div id="page-container2" className="">
+                    <div id="page-container2">
                         <div className="flex justify-center h-full">
                             <div className="grid grid-rows-1">
                                 <div className="col-span-1 col-start-1 row-start-1">
@@ -159,18 +159,13 @@ const ParallaxComp = () => {
             {/* 4th row */}
             <ParallaxLayer offset={3.05} speed={0.33}>
                 <div id="page-block2">
-                    <div id="page-container2" className="">
+                    <div id="page-container2">
                         <div className="flex justify-center h-full">
                             <div className="grid grid-rows-1">
-                                <div className="col-span-1 col-start-1 row-start-1">
 
-                                    {/* <div className="rbox2" id="titleL"> <--- rbox2 was removed here --->
-                                        <p className="box-content rounded-md h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
-                                            Projects
-                                        </p>
-                                    </div> */}
-                                    
-                                    <div className="rbox2"> {/* added this here for now */}
+                        {/* 1 */}
+                                <div className="col-span-1 col-start-1 row-start-1">
+                                    <div className="rbox2">
                                         <p className="mt-24 text-lg text-white translate-x-8 metropolisR">
                                             A capstone project built to simplify food ordering operations with a dedicated web app, automating ordering and payment 
                                             for enhanced convenience.
@@ -178,10 +173,11 @@ const ParallaxComp = () => {
                                     </div>
                                 </div>
                                 
+                        {/* 2 */}
                                 <div className="col-span-1 col-start-2 row-start-1">
-                                    <div className="lbox2"> {/* added this here for now */}
+                                    <div className="lbox2">
                                         <p className="mt-24 text-lg text-right text-white translate-x-[-2rem] metropolisR">
-                                            This is a fan-made website for a game series called Little Nightmares, built for fun.
+                                            An application to calculate an online retail business' daily profits.
                                         </p>
                                     </div>
 
@@ -198,25 +194,23 @@ const ParallaxComp = () => {
                     <div id="page-container2" className="">
                         <div className="flex justify-center h-full">
                             <div className="grid grid-rows-1">
-                                <div className="col-span-1 col-start-1 row-start-1">
 
-                                    {/* <div className="rbox2" id="titleL"> <--- rbox2 was removed here --->
-                                        <p className="box-content rounded-md h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
-                                            Projects
-                                        </p>
-                                    </div> */}
-                                    
-                                    <div className="rbox2"> {/* added this here for now */}
+                        {/* 3 */}
+                        
+                                <div className="col-span-1 col-start-1 row-start-1"> 
+                                    <div className="rbox2">
                                         <p className="mt-24 text-lg text-white translate-x-8 metropolisR">
-                                            Project description here
+                                            This is a fan-made simple website for a game series called Little Nightmares built for fun.
                                         </p>
                                     </div>
                                 </div>
                                 
+                                
+                        {/* 4 */}
                                 <div className="col-span-1 col-start-2 row-start-1">
-                                    <div className="lbox2"> {/* added this here for now */}
+                                    <div className="lbox2">
                                         <p className="mt-24 text-lg text-right text-white translate-x-[-2rem] metropolisR">
-                                            Project description here
+                                            Project/Work description here
                                         </p>
                                     </div>
 

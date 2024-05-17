@@ -6,7 +6,7 @@ import React, { useState, useEffect } from "react";
 import Header from "@/components/Header";
 import NavMenu from "@/components/NavMenu";
 import ParallaxComp from "@/components/ParallaxComp";
-
+import { Analytics } from "@vercel/analytics/react"
 
 
 
@@ -32,9 +32,11 @@ export default function Home() {
   return (
     <>
       <section>
+        <Analytics />
         <Header NavMenu={<NavMenu />} />
 
         <ParallaxComp />
+        
         {/* Footer */}
       </section>
     </>
