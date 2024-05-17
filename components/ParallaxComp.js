@@ -25,7 +25,7 @@ const ParallaxComp = () => {
     const parallaxRef = React.useRef(null);
     
     return (
-        <Parallax pages={4.5} style={{ top: '0', left: '0' }} className="bg-white">
+        <Parallax pages={4.8} style={{ top: '0', left: '0' }} className="bg-white">
 
 {/* Page 1 */}
 {/* Welcome text */}
@@ -181,7 +181,7 @@ const ParallaxComp = () => {
                                 <div className="col-span-1 col-start-2 row-start-1">
                                     <div className="lbox2"> {/* added this here for now */}
                                         <p className="mt-24 text-lg text-right text-white translate-x-[-2rem] metropolisR">
-                                            This is a fan-made website for a game series called Little Nightmares, utilizing a combination of HTML and CSS only.
+                                            This is a fan-made website for a game series called Little Nightmares, built for fun.
                                         </p>
                                     </div>
 
@@ -192,27 +192,45 @@ const ParallaxComp = () => {
                 </div>
             </ParallaxLayer>
 
-            {/* 5th row
-            <ParallaxLayer offset={3} speed={0.33}>
+            {/* 5th row */}
+            <ParallaxLayer offset={3.79} speed={0.33}>
                 <div id="page-block2">
                     <div id="page-container2" className="">
                         <div className="flex justify-center h-full">
                             <div className="grid grid-rows-1">
-                                <div className="col-span-1 col-start-2 row-start-1">
-                                    <div className="lbox2" id="titleR">
-                                        <p className="box-content h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">Full Stack Development</p>
+                                <div className="col-span-1 col-start-1 row-start-1">
+
+                                    {/* <div className="rbox2" id="titleL"> <--- rbox2 was removed here --->
+                                        <p className="box-content rounded-md h-12 p-3 text-2xl text-white border-2 border-background/25 bg-middle/75 backdrop-blur-[6px] lnFont">
+                                            Projects
+                                        </p>
+                                    </div> */}
+                                    
+                                    <div className="rbox2"> {/* added this here for now */}
+                                        <p className="mt-24 text-lg text-white translate-x-8 metropolisR">
+                                            Project description here
+                                        </p>
                                     </div>
+                                </div>
+                                
+                                <div className="col-span-1 col-start-2 row-start-1">
+                                    <div className="lbox2"> {/* added this here for now */}
+                                        <p className="mt-24 text-lg text-right text-white translate-x-[-2rem] metropolisR">
+                                            Project description here
+                                        </p>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </ParallaxLayer> */}
+            </ParallaxLayer>
 
 
 
 {/* Footer is set at the last Page */}
-            <ParallaxLayer offset={3.5} speed={0}>
+            <ParallaxLayer offset={3.8} speed={0}>
                 <Footer />
             </ParallaxLayer>
         </Parallax>
