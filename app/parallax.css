@@ -638,8 +638,27 @@
     .bottom-icon {
         transform: translateY(20%);
         align-items: end;
+        justify-content: center;   
+    }
+    .middle-icon {
+        transform: translateY(22px);
+        display: flex;
         justify-content: center;
-        
+        align-items: center;
+
+    }
+    .cust-icon {
+        transform: translateY(20px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .cust-icon2 {
+        position: relative;
+        display: flex;
+        transform: translateY(20%);
+        right: 16.8%;
     }
 }
 
