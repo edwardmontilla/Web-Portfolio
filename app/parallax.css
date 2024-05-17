@@ -500,10 +500,10 @@
         transform: translateX(10%);
     }
     #blowfish {
-        width: 130px;
-        height: 130px;
+        width: 35px;
+        height: 35px;
         display: block;
-        top: 61%;
+        top: 17.5%;
         left: 58.3%;
     }
     #hello { /* Hello! */
