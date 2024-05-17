@@ -526,12 +526,12 @@
 
     #page-container, #page-block { /* Adjust the page after wave height */
         margin-top: -200px;
-        height: 500vh;
+        height: 450vh;
         width: 100%;
     }
     #page-container2, #page-block2 {
         margin-top: -200px;
-        height: 500vh;
+        height: 350vh;
         width: 50% auto;
     }
     .grid {

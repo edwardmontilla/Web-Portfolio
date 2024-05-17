@@ -24,7 +24,7 @@ const ParallaxComp = () => {
     const parallaxRef = React.useRef(null);
     
     return (
-        <Parallax pages={4.8} style={{ top: '0', left: '0' }} className="bg-white">
+        <Parallax pages={5} style={{ top: '0', left: '0' }} className="bg-white">
 
 {/* Page 1 */}
 {/* Welcome text */}
