@@ -146,7 +146,7 @@
     width: 440px;
     height: 250px;
     border-radius: 0.5rem; /* rounded-lg or 8px */
-    transform: translate(-2.5%, -2%); /* to move the rectangle and photo */
+    transform: translate(2.5%, -2%); /* to move the rectangle and photo */
 }
 
 /* ---------- Project Images ---------- */
