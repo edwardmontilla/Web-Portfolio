@@ -96,7 +96,7 @@ const ParallaxComp = () => {
             </ParallaxLayer>
 
             {/* 2nd row */}
-            <ParallaxLayer offset={2.1} speed={0.15}>
+            <ParallaxLayer offset={2} speed={0.15}>
                 <div id="page-block2">
                     <div id="page-container2">
                         <div className="flex justify-center h-full">
