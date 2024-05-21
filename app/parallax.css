@@ -368,7 +368,7 @@
     background: linear-gradient(180deg, rgba(39,55,77,1) 6%, rgba(100,125,153,1) 29%, rgba(45,64,89,1) 42%, rgba(26,40,61,1) 55%);
 }
 
-#page-container {
+#page-container {       /* height for the Titles/descriptions */
     /* border-color: rgb(99, 131, 131);
     border-width: 4px; */
     height: auto;
@@ -376,7 +376,7 @@
     margin: 0 auto;
     padding-top: 70px;
 }
-#page-container2 {
+#page-container2 {      /* height for the Titles/descriptions */
     /* border-color: rgb(99, 131, 131);
     border-width: 4px; */
     height: auto;
@@ -476,20 +476,70 @@
 /* ---------- For 2560 x 1440 reso ---------- */
 @media screen and (min-width: 2020px) and (min-height: 1150px ) {
     #blowfish {
-        width: 200px;
-        height: 200px;
+        width: 204px;
+        height: 204px;
         display: block;
         top: 61%;
         left: 58.3%;
     }
-    #about-me {
-        
+    #hello { /* Hello! */
+        font-size: 4.5rem;
+        margin-top: 10px;
+    }
+    #about-me { /*Edward Montilla */
         width: 30%;
         z-index:20;
         text-align: left;
         margin-top: 50px;
         margin-left: 70px;
     }
+    .top-icon { /* full stack icon */
+        transform: translate(-10%, -75%);
+        justify-content: center;
+    }
+    .bottom-icon { /* full stack icon */
+        transform: translate(6%, 75%);
+        align-items: end;
+        justify-content: center;   
+    }
+    .middle-icon { /* ui icon */
+        transform: translateY(2px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cust-icon { /* sait icon */
+        transform: translate(24px, -35px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .cust-icon2 { /* vfs icon */
+        position: relative;
+        display: flex;
+        justify-content: right;
+        transform: translate(56.5px, 10px);
+        right: 16.8%;
+    }
+    #page-container, #page-block { /* Adjust the page after wave height */
+        margin-top: -10px;
+        height: 400vh;
+        width: 100%;
+    }
+    #page-container2, #page-block2 { /* height for the Titles/descriptions */
+        margin-top: -200px;
+        height: 350vh;
+        width: 50% auto;
+    }
+    .rbox, .lbox, .rbox2, .lbox2 {
+        flex-direction: column;
+        width: 100%;
+        float: none;
+        min-width: 100%;
+    }
+    /* ---------- Projects Section ---------- */
+
     
 }
 
@@ -544,14 +594,14 @@
     }
     .text-4xl { /* Edward Montilla */
         font-size: 0.75rem;
-        z-index: 50;}
-
+        z-index: 50;
+    }
     #page-container, #page-block { /* Adjust the page after wave height */
         margin-top: -200px;
         height: 450vh;
         width: 100%;
     }
-    #page-container2, #page-block2 {
+    #page-container2, #page-block2 { /* height for the Titles/descriptions */
         margin-top: -200px;
         height: 350vh;
         width: 50% auto;
