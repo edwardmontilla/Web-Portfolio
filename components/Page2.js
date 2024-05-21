@@ -167,15 +167,15 @@ const Page2 = () => {
 
                             <div className="rbox rounded-xl bg-primary/50 absolute top-[5%] left-[10%] backdrop-blur-[6px]" id="back-box">back box</div>
                                 <div className="rbox rounded-xl border-[1px] opacity-75 absolute top-[14%] left-[14%] backdrop-blur-[6px]" id="ln3"></div>
-                                    <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%]" id="rectangle5">
+                                    <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[19.5%]" id="rectangle5">
                                         <div className="rounded-lg" id="ln2">2</div>
                                     </div>
-                                    <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%] animate-fadeInOut" id="rectangle5">
+                                    <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[19.5%] animate-fadeInOut" id="rectangle5">
                                         <div className="rounded-lg" id="ln1">1</div>
                                     </div>
                         </div>
 
-        {/* 6th Row we don't touch */}
+        {/*----- 6th Row we don't touch -----*/}
                         <div className="col-span-1 col-start-1 row-start-6">
                             <div className="invisible lbox">
                                 <img src="./images/cat.jpg" alt="image5" className="rounded-lg shadow-lg shadow-slate-900/50" />
