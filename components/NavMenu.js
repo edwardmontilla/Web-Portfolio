@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import About from "./About";
-import Projects from "./Projects";
+
 
 
 // add hover color
@@ -16,7 +15,7 @@ const NavMenu = () => {
                 </Link>
             </div>
             <div className="p-2">
-                <Link href="/About.js"> {/* Description about me on a separate page, might include photos of hobbies  */}
+                <Link href="./About.js"> {/* Description about me on a separate page, might include photos of hobbies  */}
                     About Me
                 </Link>
             </div>
