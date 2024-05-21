@@ -333,7 +333,6 @@
 }
 
 .plxlayer {             /* this is ParallaxLayer */
-    
     background-position: bottom-center;
     background-size: cover; /* instead of auto 1038px */
     background-repeat: no-repeat; /* ofc no repeat */
@@ -577,8 +576,7 @@
     }
     #hello { /* Hello! */
         font-size: 1.3rem;
-        margin-top: 10px;
-        
+        margin-top: 10px;        
     }
     #about-me { /*Edward Montilla */
         font-size: 1.3rem;
