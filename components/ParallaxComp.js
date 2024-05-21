@@ -70,7 +70,7 @@ const ParallaxComp = () => {
 {/* <Page3 contents/> */}
 {/* FRONT */}
             {/* 1st row */}
-            <ParallaxLayer offset={1.62} speed={0.33}>
+            <ParallaxLayer offset={1.62} speed={0.15}>
                 <div id="page-block2">
                     <div id="page-container2">
                         <div className="flex justify-center h-full">
@@ -96,7 +96,7 @@ const ParallaxComp = () => {
             </ParallaxLayer>
 
             {/* 2nd row */}
-            <ParallaxLayer offset={2} speed={0.33}>
+            <ParallaxLayer offset={2.1} speed={0.15}>
                 <div id="page-block2">
                     <div id="page-container2">
                         <div className="flex justify-center h-full">
@@ -122,7 +122,7 @@ const ParallaxComp = () => {
             </ParallaxLayer>
 
             {/* 3rd row */}
-            <ParallaxLayer offset={2.74} speed={0.33}>
+            <ParallaxLayer offset={2.74} speed={0.15}>
                 <div id="page-block2">
                     <div id="page-container2">
                         <div className="flex justify-center h-full">
@@ -156,7 +156,7 @@ const ParallaxComp = () => {
 
             {/* PROJECTS */}
             {/* 4th row */}
-            <ParallaxLayer offset={3.05} speed={0.33}>
+            <ParallaxLayer offset={3.05} speed={0.15}>
                 <div id="page-block2">
                     <div id="page-container2">
                         <div className="flex justify-center h-full">
@@ -188,7 +188,7 @@ const ParallaxComp = () => {
             </ParallaxLayer>
 
             {/* 5th row */}
-            <ParallaxLayer offset={3.79} speed={0.33}>
+            <ParallaxLayer offset={3.79} speed={0.15}>
                 <div id="page-block2">
                     <div id="page-container2" className="">
                         <div className="flex justify-center h-full">

@@ -383,7 +383,6 @@
     /* width: 75%;     for the grid */
     margin: 0 auto;
 }
-
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -464,6 +463,8 @@
     align-items: center;
     justify-content: center;
 }
+
+/* for mobile */
 #mobile-desc4, #mobile-desc5, #mobile-desc6, #mobile-desc7 { /* show desktop description */
     display: block;
 }
