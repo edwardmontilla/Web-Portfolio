@@ -188,7 +188,7 @@ const ParallaxComp = () => {
             </ParallaxLayer>
 
             {/* 5th row */}
-            <ParallaxLayer offset={3.79} speed={0.15}>
+            <ParallaxLayer offset={3.72} speed={0.15}>
                 <div id="page-block2">
                     <div id="page-container2" className="">
                         <div className="flex justify-center h-full">
@@ -210,6 +210,37 @@ const ParallaxComp = () => {
                                     <div className="lbox2">
                                         <p className="mt-24 text-lg text-right text-white translate-x-[-2rem] metropolisR" id="mobile-desc7">
                                             Project/Work description here
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ParallaxLayer>
+
+            {/* 6th row */}
+            <ParallaxLayer offset={4.2} speed={0.15}>
+                <div id="page-block2">
+                    <div id="page-container2">
+                        <div className="flex justify-center h-full">
+                            <div className="grid grid-rows-1">
+
+                        {/* 1 */}
+                                <div className="col-span-1 col-start-1 row-start-1">
+                                    <div className="rbox2">
+                                        <p className="mt-24 text-lg text-white translate-x-8 metropolisR" id="mobile-desc8">
+                                            description here
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                        {/* 2 */}
+                                <div className="col-span-1 col-start-2 row-start-1">
+                                    <div className="lbox2">
+                                        <p className="mt-24 text-lg text-right text-white translate-x-[-2rem] metropolisR" id="mobile-desc9">
+                                            description here
                                         </p>
                                     </div>
 

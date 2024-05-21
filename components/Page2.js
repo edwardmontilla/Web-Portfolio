@@ -175,7 +175,40 @@ const Page2 = () => {
                                     </div>
                         </div>
 
-        {/*----- 6th Row we don't touch -----*/}
+        {/* 6th Row */}
+                <div className="mt-[40px] col-span-1 col-start-1 row-start-6 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
+                        <div>
+                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc88">Fan-made Website from a video</p>
+                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc88"> game series</p>
+                        </div> 
+                            <div className="lbox rounded-xl bg-primary/50 absolute top-[5%] right-[10%] backdrop-blur-[6px]" id="back-box">back box</div>
+                                <div className="lbox rounded-xl border-[1px] opacity-75 absolute top-[14%] right-[14%] backdrop-blur-[6px]" id="ln3"></div>
+                                    <div className="border-[1px] border-background rounded-xl shadow-lg shadow-background/25 lbox absolute top-[25%] right-[15%]" id="rectangle6">
+                                        <div className="rounded-lg" id="ln2"></div>
+                                    </div>
+                                    <div className="border-[1px] border-background rounded-xl shadow-lg shadow-background/25 lbox absolute top-[25%] right-[15%] animate-fadeInOut animation-delay-2000" id="rectangle6">
+                                        <div className="rounded-lg" id="ln1"></div>
+                                    </div>
+                        </div>
+                        
+        {/* 6th Row */}
+                        <div className="mt-[40px] col-span-1 col-start-2 row-start-6 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
+                        <div>
+                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc99">Project/Work description here</p>
+                        </div>
+
+                            <div className="rbox rounded-xl bg-primary/50 absolute top-[5%] left-[10%] backdrop-blur-[6px]" id="back-box">back box</div>
+                                <div className="rbox rounded-xl border-[1px] opacity-75 absolute top-[14%] left-[14%] backdrop-blur-[6px]" id="ln3"></div>
+                                    <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%]" id="rectangle7">
+                                        <div className="rounded-lg" id="ln2">2</div>
+                                    </div>
+                                    <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%] animate-fadeInOut" id="rectangle7">
+                                        <div className="rounded-lg" id="ln1">1</div>
+                                    </div>
+                        </div>
+
+
+        {/*----- 7th Row we don't touch -----*/}
                         <div className="col-span-1 col-start-1 row-start-6">
                             <div className="invisible lbox">
                                 <img src="./images/cat.jpg" alt="image5" className="rounded-lg shadow-lg shadow-slate-900/50" />

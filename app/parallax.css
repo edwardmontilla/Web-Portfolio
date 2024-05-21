@@ -148,6 +148,20 @@
     border-radius: 0.5rem; /* rounded-lg or 8px */
     transform: translate(2.5%, -2%); /* to move the rectangle and photo */
 }
+#rectangle6 {
+    background-image: url(/images/rectangle2.svg);
+    width: 440px;
+    height: 250px;
+    border-radius: 0.5rem; /* rounded-lg or 8px */
+    transform: translate(-2.5%, -2%); /* to move the rectangle and photo */
+}
+#rectangle7 {
+    background-image: url(/images/rectangle2.svg);
+    width: 440px;
+    height: 250px;
+    border-radius: 0.5rem; /* rounded-lg or 8px */
+    transform: translate(2.5%, -2%); /* to move the rectangle and photo */
+}
 
 /* ---------- Project Images ---------- */
 #mg1 {
@@ -465,10 +479,10 @@
 }
 
 /* for mobile */
-#mobile-desc4, #mobile-desc5, #mobile-desc6, #mobile-desc7 { /* show desktop description */
+#mobile-desc4, #mobile-desc5, #mobile-desc6, #mobile-desc7, #mobile-desc8, #mobile-desc9 { /* show desktop description */
     display: block;
 }
-#mobile-desc44, #mobile-desc55, #mobile-desc66, #mobile-desc77 { /* hide mobile description */
+#mobile-desc44, #mobile-desc55, #mobile-desc66, #mobile-desc77, #mobile-desc88, #mobile-desc99 { /* hide mobile description */
     display: none;
 }
 
@@ -749,10 +763,10 @@
         height: 50%;
         transform: translate(-15%, -368%);
     }
-    #mobile-desc4, #mobile-desc5, #mobile-desc6, #mobile-desc7 { /* hide desktop description */
+    #mobile-desc4, #mobile-desc5, #mobile-desc6, #mobile-desc7, #mobile-desc8, #mobile-desc9 { /* hide desktop description */
         display: none;
     }
-    #mobile-desc44, #mobile-desc55, #mobile-desc66, #mobile-desc77 { /* show mobile description */
+    #mobile-desc44, #mobile-desc55, #mobile-desc66, #mobile-desc77, #mobile-desc88, #mobile-desc99 { /* show mobile description */
         display: block;
     }
     #mobile-desc44 { /* miggy description */
