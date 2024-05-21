@@ -473,6 +473,7 @@
 
 
 /* --------------- screen size adjustments --------------- */
+/* ---------- For 2560 x 1440 reso ---------- */
 @media screen and (min-width: 2020px) and (min-height: 1150px ) {
     #blowfish {
         width: 200px;
@@ -480,6 +481,14 @@
         display: block;
         top: 61%;
         left: 58.3%;
+    }
+    #about-me {
+        
+        width: 30%;
+        z-index:20;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 70px;
     }
     
 }
