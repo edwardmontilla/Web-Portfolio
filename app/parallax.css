@@ -758,7 +758,7 @@
     #mobile-desc44 { /* miggy description */
         font-size: 0.8rem;
         text-align: center;
-        transform: translate(1%, -50px);
+        transform: translate(1%, -45px);
         white-space: wrap;
         line-height: 1.6;
     }
@@ -772,7 +772,7 @@
     #mobile-desc66 { /* little nightmares description */
         font-size: 0.8rem;
         text-align: center;
-        transform: translate(1%, -485px);
+        transform: translate(1%, -475px);
         white-space: wrap;
         line-height: 1.6;
     }
