@@ -763,6 +763,17 @@
         height: 50%;
         transform: translate(-15%, -368%);
     }
+    /* fix rectangle6 and rectangle7 */
+    #rectangle4 { /* Little Nightmares box in projects */
+        width: 60%;
+        height: 50%;
+        transform: translate(15%, -255%);
+    }
+    #rectangle5 { /* last project boxes in projects */
+        width: 60%;
+        height: 50%;
+        transform: translate(-15%, -368%);
+    }
     #mobile-desc4, #mobile-desc5, #mobile-desc6, #mobile-desc7, #mobile-desc8, #mobile-desc9 { /* hide desktop description */
         display: none;
     }
@@ -797,6 +808,23 @@
         white-space: wrap;
         line-height: 1.6;
     }
+    /* fix desc8 and desc9 */
+    #mobile-desc66 { /* 6th row description */
+        font-size: 0.8rem;
+        text-align: center;
+        transform: translate(1%, -475px);
+        white-space: wrap;
+        line-height: 1.6;
+    }
+    #mobile-desc77 { /* 6th row description */
+        font-size: 0.8rem;
+        text-align: center;
+        transform: translate(1%, -680px);
+        white-space: wrap;
+        line-height: 1.6;
+    }
+
+
 }
 
 
@@ -812,11 +840,15 @@
     -- align the title as close to the box as possible with little speed --
 */
 
-/* adjust box content if going to use
-OTHERWISE
-use <p> tags for text inside the boxes
-*/
+/* 
+    WHEN ADDING NEW CONTENT (projects) make sure to 
+    add new rectangle, mobile-desc (1, 11) and adjust:
 
+        /* #proj-box #back-box, #mg3, #ln3, #py3 { /* hide the other boxes, add more images*/
+
+        /* #proj-box #mg1, #ln1, #py1 { /* add more images after adding to the projects */
+
+/*-------------------------------------------------------*/
 
 
 
