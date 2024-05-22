@@ -15,12 +15,12 @@ const NavMenu = () => {
                 </Link>
             </div>
             <div className="p-2">
-                <Link href="./About.js"> {/* Description about me on a separate page, might include photos of hobbies  */}
+                <Link href="./about"> {/* Description about me on a separate page, might include photos of hobbies  */}
                     About Me
                 </Link>
             </div>
             <div className="p-2">
-                <Link href="/Projects.js"> {/* will scroll down to projects section  */}
+                <Link href="./projects"> {/* will scroll down to projects section  */}
                     Projects
                 </Link>
             </div>
