@@ -9,11 +9,10 @@ import { PiSailboatFill } from "react-icons/pi";
 
 const NavMenu = () => {
     return (
-        <nav className="flex items-center justify-between p-2 ml-20 text-white">
-            <div className="flex items-center p-2 border rounded-md"> {/* Logo */}
+        <nav className="flex items-center justify-between ml-20 text-white">
+            <div className="flex items-center p-[3px] w-16 border border-gray-300 bg-accent/40 rounded-xl"> {/* Logo */}
                 <Link href="/">
                     <PiSailboatFill size={35}/>
-                    
                 </Link>
             </div>
 
