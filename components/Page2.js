@@ -1,5 +1,4 @@
 import React from "react";
-import { FaFish } from "react-icons/fa6";
 
 // use this as reference to set the front content
 // ie. box-content height (h-32)
@@ -18,8 +17,7 @@ const Page2 = () => {
                 A recent Software Development graduate with a background in 2D Digital Animation, 
                 committed to leveraging expertise in web design and proficient software languages 
                 to create dynamic and engaging online experiences.
-                {/* <FaFish className="text-white translate-x-56 animate-fish"/> */}
-                
+                                
                 </p>
             </div>
             <div>

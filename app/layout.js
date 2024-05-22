@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   <html>
     <body>
       <Analytics />
-      {/* <Header NavMenu={<NavMenu />} /> */}
+      <Header NavMenu={<NavMenu />} />
       {children}
       {/* <Footer /> */}
     </body>

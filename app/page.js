@@ -33,7 +33,7 @@ export default function Home() {
     <>
       <section>
         <Analytics />
-        <Header NavMenu={<NavMenu />} />
+        {/* <Header NavMenu={<NavMenu />} /> */}
 
         <ParallaxComp />
         
