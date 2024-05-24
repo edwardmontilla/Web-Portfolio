@@ -78,6 +78,8 @@ body { -ms-overflow-style: none; }
 }
 
 /*---------------- ABOUT ----------------*/
+/*-------- Laptop default 1080px --------*/
+
 #container {
   display: flex;
   flex-wrap: wrap;
@@ -91,7 +93,7 @@ body { -ms-overflow-style: none; }
   flex-direction: column;
   justify-content: flex-start;
   align-items: left;
-  padding: 0 1rem;
+  padding: 1rem 2rem;
   margin: 3rem 1rem;
   max-width: 60%;
 }
@@ -120,9 +122,10 @@ body { -ms-overflow-style: none; }
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 1rem 1rem;
-  padding: 1rem 1rem;
+  margin: 1rem;
+  padding: 1rem;
 }
+
 
 
 /*---------------- PROJECTS ----------------*/

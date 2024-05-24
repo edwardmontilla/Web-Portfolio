@@ -90,7 +90,7 @@ module.exports = {
 
 // added default Tailwind animations
       animation: {
-        bounce: 'bounce 1s infinite',
+        bounce: 'bounce 2.5s infinite',
         wiggle: 'wiggle 4s ease-in-out infinite',
         pulse: 'pulse 2s infinite',
         ping: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
