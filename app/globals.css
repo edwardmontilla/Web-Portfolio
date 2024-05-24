@@ -61,7 +61,7 @@ body { -ms-overflow-style: none; }
   src: url(./fonts/metropolis.semi-bold.otf) format('opentype');
 }
 
-.lnFont {
+.lnFont { /* titles/heading */
   font-family: "lnFont";
 } 
 
@@ -69,7 +69,7 @@ body { -ms-overflow-style: none; }
   font-family: "Metropolis Light";
 }
 
-.metropolisR {
+.metropolisR { /*descriptions*/
   font-family: "Metropolis Regular";
 }
 
