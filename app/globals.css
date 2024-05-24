@@ -94,7 +94,7 @@ body { -ms-overflow-style: none; }
   justify-content: flex-start;
   align-items: left;
   padding: 1rem 2rem;
-  margin: 3rem 1rem;
+  margin: 3rem 2rem;
   max-width: 60%;
 }
 #bio {
@@ -110,7 +110,7 @@ body { -ms-overflow-style: none; }
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  margin: 3rem 1rem;
+  margin: 3rem 2rem;
   max-width: 30%; /* Adjust as needed */
 }
 #img-container img {
