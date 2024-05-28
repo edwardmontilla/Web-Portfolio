@@ -199,7 +199,7 @@ const ParallaxComp = () => {
                                 <div className="col-span-1 col-start-1 row-start-1"> 
                                     <div className="rbox2">
                                         <p className="mt-24 text-lg text-white translate-x-8 metropolisR" id="mobile-desc6">
-                                            This is a fan-made simple website for a game series called Little Nightmares built for fun.
+                                            This is a fan-made simple website for a game series called Little Nightmares.
                                         </p>
                                     </div>
                                 </div>

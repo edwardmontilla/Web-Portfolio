@@ -88,7 +88,7 @@ body { -ms-overflow-style: none; }
   padding: 0 1rem;
   max-width: 100%;
 }
-#bio-container, #proj-container {
+#bio-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -129,6 +129,16 @@ body { -ms-overflow-style: none; }
 
 /*---------------- PROJECTS ----------------*/
 
+#proj-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  padding: 1rem 2rem;
+  margin: 3rem 2rem;
+  max-width: 68.5%;
+  /* border: 2px solid black; */
+}
 #proj {
   margin: 1rem 0;
   font-size: 1rem;
@@ -141,14 +151,26 @@ body { -ms-overflow-style: none; }
   display: flex;
   flex-direction: row;
   align-items: start;
-  margin-bottom: 6px;
-  margin-top: 2px;
-
+  margin: 6px 0 6px 6px;
+}
+.gitlink {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 3px;
+  padding: 3px;
+  text-wrap: nowrap;
 }
 
-
-
-
+/*---------------- TO DO ----------------*/
+/*
+- add container for -- see more -> 80% 20%
+- 
+- 
+- 
+- 
+*/
 
 
 

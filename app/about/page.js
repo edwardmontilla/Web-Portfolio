@@ -16,7 +16,7 @@ const About = () => {
     return (
         <>
             <div id="container" className="">
-                <div id="bio-container" className="text-gray-800 bg-background rounded-2xl animate-slideFadeRight">
+                <div id="bio-container" className="text-gray-800 shadow-md shadow-secondary bg-background rounded-2xl animate-slideFadeRight">
                     <h1 className="mt-6 mb-6 text-2xl font-bold lnFont">About Me</h1>
                     <h2 className="text-lg font-semibold lnFont">So what made me pursue a career in software development?</h2>
                         <p id="bio" className="metropolisR">
@@ -36,9 +36,9 @@ const About = () => {
                 </div>
                 
                 <div id="img-container" className="">
-                        <img src="/images/jp1.jpg" alt="cat" className="rounded-2xl shadow-gray-400" />
+                        <img src="/images/jp1.jpg" alt="cat" className="shadow-md rounded-2xl shadow-secondary" /> {/* My Photo */}
 
-                        <div id="hobby-icon" className="gap-4 text-gray-700 bg-background rounded-xl animate-slideFadeLeft shadow-gray-400">
+                        <div id="hobby-icon" className="gap-4 text-gray-700 shadow-md bg-background rounded-xl animate-slideFadeLeft shadow-secondary"> {/* My stats icon */}
                             <GoFileCode className="w-8 h-8 m animate-bounce" />
                             <TfiGame className="w-8 h-8 m animate-bounce animation-delay-300" />
                             <PiPersonSimpleHike className="w-8 h-8 m animate-bounce animation-delay-500"/>
@@ -52,10 +52,9 @@ const About = () => {
             </div>
 
             
-            <div id="container" className="">
+            <div id="container" className="animate-slideFadeRight bg-slate-100 ">
                 <div id="proj-container" className="text-gray-800">
                     <h1 className="mt-6 mb-6 text-2xl font-extrabold lnFont">Projects</h1>
-                    {/* <p>Detailed projects will go here along with github link</p> */}
                     <div className="">
                         <Projects />
                     </div>
