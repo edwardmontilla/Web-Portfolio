@@ -36,7 +36,7 @@ const About = () => {
                 </div>
                 
                 <div id="img-container" className="">
-                        <img src="/images/jp1.jpg" alt="cat" className="shadow-md rounded-2xl shadow-secondary" /> {/* My Photo */}
+                        <img src="/images/jp1.jpg" alt="cat" className="shadow-md rounded-2xl shadow-secondary animate-slideFadeLeft" /> {/* My Photo */}
 
                         <div id="hobby-icon" className="gap-4 text-gray-700 shadow-md bg-background rounded-xl animate-slideFadeLeft shadow-secondary"> {/* My stats icon */}
                             <GoFileCode className="w-8 h-8 m animate-bounce" />
