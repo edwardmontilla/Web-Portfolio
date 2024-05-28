@@ -96,6 +96,7 @@ body { -ms-overflow-style: none; }
   padding: 1rem 2rem;
   margin: 3rem 2rem;
   max-width: 60%;
+  /* border: 2px solid black; */
 }
 #bio {
   margin: 1rem 0;
@@ -138,8 +139,10 @@ body { -ms-overflow-style: none; }
 }
 #proj-img {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: start;
+  margin-bottom: 6px;
+  margin-top: 2px;
 
 }
 
