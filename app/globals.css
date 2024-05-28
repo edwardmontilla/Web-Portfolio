@@ -126,6 +126,45 @@ body { -ms-overflow-style: none; }
   padding: 1rem;
 }
 
-
-
 /*---------------- PROJECTS ----------------*/
+
+#proj {
+  margin: 1rem 0;
+  font-size: 1rem;
+  line-height: 1.7;
+  text-align: left;
+  letter-spacing: -0.1px;
+  word-spacing: 1.5px;
+}
+#proj-img {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- For 2560 x 1440 reso ---------- */
+/* @media screen and (min-width: 2020px) and (min-height: 1150px ) {
+
+
+
+
+} */
+
+
+
+

@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "@/components/Footer";
+import Projects from "../projects/page";    /* this is how to import a component from another page within the same directory */
 import { GoFileCode } from "react-icons/go";
 import { PiPersonSimpleHike } from "react-icons/pi";
 import { TfiGame } from "react-icons/tfi";
@@ -54,7 +55,12 @@ const About = () => {
             <div id="container" className="">
                 <div id="proj-container" className="text-gray-800">
                     <h1 className="mt-6 mb-6 text-2xl font-extrabold lnFont">Projects</h1>
-                    <p>Detailed projects will go here along with github link</p>
+                    {/* <p>Detailed projects will go here along with github link</p> */}
+                    <div className="">
+                        <Projects />
+                    </div>
+                    
+
                     
                 </div>
             </div>
@@ -66,9 +72,9 @@ const About = () => {
 
 
 
-        <div className="relative">
+        
             <Footer />
-        </div>
+        
         
         </>
     );

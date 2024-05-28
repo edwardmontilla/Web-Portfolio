@@ -30,7 +30,7 @@ const NavMenu = () => {
                     </Link>
                 </div>
                 <div className="p-2">
-                    <Link href="./projects"> {/* will scroll down to projects section  */}
+                    <Link href="./about"> {/* will scroll down to projects section  */}
                         Projects
                     </Link>
                 </div>
