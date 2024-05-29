@@ -24,7 +24,7 @@ const Header = ({ NavMenu }) => {
     }, [prevScrollPos, visible]);
 
     return (
-        <header className={`fixed inset-x-0 z-30 transition-opacity duration-300 ${visible ? 'opacity-100' : 'opacity-0'}`}>
+        <header className={`fixed inset-x-0 z-30 transition-opacity duration-300 animate-slideFadeDown ${visible ? 'opacity-100' : 'opacity-0'}`}>
             <div className="p-2 bg-primary">
                 {NavMenu}
             </div>

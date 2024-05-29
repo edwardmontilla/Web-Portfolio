@@ -69,8 +69,10 @@ const About = () => {
                     </div> */}
                 </div>
 
-                <div id="contact-container" className="wave-contact">
-                
+                <div id="contact-container">
+                    <div id="wave-contact">
+                        BG here?
+                    </div>
                         <div id="contact" className="text-gray-800 animate-slideFadeDown">
                             <h1 className="mb-6 text-2xl font-extrabold lnFont">Contact Me</h1>
                             <div className="flex flex-row">

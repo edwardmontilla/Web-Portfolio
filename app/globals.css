@@ -193,10 +193,11 @@ html { /* Smooth scrolling */
   padding: 1rem;
   /* border: 2px solid black; */
 }
-.wave-contact {
+#wave-contact {
   background-image: url(/images/wave-contact.svg);
   width: 100%;
   height: auto;
+  background-size: cover;
 }
 
 
