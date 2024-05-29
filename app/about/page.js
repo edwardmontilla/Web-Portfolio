@@ -78,9 +78,9 @@ const About = () => {
                         </div>
                         <div className="flex flex-col gap-4">
                             <div className="flex flex-row items-center gap-2">
-                                <a href="https://github.com/edwardmontilla"><ImGithub size={39} className="fill-accent"/></a>
-                                <a href="https://www.linkedin.com/in/edward-montilla-ab5b51192/" target="_blank" rel="noopener noreferrer"><AiOutlineLinkedin size={48} className="fill-accent"/></a>
-                                <a href="mailto:edanmontilla@gmail.com"><HiOutlineMail size={55} rel="noopener noreferrer" className="fill-secondary"/></a>
+                                <a href="https://github.com/edwardmontilla"><ImGithub size={35} className="fill-accent"/></a>
+                                <a href="https://www.linkedin.com/in/edward-montilla-ab5b51192/" target="_blank" rel="noopener noreferrer"><AiOutlineLinkedin size={44} className="fill-accent"/></a>
+                                <a href="mailto:edanmontilla@gmail.com"><HiOutlineMail size={51} rel="noopener noreferrer" className="fill-secondary"/></a>
                             </div>  
                         </div>
 
