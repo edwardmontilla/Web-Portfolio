@@ -75,7 +75,7 @@ const About = () => {
                             <h1 className="mb-6 text-2xl font-extrabold lnFont">Contact Me</h1>
                             <div className="flex flex-row">
                                 <p className="text-lg metropolisR">If you would like to get in touch with me, feel free to send me an email&nbsp;</p>
-                                < HiMail size={22} className="fill-primary"/>.
+                                < HiMail size={25} className="fill-primary"/>.
                             </div>
                             <div className="flex flex-col gap-4">
                                 <div className="flex flex-row items-center gap-2">
