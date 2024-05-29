@@ -59,7 +59,12 @@ const About = () => {
                         <Projects />
                     </div>
                 </div>
+                {/* <div id="side-container" className="">
+                    <h2 className="mt-6 mb-6 text-lg font-extrabold lnFont">Contact Me</h2>
+            
+                </div> */}
             </div>
+
 
 
 

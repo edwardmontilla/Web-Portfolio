@@ -128,6 +128,15 @@ body { -ms-overflow-style: none; }
 }
 
 /*---------------- PROJECTS ----------------*/
+#side-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin: 3rem 2rem;
+  max-width: 30%;
+  /* border: 2px solid black; */
+}
 
 #proj-container {
   display: flex;
@@ -183,8 +192,8 @@ body { -ms-overflow-style: none; }
 
 
 
-/* ---------- For 2560 x 1440 reso ---------- */
-/* @media screen and (min-width: 2020px) and (min-height: 1150px ) {
+/* ---------- For whatever reso ---------- */
+/* @media screen and (max-width: 1312px) {
 
 
 
