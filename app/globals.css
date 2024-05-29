@@ -90,6 +90,7 @@ html { /* Smooth scrolling */
   flex-direction: row;
   justify-content: space-between;
   padding: 0 1rem;
+  margin-bottom: 3rem;
   max-width: 100%;
 }
 #bio-container {
@@ -179,15 +180,17 @@ html { /* Smooth scrolling */
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 auto; /* to center the contact section */
   max-width: 70%;
+  overflow: auto;
 }
 #contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3rem 0;
+  margin-bottom: 12rem;
+  padding: 1rem;
   /* border: 2px solid black; */
 }
 
