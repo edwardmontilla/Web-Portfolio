@@ -14,7 +14,7 @@ const Projects = () => {
                     <p className="metropolisR">A capstone project built to simplify food ordering operations with a dedicated web app, automating ordering and payment for enhanced convenience.</p>
                 </div>
                 <div>
-                    <a href="https://www.google.com" className="relative mt-24 m-8font-semibold metropolisR gitlink hover:translate-x-[-5px] transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
+                    <a href="https://www.google.com" className="relative mt-24 m-8font-semibold metropolisR gitlink hover:translate-x-[-7px] transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@ const Projects = () => {
                     <p className="metropolisR">A Python script created to calculate the daily profits of a fictional online retail business&apos; daily profits.</p>
                 </div>
                 <div>
-                    <a href="https://www.google.com" className="relative mt-24 m-8font-semibold metropolisR gitlink hover:translate-x-[-5px] transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
+                    <a href="https://www.google.com" className="relative mt-24 m-8font-semibold metropolisR gitlink hover:translate-x-[-7px] transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@ const Projects = () => {
                     <p className="metropolisR">A fan-made website, based on the video game series Little Nightmares, created for learning design and expressing creativity, while enthusiastically supporting the content.</p>
                 </div>
                 <div>
-                    <a href="https://www.google.com" className="relative mt-24 m-8font-semibold metropolisR gitlink hover:translate-x-[-5px] transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
+                    <a href="https://www.google.com" className="relative mt-24 m-8font-semibold metropolisR gitlink hover:translate-x-[-7px] transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@ const Projects = () => {
                     <p className="metropolisR">Details</p>
                 </div>
                 <div>
-                    <a href="https://www.google.com" className="relative mt-24 m-8font-semibold metropolisR gitlink hover:translate-x-[-5px] transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
+                    <a href="https://www.google.com" className="relative mt-24 m-8font-semibold metropolisR gitlink hover:translate-x-[-7px] transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
                 </div>
             </div>
         </div>

@@ -15,7 +15,7 @@ import { LiaFishSolid } from "react-icons/lia";
 const About = () => {
     return (
         <>
-            <div id="container" className="">
+            <div id="container" className="translate-y-12">
                 <div id="bio-container" className="text-gray-800 shadow-md shadow-secondary bg-background rounded-2xl animate-slideFadeRight">
                     <h1 className="mt-6 mb-6 text-2xl font-bold lnFont">About Me</h1>
                     <h2 className="text-lg font-semibold lnFont">So what made me pursue a career in software development?</h2>
@@ -64,6 +64,20 @@ const About = () => {
             
                 </div> */}
             </div>
+
+            <div id="contact-container" className="border border-slate-500">
+                <div id="contact" className="text-gray-800">
+                    <h1 className="mb-6 text-2xl font-extrabold lnFont">Contact Me</h1>
+                    <div className="">
+                        <p className="metropolisR">If you would like to get in touch with me, feel free to send me an email.</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
 
 
 

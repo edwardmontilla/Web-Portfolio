@@ -76,6 +76,9 @@ body { -ms-overflow-style: none; }
 .metropolisSB {
   font-family: "Metropolis Semi-Bold";
 }
+html { /* Smooth scrolling */
+  scroll-behavior: smooth;
+}
 
 /*---------------- ABOUT ----------------*/
 /* ---------- Laptop 1920 x 1080 (default) ---------- */
@@ -138,7 +141,6 @@ body { -ms-overflow-style: none; }
   max-width: 30%;
   /* border: 2px solid black; */
 }
-
 #proj-container {
   display: flex;
   flex-direction: column;
@@ -150,7 +152,7 @@ body { -ms-overflow-style: none; }
   /* border: 2px solid black; */
 }
 #proj {
-  margin: 1rem 0; { /* gap between projects */}
+  margin: 1rem 0; /* gap between projects */
   font-size: 1rem;
   line-height: 1.7;
   text-align: left;
@@ -173,6 +175,28 @@ body { -ms-overflow-style: none; }
   padding: 3px;
   text-wrap: nowrap;
 }
+#contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 70%;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+  /* border: 2px solid black; */
+}
+
+
+
+
+
+
+
 
 /*---------------- TO DO ----------------*/
 /*
