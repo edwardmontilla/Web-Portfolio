@@ -176,6 +176,12 @@ html { /* Smooth scrolling */
   padding: 3px;
   text-wrap: nowrap;
 }
+#wave-container {
+  background-image: url(/images/wave-contact.svg);
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
 #contact-container {
   display: flex;
   justify-content: center;
@@ -193,12 +199,7 @@ html { /* Smooth scrolling */
   padding: 1rem;
   /* border: 2px solid black; */
 }
-#wave-contact {
-  background-image: url(/images/wave-contact.svg);
-  width: 100%;
-  height: auto;
-  background-size: cover;
-}
+
 
 
 
