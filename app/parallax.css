@@ -486,6 +486,20 @@
 
 /* --------------- screen size adjustments --------------- */
 /* ------------------------------------------------------- */
+/* ---------- For 768px reso ---------- */
+@media screen and (min-width: 768px) and (max-width: 999px) {
+    #page-container, #page-block { /* Adjust the page after wave height */
+        margin-top: -10px;
+        height: 400vh;
+        width: 100%;
+    }
+    #page-container2, #page-block2 { /* height for the Titles/descriptions */
+        margin-top: -200px;
+        height: 350vh;
+        width: 50% auto;
+    }
+    
+}
 /* ---------- For 1000px reso (CHANGE THIS ACCORDING TO THE RESO BELOW!) ---------- */
 @media screen and (min-width: 1000px) and (max-width: 1535px ) and (min-height: 600px ) {
     #about-me { /*Edward Montilla */
@@ -509,7 +523,7 @@
 }
 
 /* ---------- For 1536px reso ---------- */
-@media screen and (min-height: 500px) and (max-height: 740px) { 
+@media screen and (min-width: 1720px) and (min-height: 500px) and (max-height: 740px) { 
     #page-container, #page-block  {/* Adjust the page after wave height */
         margin-top: -10px;
         height: 500vh;
