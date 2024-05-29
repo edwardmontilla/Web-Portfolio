@@ -69,24 +69,25 @@ const About = () => {
                     </div> */}
                 </div>
 
-                <div id="contact-container" className="">
-                    <div id="contact" className="text-gray-800 animate-slideFadeDown">
-                        <h1 className="mb-6 text-2xl font-extrabold lnFont">Contact Me</h1>
-                        <div className="flex flex-row">
-                            <p className="text-lg metropolisR">If you would like to get in touch with me, feel free to send me an email&nbsp;</p>
-                            < HiMail size={22} className="fill-primary"/>.
+                <div id="contact-container" className="wave-contact">
+                
+                        <div id="contact" className="text-gray-800 animate-slideFadeDown">
+                            <h1 className="mb-6 text-2xl font-extrabold lnFont">Contact Me</h1>
+                            <div className="flex flex-row">
+                                <p className="text-lg metropolisR">If you would like to get in touch with me, feel free to send me an email&nbsp;</p>
+                                < HiMail size={22} className="fill-primary"/>.
+                            </div>
+                            <div className="flex flex-col gap-4">
+                                <div className="flex flex-row items-center gap-2">
+                                    <a href="https://github.com/edwardmontilla"><ImGithub size={35} className="fill-accent"/></a>
+                                    <a href="https://www.linkedin.com/in/edward-montilla-ab5b51192/" target="_blank" rel="noopener noreferrer"><AiOutlineLinkedin size={44} className="fill-accent"/></a>
+                                    <a href="mailto:edanmontilla@gmail.com"><HiOutlineMail size={51} rel="noopener noreferrer" className="fill-secondary"/></a>
+                                </div>  
+                            </div>
+
+
                         </div>
-                        <div className="flex flex-col gap-4">
-                            <div className="flex flex-row items-center gap-2">
-                                <a href="https://github.com/edwardmontilla"><ImGithub size={35} className="fill-accent"/></a>
-                                <a href="https://www.linkedin.com/in/edward-montilla-ab5b51192/" target="_blank" rel="noopener noreferrer"><AiOutlineLinkedin size={44} className="fill-accent"/></a>
-                                <a href="mailto:edanmontilla@gmail.com"><HiOutlineMail size={51} rel="noopener noreferrer" className="fill-secondary"/></a>
-                            </div>  
-                        </div>
-
-
-
-                    </div>
+                    
                 </div>
 
 
