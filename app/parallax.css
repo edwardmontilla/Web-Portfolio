@@ -509,7 +509,7 @@
 }
 
 /* ---------- For 1536px reso ---------- */
-@media screen and (min-height: 600px) and (max-height: 720px) { 
+@media screen and (min-height: 500px) and (max-height: 740px) { 
     #page-container, #page-block  {/* Adjust the page after wave height */
         margin-top: -10px;
         height: 500vh;
