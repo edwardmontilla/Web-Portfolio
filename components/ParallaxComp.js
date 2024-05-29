@@ -35,28 +35,28 @@ const ParallaxComp = () => {
             </ParallaxLayer>
         
 {/* Waves */}
-            <ParallaxLayer offset={0} speed={0.1}>
+            <ParallaxLayer offset={0} speed={0.1} className="animate-slideFadeUp">
                 <div className="plxlayer parallax animate-float" id="wave-5"></div>
             </ParallaxLayer>
-            <ParallaxLayer offset={0} speed={0.15}>
+            <ParallaxLayer offset={0} speed={0.15} className="animate-slideFadeUp">
                 <div className="plxlayer parallax animate-float2" id="wave-4"></div>
             </ParallaxLayer>
-            <ParallaxLayer offset={0} speed={0.2}>
+            <ParallaxLayer offset={0} speed={0.2} className="animate-slideFadeUp">
                 <div className="plxlayer parallax animate-fish" id="blowfish"></div> {/* blowfish */}
             </ParallaxLayer>
-            <ParallaxLayer offset={0} speed={0.19}>
+            <ParallaxLayer offset={0} speed={0.19} className="animate-slideFadeUp">
                 <div className="plxlayer parallax animate-float" id="wave-3"></div>
             </ParallaxLayer>
-            <ParallaxLayer offset={0} speed={0.1}>
+            <ParallaxLayer offset={0} speed={0.1} className="animate-slideFadeUp">
                 <div className="plxlayer parallax animate-float" id="wave-1"></div>
             </ParallaxLayer>
-            <ParallaxLayer offset={0} speed={0}>
+            <ParallaxLayer offset={0} speed={0} className="animate-slideFadeUp">
                 <div className="translate-y-4 plxlayer parallax" id="wave-000"></div> {/* wave cover*/}
             </ParallaxLayer>
 
 {/* About Me */}
             <ParallaxLayer offset={0} speed={0.1}>
-                
+                {/* Leave this here. this sets the whole viewport */}
             </ParallaxLayer>
 
 {/* Content Back */}

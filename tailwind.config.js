@@ -98,8 +98,8 @@ module.exports = {
 // added slideFade animations
         slideFadeRight: 'slideFadeLeft 2s',
         slideFadeLeft: 'slideFadeRight 2s',
-        slideFadeUp: 'slideFadeUp 1.5s ease-in-out',
-        slideFadeDown: 'slideFadeDown 1.5s ease-in-out',
+        slideFadeUp: 'slideFadeUp 2s',
+        slideFadeDown: 'slideFadeDown 2s',
         fadeInOut: 'fadeInOut 10s ease-in-out infinite',
 
 // animation for waves svg

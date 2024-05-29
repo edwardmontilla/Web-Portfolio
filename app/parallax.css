@@ -380,7 +380,6 @@
     background: rgb(39,55,77);
     background: linear-gradient(180deg, rgba(39,55,77,1) 6%, rgba(100,125,153,1) 29%, rgba(45,64,89,1) 42%, rgba(26,40,61,1) 55%);
 }
-
 #page-container {       /* height for the Titles/descriptions */
     /* border-color: rgb(99, 131, 131);
     border-width: 4px; */
@@ -488,7 +487,10 @@
 
 /* --------------- screen size adjustments --------------- */
 /* ---------- For 2560 x 1440 reso ---------- */
-@media screen and (min-width: 2020px) and (min-height: 1150px ) {
+@media screen and (min-width: 2000px) and (min-height: 1000px ) {
+    #wave-000 {
+        transform: translateY(3%);
+    }
     #blowfish {
         width: 204px;
         height: 204px;
@@ -576,6 +578,30 @@
     
 }
 
+/* ---------- For 2560 x 1440 reso ---------- */
+@media screen and (min-width: 1000px) and (max-width: 1919px ) and (min-height: 600px ) {
+    #about-me { /*Edward Montilla */
+        width: 30%;
+        z-index:20;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 35px;
+    }
+    #page-container, #page-block { /* Adjust the page after wave height */
+        margin-top: -10px;
+        height: 400vh;
+        width: 100%;
+    }
+    #page-container2, #page-block2 { /* height for the Titles/descriptions */
+        margin-top: -200px;
+        height: 350vh;
+        width: 50% auto;
+    }
+
+
+
+
+}
 
 /* ---------- For my Android phone ---------- */
 /* ---------- 360 x 613 (665 for projects)---------- */
@@ -853,7 +879,7 @@
     -- finished samsung s8 mobile version --
     -- finished 1440px responsive --
 
-    -- Add new components --
+    --  --
     -- add/fix Links --
 */
 

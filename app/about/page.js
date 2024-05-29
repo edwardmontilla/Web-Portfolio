@@ -52,15 +52,12 @@ const About = () => {
             </div>
 
             
-            <div id="container" className="animate-slideFadeRight bg-slate-100 ">
-                <div id="proj-container" className="text-gray-800">
+            <div id="container" className="bg-slate-100 ">
+                <div id="proj-container" className="text-gray-800 animate-slideFadeRight">
                     <h1 className="mt-6 mb-6 text-2xl font-extrabold lnFont">Projects</h1>
                     <div className="">
                         <Projects />
                     </div>
-                    
-
-                    
                 </div>
             </div>
 
