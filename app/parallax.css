@@ -509,19 +509,19 @@
 }
 
 /* ---------- For 1536px reso ---------- */
-@media screen and (min-width: 1536px) and (max-width: 1923px){
-    #page-container, #page-block { /* Adjust the page after wave height */
+@media screen and (min-height: 600px) and (max-height: 720px) { 
+    #page-container, #page-block  {/* Adjust the page after wave height */
         margin-top: -10px;
         height: 500vh;
         width: 100%;
     }
-    #page-container2, #page-block2 { /* height for the Titles/descriptions */
+    #page-container2, #page-block2  {/* height for the Titles/descriptions */
         margin-top: -200px;
         height: 450vh;
         width: 50% auto;
     }
-    
 }
+
 
 /* ---------- For 2560 x 1440 reso ---------- */
 @media screen and (min-width: 2000px) and (min-height: 1000px ) {
