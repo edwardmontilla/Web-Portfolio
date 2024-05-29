@@ -167,6 +167,8 @@ html { /* Smooth scrolling */
   margin: 6px 0 6px 6px;
   justify-content: space-between;
 }
+
+/*---------------- CONTACT ----------------*/
 .gitlink {
   display: flex;
   flex-direction: column;
@@ -201,7 +203,21 @@ html { /* Smooth scrolling */
 }
 
 
+/*---------------- RESPONSIVENESS ----------------*/
+@media screen and (min-width: 1720px) {
 
+
+/*---------------- CONTACT ----------------*/
+#wave-container {
+  background-image: url(/images/wave-contact.svg);
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+
+
+}
 
 
 
