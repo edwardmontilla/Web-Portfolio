@@ -247,7 +247,7 @@
 }
 
 /* ---------- Laptop 1920 x 1080 (default) ---------- */
-/* @media screen and (min-width: 1890px max-width: 1920px) {} */
+/* @media screen and (min-width: 1536px max-width: 1919px) {} */
 
 #blowfish {
     background-image: url(/icons/blowfish.svg);
@@ -578,8 +578,8 @@
     
 }
 
-/* ---------- For 2560 x 1440 reso ---------- */
-@media screen and (min-width: 1000px) and (max-width: 1919px ) and (min-height: 600px ) {
+/* ---------- For other reso ---------- */
+@media screen and (min-width: 1000px) and (max-width: 1535px ) and (min-height: 600px ) {
     #about-me { /*Edward Montilla */
         width: 30%;
         z-index:20;
