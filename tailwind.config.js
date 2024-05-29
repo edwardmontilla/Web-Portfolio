@@ -80,10 +80,16 @@ module.exports = {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(1%)' },
         },
+        float3: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(1%)' },
+        },
         fish: { //change rotation degree and X position if need be
           '0%, 100%': { transform: 'translateX(-25%) rotate(3deg)' },
           '50%': { transform: 'translate(0) rotate(-5deg)' },
         },
+
+
         // add bubbles animation
 
       },
@@ -105,7 +111,10 @@ module.exports = {
 // animation for waves svg
         float: 'float 4s ease-in-out infinite',
         float2: 'float2 4s ease-in-out infinite',
+        float3: 'float3 2s ease-in-out infinite',
         fish: 'fish 4s ease-in-out infinite',
+
+        
         // add bubbles animation
 
       },
