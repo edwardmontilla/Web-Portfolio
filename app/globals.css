@@ -152,6 +152,8 @@ body { -ms-overflow-style: none; }
   flex-direction: row;
   align-items: start;
   margin: 6px 0 6px 6px;
+  justify-content: space-between;
+  min-width: 16.666667%;
 }
 .gitlink {
   display: flex;
