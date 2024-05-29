@@ -78,7 +78,8 @@ body { -ms-overflow-style: none; }
 }
 
 /*---------------- ABOUT ----------------*/
-/*-------- Laptop default 1080px --------*/
+/* ---------- Laptop 1920 x 1080 (default) ---------- */
+/* @media screen and (min-width: 1536px max-width: 1919px) {} */
 
 #container {
   display: flex;
@@ -143,13 +144,13 @@ body { -ms-overflow-style: none; }
   flex-direction: column;
   justify-content: flex-start;
   align-items: left;
-  padding: 1rem 2rem;
+  padding: 0 2rem 1rem 2rem;
   margin: 3rem 2rem;
   max-width: 68.5%;
   /* border: 2px solid black; */
 }
 #proj {
-  margin: 1rem 0;
+  margin: 1rem 0; { /* gap between projects */}
   font-size: 1rem;
   line-height: 1.7;
   text-align: left;
@@ -193,7 +194,7 @@ body { -ms-overflow-style: none; }
 
 
 /* ---------- For whatever reso ---------- */
-/* @media screen and (max-width: 1312px) {
+/* @media screen and (mind-width: 964px) and (max-width: 1312px) {
 
 
 
