@@ -146,9 +146,9 @@ html { /* Smooth scrolling */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: left;
-  padding: 0 2rem 1rem 2rem;
-  margin: 3rem 2rem;
+  align-items: left; /* got rid of right margin */
+  padding: 0 0 1rem 2rem; /* for rid of right padding */
+  margin: 3rem 0 3rem 2rem;
   max-width: 68.5%;
   /* border: 2px solid black; */
 }
