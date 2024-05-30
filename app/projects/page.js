@@ -60,3 +60,5 @@ const Projects = () => {
 }
 
 export default Projects;
+
+// ADD hover:visible when projects are hovered over!!
