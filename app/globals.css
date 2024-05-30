@@ -120,7 +120,7 @@ html { /* Smooth scrolling */
   max-width: 30%; /* Adjust as needed */
 }
 #img-container img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 #hobby-icon {
