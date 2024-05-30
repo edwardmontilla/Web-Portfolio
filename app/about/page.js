@@ -57,7 +57,7 @@ const About = () => {
 
                 
                 <div id="container" className="bg-background ">
-                    <div id="proj-container" className="text-gray-800 animate-slideFadeRight">
+                    <div id="proj-container" className="text-gray-800 animate-slideFadeUp">
                         <h1 className="mb-6 text-2xl font-extrabold lnFont">Projects</h1>
                         <div className="">
                             <Projects />
@@ -71,7 +71,7 @@ const About = () => {
 
                 <div id="wave-container"> {/* this is the wave BG */}
                     <div id="contact-container" className="animate-none">
-                        <div id="contact" className="text-gray-800 animate-slideFadeDown">
+                        <div id="contact" className="text-gray-800 animate-slideFadeUp">
                             <h1 className="mb-6 text-2xl font-extrabold lnFont">Contact Me</h1>
                             <div className="flex flex-row">
                                 <p className="text-lg metropolisR">If you would like to get in touch with me, feel free to send me an email&nbsp;</p>
