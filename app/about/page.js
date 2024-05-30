@@ -40,9 +40,9 @@ const About = () => {
                     </div>
                     
                     <div id="img-container" className="">
-                            <img src="/images/jp1.jpg" alt="cat" className="border-4 rounded-full shadow-md border-accent/80 shadow-secondary animate-slideFadeLeft" /> {/* My Photo */}
+                            <img src="/images/jp1.jpg" alt="cat" className="border-4 rounded-full shadow-md border-accent/85 shadow-secondary animate-slideFadeLeft" /> {/* My Photo */}
 
-                            <div id="hobby-icon" className="gap-4 text-gray-700 border shadow-md bg-background rounded-xl animate-slideFadeLeft shadow-secondary border-primary"> {/* My stats icon */}
+                            <div id="hobby-icon" className="gap-4 border shadow-md text-cyan-200 border-primary bg-primary rounded-xl animate-slideFadeLeft shadow-secondary"> {/* My stats icon */}
                                 <GoFileCode className="w-8 h-8 m animate-bounce" />
                                 <TfiGame className="w-8 h-8 m animate-bounce animation-delay-300" />
                                 <PiPersonSimpleHike className="w-8 h-8 m animate-bounce animation-delay-500"/>
@@ -56,7 +56,7 @@ const About = () => {
                 </div>
 
                 
-                <div id="container" className="bg-slate-100 ">
+                <div id="container" className="bg-background ">
                     <div id="proj-container" className="text-gray-800 animate-slideFadeRight">
                         <h1 className="mb-6 text-2xl font-extrabold lnFont">Projects</h1>
                         <div className="">
