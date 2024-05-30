@@ -42,7 +42,7 @@ const About = () => {
                     <div id="img-container" className="">
                             <img src="/images/jp1.jpg" alt="cat" className="border-4 rounded-full shadow-md border-accent/85 shadow-secondary animate-slideFadeLeft" /> {/* My Photo */}
 
-                            <div id="hobby-icon" className="gap-4 border shadow-md text-cyan-200 border-primary bg-primary rounded-xl animate-slideFadeLeft shadow-secondary"> {/* My stats icon */}
+                            <div id="hobby-icon" className="gap-4 border shadow-md text-cyan-200 border-accent bg-primary rounded-xl animate-slideFadeLeft shadow-secondary"> {/* My stats icon */}
                                 <GoFileCode className="w-8 h-8 m animate-bounce" />
                                 <TfiGame className="w-8 h-8 m animate-bounce animation-delay-300" />
                                 <PiPersonSimpleHike className="w-8 h-8 m animate-bounce animation-delay-500"/>
@@ -77,11 +77,11 @@ const About = () => {
                                 <p className="text-lg metropolisR">If you would like to get in touch with me, feel free to send me an email&nbsp;</p>
                                 < HiMail size={25} className="fill-primary"/>.
                             </div>
-                            <div className="flex flex-col gap-4">
+                            <div className="flex flex-col gap-4 mt-4">
                                 <div className="flex flex-row items-center gap-2">
-                                    <a href="https://github.com/edwardmontilla" target="_blank" rel="noopener noreferrer"><ImGithub size={35} className="fill-accent"/></a>
-                                    <a href="https://www.linkedin.com/in/edward-montilla-ab5b51192/" target="_blank" rel="noopener noreferrer"><AiOutlineLinkedin size={44} className="fill-accent"/></a>
-                                    <a href="mailto:edanmontilla@gmail.com"><HiOutlineMail size={51} rel="noopener noreferrer" className="fill-secondary"/></a>
+                                    <a href="https://github.com/edwardmontilla" target="_blank" rel="noopener noreferrer"><ImGithub size={35} className="duration-100 ease-in-out fill-accent hover:scale-110"/></a>
+                                    <a href="https://www.linkedin.com/in/edward-montilla-ab5b51192/" target="_blank" rel="noopener noreferrer"><AiOutlineLinkedin size={44} className="duration-100 ease-in-out fill-accent hover:scale-110"/></a>
+                                    <a href="mailto:edanmontilla@gmail.com"><HiOutlineMail size={51} rel="noopener noreferrer" className="duration-100 ease-in-out fill-secondary hover:scale-110"/></a>
                                 </div>  
                             </div>
                         </div>

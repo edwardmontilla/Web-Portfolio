@@ -17,22 +17,22 @@ const NavMenu = () => {
 
             <div className="flex justify-end gap-4 mr-8 text-center metropolisL">
 
-                <div className="p-2">
+                <div className="p-2 duration-100 ease-in-out hover:font-semibold hover:text-accent">
                     <Link href="/"> {/* page.js */}
                         Home
                     </Link>
                 </div>
-                <div className="p-2">
+                <div className="p-2 duration-100 ease-in-out hover:font-semibold hover:text-accent">
                     <Link href="./about#container"> {/* Description about me on a separate page, might include photos of hobbies  */}
                         About Me
                     </Link>
                 </div>
-                <div className="p-2">
+                <div className="p-2 duration-100 ease-in-out hover:font-semibold hover:text-accent">
                     <Link href="./about#proj-container"> {/* will scroll down to projects section  */}
                         Projects
                     </Link>
                 </div>
-                <div className="p-2">
+                <div className="p-2 duration-100 ease-in-out hover:font-semibold hover:text-accent">
                     <Link href="./about#contact"> {/* will scroll down to contact section  */}
                         Contact
                     </Link>
