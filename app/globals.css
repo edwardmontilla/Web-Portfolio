@@ -99,7 +99,7 @@ html { /* Smooth scrolling */
   justify-content: flex-start;
   align-items: left;
   padding: 1rem 2rem;
-  margin: 3rem 4rem;
+  margin: 3rem 1rem 3rem 4rem;
   max-width: 60%;
   /* border: 2px solid black; */
 }
@@ -114,9 +114,9 @@ html { /* Smooth scrolling */
 #img-container {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
-  margin: 3rem 2rem;
+  margin: 3rem 1rem;
   max-width: 30%; /* Adjust as needed */
 }
 #img-container img {
@@ -128,7 +128,7 @@ html { /* Smooth scrolling */
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 1rem;
+  margin: 2.5rem;
   padding: 1rem;
 }
 
