@@ -6,7 +6,7 @@ import React from "react";
 const Projects = () => {
     return (
         <>
-        <div id="proj" className="p-4 m-4 bg-white border rounded-lg shadow-md group/proj border-primary shadow-secondary">  {/* this is the container for the projects */}
+        <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md group/proj border-primary shadow-secondary hover:bg-primary/60">  {/* this is the container for the projects */}
             <div id="proj-img">
                 <img src="/images/mg-1.png" alt="miggy-sc" className="w-1/6 h-auto border rounded-lg border-secondary"/>
                 <div className="flex flex-col ml-4 grow text-accent">
@@ -28,7 +28,7 @@ const Projects = () => {
         </div>
         
 
-        <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md group/proj border-primary shadow-secondary">  {/* this is the container for the projects */}
+        <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md group/proj border-primary shadow-secondary hover:bg-primary/60">  {/* this is the container for the projects */}
             <div id="proj-img">
                 <img src="/images/py1.png" alt="py-sc" className="w-1/6 h-auto border rounded-lg border-secondary"/>
                 <div className="flex flex-col ml-4 grow text-accent">
@@ -43,7 +43,7 @@ const Projects = () => {
                 </div>
             </div>
         </div>
-        <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md group/proj border-primary shadow-secondary">  {/* this is the container for the projects */}
+        <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md group/proj hover:bg-primary/60 border-primary shadow-secondary">  {/* this is the container for the projects */}
             <div id="proj-img">
                 <img src="/images/ln-1.png" alt="ln-sc" className="w-1/6 h-auto border rounded-lg border-secondary"/>
                 <div className="flex flex-col ml-4 grow text-accent">
@@ -59,7 +59,7 @@ const Projects = () => {
                 </div>
             </div>
         </div>
-        <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md group/proj border-primary shadow-secondary">  {/* this is the container for the projects */}
+        <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md hover:bg-primary/60 group/proj border-primary shadow-secondary">  {/* this is the container for the projects */}
             <div id="proj-img">
                 <img src="/images/BG-Full-Opacity.png" alt="bg" className="w-1/6 h-auto border rounded-lg border-secondary"/>
                 <div className="flex flex-col ml-4 grow text-accent">
