@@ -895,14 +895,14 @@
     #mobile-desc66 { /* 6th row description */
         font-size: 0.8rem;
         text-align: center;
-        transform: translate(1%, -675px);
+        transform: translate(1%, -455px);
         white-space: wrap;
         line-height: 1.6;
     }
     #mobile-desc77 { /* 6th row description */
         font-size: 0.8rem;
         text-align: center;
-        transform: translate(1%, -880px);
+        transform: translate(1%, -680px);
         white-space: wrap;
         line-height: 1.6;
     }
