@@ -12,7 +12,7 @@ const Projects = () => {
                 <div className="flex flex-col ml-4 grow text-accent">
                     <h2 className="lnFont">Miggy&apos;s Munchies</h2>
                     <p className="metropolisR">A capstone project built to simplify food ordering operations with a dedicated web app, automating ordering and payment for enhanced convenience.</p>
-                    <div className="flex flex-row">
+                    <div className="flex flex-row mt-4">
                         <img src="/icons/html5-icon.svg" alt="html5" className="w-8 h-8 m-1"></img>
                         <img src="/icons/css-icon.svg" alt="css" className="w-8 h-8 m-1"></img>
                         <img src="/icons/javascript-icon.svg" alt="javascript" className="w-8 h-8 m-1"></img>
@@ -34,7 +34,7 @@ const Projects = () => {
                 <div className="flex flex-col ml-4 grow text-accent">
                     <h2 className="lnFont">Python Business Profit Calculator</h2>
                     <p className="metropolisR">A Python script created to calculate the daily profits of a fictional online retail business&apos; daily profits.</p>
-                    <div className="flex flex-row">
+                    <div className="flex flex-row mt-4">
                         <img src="/icons/python-icon.svg" alt="python" className="w-8 h-8 m-1"></img>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ const Projects = () => {
                 <div className="flex flex-col ml-4 grow text-accent">
                     <h2 className="lnFont">Fan-made Website</h2>
                     <p className="metropolisR">A fan-made website, based on the video game series Little Nightmares, created for learning design and expressing creativity, while enthusiastically supporting the content.</p>
-                    <div className="flex flex-row">
+                    <div className="flex flex-row mt-4">
                         <img src="/icons/html5-icon.svg" alt="html5" className="w-8 h-8 m-1"></img>
                         <img src="/icons/css-icon.svg" alt="css" className="w-8 h-8 m-1"></img>
                     </div>
@@ -65,6 +65,9 @@ const Projects = () => {
                 <div className="flex flex-col ml-4 grow text-accent">
                     <h2 className="lnFont">Project Title</h2>
                     <p className="metropolisR">Details</p>
+                    <div className="flex flex-row mt-4">
+                        <img src="/icons/python-icon.svg" alt="python" className="w-8 h-8 m-1"></img>
+                    </div>
                 </div>
                 <div className="group-hover/proj:animate-slideProjRight">
                     <a href="https://www.google.com" className="relative mt-24 font-semibold metropolisR gitlink invisible group-hover/proj:visible hover:translate-x-[-7px] transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
