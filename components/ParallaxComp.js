@@ -227,8 +227,8 @@ const ParallaxComp = () => {
                         <div className="flex justify-center h-full">
                             <div className="grid grid-rows-1">
 
-                        {/* 1 */}
-                                <div className="col-span-1 col-start-1 row-start-1">
+                        {/* 1 Hidden */}
+                                <div className="hidden col-span-1 col-start-1 row-start-1">
                                     <div className="rbox2">
                                         <p className="mt-24 text-lg text-white translate-x-8 metropolisR" id="mobile-desc8">
                                             description here
@@ -236,8 +236,8 @@ const ParallaxComp = () => {
                                     </div>
                                 </div>
                                 
-                        {/* 2 */}
-                                <div className="col-span-1 col-start-2 row-start-1">
+                        {/* 2 Hidden */}
+                                <div className="hidden col-span-1 col-start-2 row-start-1">
                                     <div className="lbox2">
                                         <p className="mt-24 text-lg text-right text-white translate-x-[-2rem] metropolisR" id="mobile-desc9">
                                             description here
@@ -254,6 +254,9 @@ const ParallaxComp = () => {
 
 
 {/* Footer is set at the last Page */}
+            <ParallaxLayer offset={4} speed={0}>
+                <div className="plxlayer parallax" id="layered-wave"></div>
+            </ParallaxLayer>
             <ParallaxLayer offset={4} speed={0}>
                 <Footer />
             </ParallaxLayer>

@@ -133,23 +133,14 @@ html { /* Smooth scrolling */
 }
 
 /*---------------- PROJECTS ----------------*/
-#side-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  margin: 3rem 2rem;
-  max-width: 30%;
-  /* border: 2px solid black; */
-}
 #proj-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: left; /* got rid of right margin */
-  padding: 0 0 1rem 2rem; /* for rid of right padding */
+  align-items: flex-start; /* got rid of right margin */
+  padding: 0 0 1rem 2rem; /* got rid of right padding */
   margin: 3rem 0 3rem 2rem;
-  max-width: 68.5%;
+  max-width: 75%;
   /* border: 2px solid black; */
 }
 #proj {

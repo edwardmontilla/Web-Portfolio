@@ -63,10 +63,6 @@ const About = () => {
                             <Projects />
                         </div>
                     </div>
-                    {/* <div id="side-container" className="">
-                        <h2 className="mt-6 mb-6 text-lg font-extrabold lnFont">Contact Me</h2>
-                
-                    </div> */}
                 </div>
 
                 <div id="wave-container"> {/* this is the wave BG */}
@@ -79,9 +75,9 @@ const About = () => {
                             </div>
                             <div className="flex flex-col gap-4 mt-4">
                                 <div className="flex flex-row items-center gap-2">
-                                    <a href="https://github.com/edwardmontilla" target="_blank" rel="noopener noreferrer"><ImGithub size={35} className="duration-100 ease-in-out fill-accent hover:scale-110"/></a>
-                                    <a href="https://www.linkedin.com/in/edward-montilla-ab5b51192/" target="_blank" rel="noopener noreferrer"><AiOutlineLinkedin size={44} className="duration-100 ease-in-out fill-accent hover:scale-110"/></a>
-                                    <a href="mailto:edanmontilla@gmail.com"><HiOutlineMail size={51} rel="noopener noreferrer" className="duration-100 ease-in-out fill-secondary hover:scale-110"/></a>
+                                    <a href="https://github.com/edwardmontilla" target="_blank" rel="noopener noreferrer"><ImGithub size={35} className="duration-100 ease-in-out fill-accent hover:fill-secondary hover:scale-110"/></a>
+                                    <a href="https://www.linkedin.com/in/edward-montilla-ab5b51192/" target="_blank" rel="noopener noreferrer"><AiOutlineLinkedin size={44} className="duration-100 ease-in-out fill-accent hover:fill-secondary hover:scale-110"/></a>
+                                    <a href="mailto:edanmontilla@gmail.com"><HiOutlineMail size={51} rel="noopener noreferrer" className="duration-100 ease-in-out fill-secondary hover:fill-gray-200 hover:scale-110"/></a>
                                 </div>  
                             </div>
                         </div>

@@ -59,7 +59,9 @@
 #wave-000 {
     background-image: url(/images/wave-000.svg);
 }
-
+#layered-wave {
+    background-image: url(/images/layered-wave.svg);
+}
 
 /* ---------- Icons ---------- */
 #css-icon {

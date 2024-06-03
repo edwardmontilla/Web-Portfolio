@@ -7,8 +7,8 @@ import Link from "next/link";
 
 const NavMenu = () => {
     return (
-        <nav className="flex items-center justify-between ml-24 text-white text-nowrap">
-            <div className="pl-2 pr-2 ml-2 mr-2 border-b-2 border-r-2 border-white border-double rounded-br-md metropolisL">
+        <nav className="flex items-center justify-between ml-16 text-white text-nowrap">
+            <div className="pl-2 pr-2 ml-2 mr-2 border-r border-white metropolisL">
                 <Link href="/">
                     Edward Montilla
                 </Link>

@@ -173,8 +173,8 @@ const Page2 = () => {
                                     </div>
                         </div>
 
-        {/* 6th Row */}
-                <div className="mt-[40px] col-span-1 col-start-1 row-start-6 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
+        {/* 6th Row hidden */}
+                <div className="hidden mt-[40px] col-span-1 col-start-1 row-start-6 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
                         <div>
                             <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc88">Project desc</p>
                             <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc88"> Project desc</p>
@@ -189,8 +189,8 @@ const Page2 = () => {
                                     </div>
                         </div>
                         
-        {/* 6th Row */}
-                        <div className="mt-[40px] col-span-1 col-start-2 row-start-6 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
+        {/* 6th Row hidden */}
+                        <div className="hidden mt-[40px] col-span-1 col-start-2 row-start-6 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
                         <div>
                             <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc99">Project/Work description here</p>
                         </div>

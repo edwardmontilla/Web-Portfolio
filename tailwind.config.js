@@ -71,6 +71,12 @@ module.exports = {
           '25%, 75%': { opacity: 1 },
         },
 
+// for projects in about me
+        slideProjRight: {
+          '0%': { opacity: 0, transform: 'translateX(-50%)' },
+          '100%': { opacity: 1, transform: 'translateX(0)' },
+        },
+
 // animations for waves svg
         float: {
           '0%, 100%': { transform: 'translateY(0)' },
@@ -107,6 +113,11 @@ module.exports = {
         slideFadeUp: 'slideFadeUp 2s',
         slideFadeDown: 'slideFadeDown 2s',
         fadeInOut: 'fadeInOut 10s ease-in-out infinite',
+
+// for projects in about me
+        slideProjRight: 'slideProjRight 0.5s',
+
+
 
 // animation for waves svg
         float: 'float 4s ease-in-out infinite',
