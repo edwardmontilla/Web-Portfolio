@@ -13,13 +13,7 @@ const NavMenu = () => {
                     Edward Montilla
                 </Link>
             </div>
-            <div className="metropolisL" id="name-logo">
-                <Link href="/">
-                    EM
-                </Link>
-            </div>
             
-
             <div className="flex justify-end gap-4 mr-24 text-center metropolisL">
 
                 <div className="p-2 duration-100 ease-in-out hover:font-semibold hover:text-accent">

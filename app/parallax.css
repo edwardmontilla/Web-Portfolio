@@ -639,17 +639,14 @@
 /* ---------- 360 x 613 (665 for projects)---------- */
 @media screen and (min-width: 360px) and (max-width: 388px) and (min-height:610px) and (max-height:760px) {
     nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 0.8rem;
         transform: translateX(10%);
     }
-    #desktop-name-logo {
+    #desktop-name-logo { /* add hamburger menu instead */
         display: none;
-    }
-    #name-logo {
-        display: flex;
-        justify-content: flex-start;
-        align-items: left;
-        display: block;
     }
     #blowfish {
         width: 35px;
