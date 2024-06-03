@@ -6,7 +6,7 @@ import React from "react";
 const Projects = () => {
     return (
         <>
-        <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md group/proj border-primary shadow-secondary hover:bg-accent/70 hover:text-white text-accent">  {/* this is the container for the projects */}
+        <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md group/proj border-primary shadow-secondary hover:bg-[#41546e] hover:text-white text-accent">  {/* this is the container for the projects */}
             <div id="proj-img">
                 <img src="/images/mg-1.png" alt="miggy-sc" className="w-1/6 h-auto border rounded-lg border-secondary"/>
                 <div className="flex flex-col ml-4 grow">
@@ -22,13 +22,13 @@ const Projects = () => {
                 </div>
 
                 <div className="group-hover/proj:animate-slideProjRight">
-                    <a href="https://www.google.com" className="relative mt-24 font-semibold metropolisR gitlink invisible group-hover/proj:visible hover:translate-x-[-7px] transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
+                    <a href="https://www.google.com" className="relative mt-24 font-semibold metropolisR gitlink invisible hover:underline hover:underline-offset-4 group-hover/proj:visible hover:translate-x-[-7px] transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
                 </div>
             </div>
         </div>
         
 
-        <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md group/proj border-primary shadow-secondary hover:bg-accent/70 hover:text-white text-accent">  {/* this is the container for the projects */}
+        <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md group/proj border-primary shadow-secondary hover:bg-[#41546e] hover:text-white text-accent">  {/* this is the container for the projects */}
             <div id="proj-img">
                 <img src="/images/py1.png" alt="py-sc" className="w-1/6 h-auto border rounded-lg border-secondary"/>
                 <div className="flex flex-col ml-4 grow">
@@ -39,11 +39,11 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="group-hover/proj:animate-slideProjRight">
-                    <a href="https://www.google.com" className="relative mt-24 font-semibold metropolisR gitlink invisible group-hover/proj:visible hover:translate-x-[-7px] transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
+                    <a href="https://www.google.com" className="relative mt-24 font-semibold metropolisR gitlink invisible hover:underline hover:underline-offset-4 group-hover/proj:visible hover:translate-x-[-7px] transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
                 </div>
             </div>
         </div>
-        <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md group/proj hover:bg-accent/70 border-primary shadow-secondary hover:text-white text-accent">  {/* this is the container for the projects */}
+        <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md group/proj hover:bg-[#41546e] border-primary shadow-secondary hover:text-white text-accent">  {/* this is the container for the projects */}
             <div id="proj-img">
                 <img src="/images/ln-1.png" alt="ln-sc" className="w-1/6 h-auto border rounded-lg border-secondary"/>
                 <div className="flex flex-col ml-4 grow">
@@ -55,11 +55,11 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="group-hover/proj:animate-slideProjRight">
-                    <a href="https://www.google.com" className="relative mt-24 font-semibold metropolisR gitlink invisible group-hover/proj:visible hover:translate-x-[-7px] transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
+                    <a href="https://www.google.com" className="relative mt-24 font-semibold metropolisR gitlink invisible hover:underline hover:underline-offset-4 group-hover/proj:visible hover:translate-x-[-7px] transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
                 </div>
             </div>
         </div>
-        <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md hover:text-white text-accent hover:bg-accent/70 group/proj border-primary shadow-secondary">  {/* this is the container for the projects */}
+        <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md hover:text-white text-accent hover:bg-[#41546e] group/proj border-primary shadow-secondary">  {/* this is the container for the projects */}
             <div id="proj-img">
                 <img src="/images/BG-Full-Opacity.png" alt="bg" className="w-1/6 h-auto border rounded-lg border-secondary"/>
                 <div className="flex flex-col ml-4 grow">
@@ -70,7 +70,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="group-hover/proj:animate-slideProjRight">
-                    <a href="https://www.google.com" className="relative mt-24 font-semibold metropolisR gitlink invisible group-hover/proj:visible hover:translate-x-[-7px] group-hover/proj:text-white transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
+                    <a href="https://www.google.com" className="relative mt-24 font-semibold metropolisR gitlink invisible group-hover/proj:visible hover:translate-x-[-7px] hover:underline hover:underline-offset-4 group-hover/proj:text-white transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
                 </div>
             </div>
         </div>
