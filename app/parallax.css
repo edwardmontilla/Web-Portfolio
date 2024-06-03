@@ -642,6 +642,15 @@
         font-size: 0.8rem;
         transform: translateX(10%);
     }
+    #desktop-name-logo {
+        display: none;
+    }
+    #name-logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: left;
+        display: block;
+    }
     #blowfish {
         width: 35px;
         height: 35px;
