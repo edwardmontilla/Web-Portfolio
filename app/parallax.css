@@ -900,6 +900,10 @@
         white-space: wrap;
         line-height: 1.6;
     }
+    #layered-wave {
+        background-size: contain;
+        transform: translateY(22%);
+    }
 
 
 }

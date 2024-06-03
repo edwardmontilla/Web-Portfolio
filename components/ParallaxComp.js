@@ -15,7 +15,7 @@ import Footer from "./Footer";
                 //
 
 
-// using 2 pages for now
+// using 5 pages for now
 // add a component for page {2} at before the closing tag of Parallax
 // added viewbox to the svgs to make them responsive
 //
