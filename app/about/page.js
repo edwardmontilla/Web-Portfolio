@@ -32,10 +32,10 @@ const About = () => {
                             </p>
                         <h2 className="text-lg font-semibold lnFont">Hobbies and Interests</h2>
                             <p id="bio" className="metropolisR">
-                            In addition to my technical and artistic skills, I also enjoy spending time outdoors. I play badminton on a weekly basis and love going on hikes and camping to explore new places. 
-                            Additionally, I thoroughly enjoy gaming as a hobby and find it to be a huge source of inspiration for my creativity. Whether it&apos;s the intricate designs of game environments or 
+                            In addition to my technical and artistic skills, I also enjoy spending time outdoors by being physically active. 
+                            Additionally, I thoroughly enjoy gaming as a hobby and find it to be a huge source of inspiration for my creativity. 
+                            Whether it&apos;s the intricate designs of game environments or 
                             the captivating characters in animations, I&apos;m constantly drawn to the artistic aspects of gaming and animation.
-                            I&apos;m also planning to get back into aquascaping so I can create a small underwater landscape to soothe my mind.
                             </p>
                     </div>
                     
