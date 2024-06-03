@@ -58,7 +58,7 @@ const About = () => {
                 
                 <div id="container" className="bg-background ">
                     <div id="proj-container" className="text-gray-800 animate-slideFadeUp">
-                        <h1 className="mb-6 text-2xl font-extrabold lnFont">Projects</h1>
+                        <h1 className="mb-6 text-2xl font-extrabold lnFont">Project and Other Works</h1>
                         <div className="">
                             <Projects />
                         </div>
