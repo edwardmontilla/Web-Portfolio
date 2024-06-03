@@ -176,7 +176,7 @@ const ParallaxComp = () => {
                                 <div className="col-span-1 col-start-2 row-start-1">
                                     <div className="lbox2">
                                         <p className="mt-24 text-lg text-right text-white translate-x-[-2rem] metropolisR" id="mobile-desc5">
-                                            An application to calculate an online retail business&apos; daily profits.
+                                            An application for reading and populating a text file with patient information, allowing users to add, search, and edit patient data.
                                         </p>
                                     </div>
 
@@ -209,7 +209,7 @@ const ParallaxComp = () => {
                                 <div className="col-span-1 col-start-2 row-start-1">
                                     <div className="lbox2">
                                         <p className="mt-24 text-lg text-right text-white translate-x-[-2rem] metropolisR" id="mobile-desc7">
-                                            Project/Work description here
+                                            An application to calculate an online retail business&apos; daily profits.
                                         </p>
                                     </div>
 

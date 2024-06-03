@@ -30,10 +30,10 @@ const Projects = () => {
 
         <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md group/proj border-primary shadow-secondary hover:bg-[#41546e] hover:text-white text-accent">  {/* this is the container for the projects */}
             <div id="proj-img">
-                <img src="/images/py1.png" alt="py-sc" className="w-1/6 h-auto border rounded-lg border-secondary"/>
+                <img src="/images/py1.png" alt="py-script" className="w-1/6 h-auto border rounded-lg border-secondary"/>
                 <div className="flex flex-col ml-4 grow">
                     <h2 className="lnFont">Python Business Profit Calculator</h2>
-                    <p className="metropolisR">A Python script created to calculate the daily profits of a fictional online retail business&apos; daily profits.</p>
+                    <p className="metropolisR">A Python script for adding, searching, and editing the info of a patient by reading and using a populated text file.</p>
                     <div className="flex flex-row mt-4">
                         <img src="/icons/python-icon.svg" alt="python" className="w-8 h-8 m-1"></img>
                     </div>
@@ -61,10 +61,10 @@ const Projects = () => {
         </div>
         <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md hover:text-white text-accent hover:bg-[#41546e] group/proj border-primary shadow-secondary">  {/* this is the container for the projects */}
             <div id="proj-img">
-                <img src="/images/BG-Full-Opacity.png" alt="bg" className="w-1/6 h-auto border rounded-lg border-secondary"/>
+                <img src="/images/py1.png" alt="py-script" className="w-1/6 h-auto border rounded-lg border-secondary"/>
                 <div className="flex flex-col ml-4 grow">
-                    <h2 className="lnFont">Project Title</h2>
-                    <p className="metropolisR">Details</p>
+                    <h2 className="lnFont">Python Business Profit Calculator</h2>
+                    <p className="metropolisR">A Python script created to calculate the daily profits of an online retail business&apos; daily profits.</p>
                     <div className="flex flex-row mt-4">
                         <img src="/icons/python-icon.svg" alt="python" className="w-8 h-8 m-1"></img>
                     </div>
