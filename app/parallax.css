@@ -570,7 +570,7 @@
 
 
 /* ---------- For 2560 x 1440 reso ---------- */
-@media screen and (min-width: 2000px) and (min-height: 1000px ) {
+@media screen and (min-width: 2048px) and (min-height: 1000px ) {
     #wave-000 {
         transform: translateY(3%);
     }
