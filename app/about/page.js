@@ -20,7 +20,7 @@ const About = () => {
         <>
             <div>
                 <div id="container" className="translate-y-12">
-                    <div id="bio-container" className="text-gray-800 border shadow-lg shadow-secondary bg-background rounded-2xl animate-slideFadeRight border-primary">
+                    <div id="bio-container" className="text-gray-800 border shadow-lg shadow-secondary rounded-2xl animate-slideFadeRight border-primary">
                         <h1 className="mt-6 mb-6 text-2xl font-bold lnFont">About Me</h1>
                         <h2 className="text-lg font-semibold lnFont">So what made me pursue a career in software development?</h2>
                             <p id="bio" className="metropolisR">
