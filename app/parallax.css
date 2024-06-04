@@ -842,11 +842,11 @@
         margin-top: 255px;
         z-index: 30;
     }
-    #proj-box #back-box, #mg3, #ln3, #py3 { /* hide the other boxes, add more images*/
+    #proj-box #back-box, #mg3, #ln3, #py3, #py33 { /* hide the other boxes, add more images*/
         display: none;
         backdrop-filter: none;
     }
-    #proj-box #mg1, #ln1, #py1 { /* add more images after adding to the projects */
+    #proj-box #mg1, #ln1, #py1, #py11 { /* add more images after adding to the projects */
         width: 100%;
         height: 100%;
         background-size: cover;
@@ -938,17 +938,17 @@
         transform: translateY(22%);
     }
 
-
 }
 
+/* -------- About Page Mobile is located in globals.css  -------- */
 
 
-
-/* TO DO May 29, 2024 ----------------------------------
-    -- finished samsung s8 mobile version --
-    -- finished 1440px responsive --
+/* TO DO June 03, 2024 ----------------------------------
+    --  --
+    -- finished 1440px responsiveness --
     -- fixed links --
 
+    -- fix About page responsiveness --
     -- fix all other resolutions for responsiveness -- 
     -- add github icon under ABOUT ME --
     
@@ -961,8 +961,15 @@
         /# add #img1, #img2, #img3 at the very top
 
         /* #proj-box #back-box, #mg3, #ln3, #py3 { /* hide the other boxes, add more images*/
+        /*  display: none
+            backdrop-filter: none 
+        */
 
         /* #proj-box #mg1, #ln1, #py1 { /* add more images after adding to the projects */
+        /*  width: 100%
+            height: 100%
+            background-size: cover
+        */
 
 /*-------------------------------------------------------*/
 

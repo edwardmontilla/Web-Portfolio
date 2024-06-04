@@ -207,6 +207,84 @@ html { /* Smooth scrolling */
 }
 
 
+}
+
+/*---------------- Mobile responsiveness ----------------*/
+@media screen and (min-width: 340px) and (max-width: 490px) {
+
+/*---------------- ABOUT ----------------*/
+  #container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: fit-content;
+  }
+  #bio-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0.8rem;
+      margin: 0.8rem 0.8rem 1.5rem 0.8rem;
+      max-width: 100%;
+  }
+  #bio-container h1 { /* About Me */
+      font-size: 1rem;
+  }
+  #bio-container h2 { /* What made me pursue? Other Interests */
+      font-size: 0.9rem;
+      margin-bottom: 8px;
+  }
+  #bio {
+      font-size: 0.5rem;
+      margin: 2px 0;
+      font-size: 1rem;
+      line-height: 1.5;
+      text-align: left;
+  }
+  #img-container, #hobby-icon {
+    display: none;
+  }
+
+/*---------------- PROJECTS ----------------*/
+  #proj-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 0 1rem 0;
+      margin: 0.8rem 0.8rem 1rem 0.8rem;
+      max-width: 100%;
+  }
+  #proj-container h1 { /* Projects and Other Works */
+      font-size: 1rem;
+      margin: 12px 0;
+  }
+  #proj {
+      margin: 1rem 0;
+      max-height: 350px;
+  }
+  #proj-img {
+      font-size: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      justify-content: center;
+      transform: translateX(-10px);
+  }
+  #proj-img h2 { /* Project Title */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      font-size: 1rem;
+      margin-bottom: 10px;
+  }
+  #mobile-hide { /* this hides the thumbnail photo */
+    display: none;
+  }
+
 
 }
 

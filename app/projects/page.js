@@ -10,7 +10,7 @@ const Projects = () => {
             {/* 1st project */}
             <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md group/proj border-primary shadow-secondary hover:bg-[#41546e] hover:text-white text-accent">  {/* this is the container for the projects */}
                 <div id="proj-img">
-                    <img src="/images/mg-1.png" alt="miggy-sc" className="w-1/6 h-auto border rounded-lg border-secondary"/>
+                    <img src="/images/mg-1.png" alt="miggy-sc" className="w-1/6 h-auto border rounded-lg border-secondary" id="mobile-hide" />
                     <div className="flex flex-col ml-4 grow">
                         <h2 className="lnFont">Miggy&apos;s Munchies</h2>
                         <p className="metropolisR">A capstone project built to simplify food ordering operations with a dedicated web app, automating ordering and payment for enhanced convenience.</p>
@@ -32,7 +32,7 @@ const Projects = () => {
             {/* 2nd project */}
             <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md group/proj border-primary shadow-secondary hover:bg-[#41546e] hover:text-white text-accent">  {/* this is the container for the projects */}
                 <div id="proj-img">
-                    <img src="/images/py1.png" alt="py-script" className="w-1/6 h-auto border rounded-lg border-secondary"/>
+                    <img src="/images/py1.png" alt="py-script" className="w-1/6 h-auto border rounded-lg border-secondary" id="mobile-hide"/>
                     <div className="flex flex-col ml-4 grow">
                         <h2 className="lnFont">Patient-Class Application</h2>
                         <p className="metropolisR">A Python script for adding, searching, and editing the info of a patient by reading and using a populated text file.</p>
@@ -49,7 +49,7 @@ const Projects = () => {
             {/* 3rd project */}
             <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md group/proj hover:bg-[#41546e] border-primary shadow-secondary hover:text-white text-accent">  {/* this is the container for the projects */}
                 <div id="proj-img">
-                    <img src="/images/ln-1.png" alt="ln-sc" className="w-1/6 h-auto border rounded-lg border-secondary"/>
+                    <img src="/images/ln-1.png" alt="ln-sc" className="w-1/6 h-auto border rounded-lg border-secondary" id="mobile-hide"/>
                     <div className="flex flex-col ml-4 grow">
                         <h2 className="lnFont">Fan-made Website</h2>
                         <p className="metropolisR">A fan-made website, based on the video game series Little Nightmares, created for learning design and expressing creativity, while enthusiastically supporting the content.</p>
@@ -67,7 +67,7 @@ const Projects = () => {
             {/* 4th project */}
             <div id="proj" className="p-4 m-4 transition ease-in-out bg-white border rounded-lg shadow-md hover:text-white text-accent hover:bg-[#41546e] group/proj border-primary shadow-secondary">  {/* this is the container for the projects */}
                 <div id="proj-img">
-                    <img src="/images/py1.png" alt="py-script" className="w-1/6 h-auto border rounded-lg border-secondary"/>
+                    <img src="/images/py1.png" alt="py-script" className="w-1/6 h-auto border rounded-lg border-secondary" id="mobile-hide"/>
                     <div className="flex flex-col ml-4 grow">
                         <h2 className="lnFont">Python Business Profit Calculator</h2>
                         <p className="metropolisR">A Python script created to calculate the daily profits of an online retail business&apos; daily profits.</p>
