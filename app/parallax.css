@@ -247,6 +247,33 @@
     justify-content: center;
     background-size: cover;
 }
+#py11 {
+    background-image: url(/images/py11.png);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+#py22 {
+    background-image: url(/images/py22.png);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+#py33 {
+    background-image: url(/images/py33.png);
+    width: 440px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
 
 /* ---------- Laptop 1920 x 1080 (default) reso ---------- */
 /* ---------- For 1536px x 864px ---------- */
@@ -870,7 +897,7 @@
         white-space: wrap;
         line-height: 1.6;
     }
-    #mobile-desc55 { /* python description */
+    #mobile-desc55 { /* patient python description */
         font-size: 0.8rem;
         text-align: center;
         transform: translate(1%, -240px);
@@ -880,11 +907,11 @@
     #mobile-desc66 { /* little nightmares description */
         font-size: 0.8rem;
         text-align: center;
-        transform: translate(1%, -475px);
+        transform: translate(1%, -480px);
         white-space: wrap;
         line-height: 1.6;
     }
-    #mobile-desc77 { /* 4th project description */
+    #mobile-desc77 { /* profit python description */
         font-size: 0.8rem;
         text-align: center;
         transform: translate(1%, -680px);
@@ -892,14 +919,14 @@
         line-height: 1.6;
     }
     /* fix desc8 and desc9 */
-    #mobile-desc66 { /* 6th row description */
+    #mobile-desc88 { /* 6th row description Hidden */
         font-size: 0.8rem;
         text-align: center;
         transform: translate(1%, -463px);
         white-space: wrap;
         line-height: 1.6;
     }
-    #mobile-desc77 { /* 6th row description */
+    #mobile-desc99 { /* 6th row description Hidden */
         font-size: 0.8rem;
         text-align: center;
         transform: translate(1%, -680px);

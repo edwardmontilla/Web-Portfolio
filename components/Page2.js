@@ -128,16 +128,16 @@ const Page2 = () => {
         {/* 4th Row */}
                         <div className="mt-[40px] col-span-1 col-start-2 row-start-4 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
                         <div>
-                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc55">Online Business Profit Calculator</p>
+                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc55">Patient-Class Application</p>
                         </div>
 
                             <div className="rbox rounded-xl bg-primary/50 absolute top-[5%] left-[10%] backdrop-blur-[6px]" id="back-box">back box</div>
-                                <div className="rbox rounded-xl border-[1px] opacity-75 absolute top-[14%] left-[14%] backdrop-blur-[6px]" id="py3"></div>
+                                <div className="rbox rounded-xl border-[1px] opacity-75 absolute top-[14%] left-[14%] backdrop-blur-[6px]" id="py33"></div>
                                     <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%]" id="rectangle3">
-                                        <div className="rounded-lg" id="py2"></div>
+                                        <div className="rounded-lg" id="py22"></div>
                                     </div>
                                     <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%] animate-fadeInOut animation-delay-2000" id="rectangle3">
-                                        <div className="rounded-lg" id="py1"></div>
+                                        <div className="rounded-lg" id="py11"></div>
                                     </div>
                         </div>
 
@@ -166,10 +166,10 @@ const Page2 = () => {
                             <div className="rbox rounded-xl bg-primary/50 absolute top-[5%] left-[10%] backdrop-blur-[6px]" id="back-box">back box</div>
                                 <div className="rbox rounded-xl border-[1px] opacity-75 absolute top-[14%] left-[14%] backdrop-blur-[6px]" id="py3"></div>
                                     <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%]" id="rectangle5">
-                                        <div className="rounded-lg" id="py2">2</div>
+                                        <div className="rounded-lg" id="py2"></div>
                                     </div>
                                     <div className="border-[1px] border-b-background rounded-xl shadow-lg shadow-background/25 rbox absolute top-[25%] left-[15%] animate-fadeInOut" id="rectangle5">
-                                        <div className="rounded-lg" id="py1">1</div>
+                                        <div className="rounded-lg" id="py1"></div>
                                     </div>
                         </div>
 
