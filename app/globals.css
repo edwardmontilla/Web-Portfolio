@@ -210,6 +210,7 @@ html { /* Smooth scrolling */
 }
 
 /*---------------- Mobile responsiveness ----------------*/
+/* ---------- Not sure if this will fit most mobile ---------- */
 @media screen and (min-width: 340px) and (max-width: 490px) {
 
 /*---------------- ABOUT ----------------*/
@@ -217,6 +218,7 @@ html { /* Smooth scrolling */
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
       max-width: fit-content;
   }
   #bio-container {
@@ -274,17 +276,60 @@ html { /* Smooth scrolling */
       transform: translateX(-10px);
   }
   #proj-img h2 { /* Project Title */
+      text-align: center;
       display: flex;
       justify-content: center;
       align-items: center;
       font-weight: bold;
       font-size: 1rem;
       margin-bottom: 10px;
+      width: 100%;
+  }
+  #proj-img a {
+      justify-content: center;
+      align-items: center;
+      margin: 1rem 0 1rem 2rem;
+      text-wrap: nowrap;
+  }
+  #proj-img img:not(#mobile-hide) { /* center the img */
+    margin: 0 auto; 
   }
   #mobile-hide { /* this hides the thumbnail photo */
     display: none;
   }
 
+/*---------------- CONTACT ----------------*/
+  #wave-container { /* background wave at the very bottom */
+    background-image: url(/images/wave-contact.svg);
+    background-size: cover;
+    height: auto;
+    width: fit-content;
+  }
+  #contact-container { /* Contact Me container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 85%;
+  }
+  #contact { /* Contact Me */
+    margin-top: -2rem;
+    margin-bottom: 8rem;
+    padding: 1rem;
+  }
+  #contact h1 { /* Contact Me */
+    font-size: 1rem;
+    margin: 12px 0;
+  }
+  #contact p {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  #contact a {
+    transform: translateY(-25px);
+  }
+  #mail-icon { /* mail icon in contact */
+    display: none;
+  }
 
 }
 
