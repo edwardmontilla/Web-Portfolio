@@ -202,6 +202,7 @@ html { /* Smooth scrolling */
 
 
 /*---------------- RESPONSIVENESS ----------------*/
+/* ADD 1456px width to accomodate this responsiveness */
 @media screen and (min-width: 1720px) {
 
 
