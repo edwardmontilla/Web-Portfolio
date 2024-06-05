@@ -123,6 +123,13 @@ html { /* Smooth scrolling */
   max-width: 80%;
   height: auto;
 }
+#resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem 1rem 2.5rem 1rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+}
 #hobby-icon {
   display: flex;
   flex-direction: row;

@@ -40,14 +40,19 @@ const About = () => {
                     <div id="img-container" className="">
                             <img src="/images/jp1.jpg" alt="my-photo" className="border-[3px] rounded-full shadow-md border-accent/85 shadow-secondary animate-slideFadeLeft" /> {/* My Photo */}
 
-                            <div id="hobby-icon" className="gap-4 border shadow-md text-accent border-accent bg-background rounded-xl animate-slideFadeLeft shadow-secondary"> {/* My stats icon */}
+                            <button id="resume" className="gap-4 border shadow-md text-accent border-accent bg-background rounded-xl animate-slideFadeLeft shadow-secondary">
+                                <a href="https://drive.google.com/file/d/1Pk_pppIxe7dFAxzdapFl6guPiLs95dOG/view" target="_blank" className="text-lg font-semibold lnFont">
+                                    See My Resume
+                                </a>
+                            </button>
+                            {/* <div id="hobby-icon" className="gap-4 border shadow-md text-accent border-accent bg-background rounded-xl animate-slideFadeLeft shadow-secondary">
                                 <GoFileCode className="w-8 h-8 m animate-bounce" />
                                 <TfiGame className="w-8 h-8 m animate-bounce animation-delay-300" />
                                 <PiPersonSimpleHike className="w-8 h-8 m animate-bounce animation-delay-500"/>
                                 <img src="/icons/badminton.svg" alt="badminton" className="w-8 h-8 m animate-bounce animation-delay-700" />
                                 <IoColorPaletteOutline className="w-8 h-8 m animate-bounce animation-delay-900" />
                                 <LiaFishSolid className="w-8 h-8 m animate-bounce animation-delay-1100" />
-                            </div>
+                            </div> */}
                     </div>
 
 
