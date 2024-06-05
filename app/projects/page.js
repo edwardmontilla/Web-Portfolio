@@ -34,7 +34,7 @@ const Projects = () => {
                 <div id="proj-img">
                     <img src="/images/py1.png" alt="py-script" className="w-1/6 h-auto border rounded-lg border-secondary" id="mobile-hide"/>
                     <div className="flex flex-col ml-4 grow">
-                        <h2 className="lnFont">Patient-Class Application</h2>
+                        <h2 className="lnFont">Patient Management System</h2>
                         <p className="metropolisR">A Python script for adding, searching, and editing the info of a patient by reading and using a populated text file.</p>
                         <div className="flex flex-row mt-4">
                             <img src="/icons/python-icon.svg" alt="python" className="w-8 h-8 m-1"></img>

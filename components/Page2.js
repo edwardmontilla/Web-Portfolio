@@ -128,7 +128,7 @@ const Page2 = () => {
         {/* 4th Row */}
                         <div className="mt-[40px] col-span-1 col-start-2 row-start-4 h-[85%] w-full backdrop-blur-[6px]" id="proj-box">
                         <div>
-                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc55">Patient-Class Application</p>
+                            <p className="text-base text-white translate-x-2 metropolisR" id="mobile-desc55">Patient Management System</p>
                         </div>
 
                             <div className="rbox rounded-xl bg-primary/50 absolute top-[5%] left-[10%] backdrop-blur-[6px]" id="back-box">back box</div>
