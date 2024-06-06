@@ -38,9 +38,11 @@ const About = () => {
                     </div>
                     
                     <div id="img-container" className="">
-                            <img src="/images/jp1.jpg" alt="my-photo" className="border-[3px] rounded-full shadow-md border-accent/85 shadow-secondary animate-slideFadeLeft" /> {/* My Photo */}
 
-                            <button id="resume" className="gap-4 border shadow-md text-accent border-accent bg-background rounded-xl animate-slideFadeLeft shadow-secondary">
+                            <img src="/images/jp1.jpg" alt="my-photo" className="border-[3px] rounded-2xl shadow-md border-accent/85 shadow-secondary animate-slideFadeLeft" /> {/* My Photo */}
+
+
+                            <button id="resume" className="gap-4 transition ease-in-out border shadow-md hover:bg-[#41546e] hover:text-white text-accent border-accent bg-background rounded-xl animate-slideFadeLeft shadow-secondary">
                                 <a href="https://drive.google.com/file/d/1Pk_pppIxe7dFAxzdapFl6guPiLs95dOG/view" target="_blank" className="text-lg font-semibold lnFont">
                                     See My Resume
                                 </a>
