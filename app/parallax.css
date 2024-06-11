@@ -508,6 +508,7 @@
 /* for mobile */
 #mobile-desc4, #mobile-desc5, #mobile-desc6, #mobile-desc7, #mobile-desc8, #mobile-desc9 { /* show desktop description */
     display: block;
+
 }
 #mobile-desc44, #mobile-desc55, #mobile-desc66, #mobile-desc77, #mobile-desc88, #mobile-desc99 { /* hide mobile description */
     display: none;
@@ -570,7 +571,7 @@
         font-size: medium;
     }
 
-    /* height will change to 738px if you want to adjust BELOW PROJECTS the following */
+    /* height will change to 777px if you want to adjust BELOW PROJECTS the following */
     #mobile-desc4, #mobile-desc5 {
         margin-top: -100px;
         font-size: medium;
@@ -617,11 +618,11 @@
     }
 
     /* height will change to 738px if you want to adjust BELOW PROJECTS the following */
-    #mobile-desc4, 
-    #mobile-desc5, 
-    #mobile-desc6, 
-    #mobile-desc7 {
-        margin-top: 15px;
+    #mobile-desc4, #mobile-desc5 {
+        margin-top: -120px;
+    }
+    #mobile-desc6, #mobile-desc7 {
+        margin-top: -190px;
     }
 
 }
@@ -675,7 +676,7 @@
     #mobile-desc5, 
     #mobile-desc6, 
     #mobile-desc7 {
-        margin-top: 370px;
+        margin-top: 350px;
     }
 
 }
