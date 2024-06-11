@@ -41,9 +41,9 @@ const ParallaxComp = () => {
             <ParallaxLayer offset={0} speed={0.15} className="animate-slideFadeUp">
                 <div className="plxlayer parallax animate-float2" id="wave-4"></div>
             </ParallaxLayer>
-            <ParallaxLayer offset={0} speed={0.2} className="animate-slideFadeUp">
-                <div className="plxlayer parallax animate-fish" id="blowfish"></div> {/* blowfish */}
-            </ParallaxLayer>
+            {/* <ParallaxLayer offset={0} speed={0.2} className="animate-slideFadeUp">
+                <div className="plxlayer parallax animate-fish" id="blowfish"></div> /* blowfish 
+            </ParallaxLayer> */}
             <ParallaxLayer offset={0} speed={0.19} className="animate-slideFadeUp">
                 <div className="plxlayer parallax animate-float" id="wave-3"></div>
             </ParallaxLayer>
