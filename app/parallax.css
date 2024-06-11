@@ -532,13 +532,15 @@
     
 }
 /* ---------- For 1000px reso (CHANGE THIS ACCORDING TO THE RESO BELOW!) ---------- */
-/* @media screen and (min-width: 1000px) and (max-width: 1310px ) and (max-height: 863px) {
+/* @media screen and (min-width: 1000px) and (max-width: 1456px ) and (max-height: 863px) {
 
 
 } */
 
 /* ---------- For 4:3 Acer Swift ---------- */
+/* -------- LAPTOP (DEFAULT) 1536px x 777px (864px) !!!!! -------- */
 /* ---------- 1456 x 777 viewport ---------- */
+/* height will change to 738px if you want to adjust BELOW PROJECTS the following */
 @media screen and (min-width: 1310px) and (max-width: 1456px) {
     /* #blowfish {
         width: 130px;
@@ -555,10 +557,10 @@
     }
     #page-container, #page-block { /* Adjust the page after wave height */
         margin-top: -10px;
-        height: 400vh;
+        height: 400vh;      /* This is to change the icon-container size! */
         width: 100%;
     }
-    #page-container2, #page-block2 { /* /* ADJUST THIS TO MOVE TITLE/DESCS!! (height for the Titles/descriptions) */
+    #page-container2, #page-block2 { /* ADJUST THIS TO MOVE TITLE/DESCS!! (height for the Titles/descriptions) */
         margin-top: -200px;
         height: 350vh;
         width: 50% auto;
@@ -573,7 +575,7 @@
         margin-top: 350px;
     }
 
-    /* height will change to 738px if you want to adjust the following */
+    /* height will change to 738px if you want to adjust BELOW PROJECTS the following */
     #mobile-desc4, 
     #mobile-desc5, 
     #mobile-desc6, 
@@ -582,8 +584,10 @@
     }
 
 }
+/* -------- LAPTOP (DEFAULT) 1536px x 777px (864px) !!!!! -------- */
 /* ---------- For 1457px x (777px) reso ---------- */
-@media screen and (min-width: 1457px) {
+/* height will change to 738px if you want to adjust BELOW PROJECTS the following */
+@media screen and (min-width: 1457px) and (max-width: 1535px) {
     #about-me { /*Edward Montilla */
         width: 30%;
         z-index:20;
@@ -593,7 +597,7 @@
     }
     #page-container, #page-block { /* Adjust the page after wave height */
         margin-top: -10px;
-        height: 450vh;
+        height: 400vh;      /* This is to change the icon-container size! */
         width: 100%;
     }
     #page-container2, #page-block2 { /* ADJUST THIS TO MOVE TITLE/DESCS!! (height for the Titles/descriptions) */
@@ -602,29 +606,32 @@
         width: 50% auto;
     }
 
-
-
-
 }
 
+/* -------- LAPTOP (DEFAULT) 1536px x 777px (864px) !!!!! -------- */
+/* ---------- For 1457px x (777px) reso ---------- */
+/* height will change to 738px if you want to adjust BELOW PROJECTS the following */
+/* @media screen and (min-width: 1674px) and (min-height: 777px) and (max-width: 1999px)(){
+    
+} */
 
 /* ---------- For 1536px reso ---------- */
-@media screen and (min-width: 1720px) { 
-    #page-container, #page-block  {/* Adjust the page after wave height */
+/* @media screen and (min-width: 1720px) { 
+    #page-container, #page-block  {/* Adjust the page after wave height 
         margin-top: -10px;
         height: 500vh;
         width: 100%;
     }
-    #page-container2, #page-block2  {/* height for the Titles/descriptions */
+    #page-container2, #page-block2  {/* height for the Titles/descriptions 
         margin-top: -200px;
         height: 450vh;
         width: 50% auto;
     }
-}
+} */
 
 
 /* ---------- For 2560 x 1440 reso ---------- */
-@media screen and (min-width: 2000px) and (min-height: 1000px ) {
+@media screen and (min-width: 2000px) { /* got rid of this for now and (min-height: 970px )
     #wave-000 {
         transform: translateY(3%);
     }
