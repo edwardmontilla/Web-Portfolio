@@ -277,7 +277,8 @@
 
 /* ---------- Laptop 1920 x 1080 (default) reso ---------- */
 /* ---------- Default 1536px x 777px (864px) ---------- */
-/* @media screen and (min-width: 1536px min-height: 864px) {} */
+/* ---------- height changes to 738px when working on Projects and Other Works ---------- */
+/* @media screen and (min-width: 1536px) {} */
 
 /* #blowfish {
     background-image: url(/icons/blowfish.svg);
@@ -531,11 +532,101 @@
     }
     
 }
-/* ---------- For 1000px reso (CHANGE THIS ACCORDING TO THE RESO BELOW!) ---------- */
-/* @media screen and (min-width: 1000px) and (max-width: 1456px ) and (max-height: 863px) {
+
+/* ---------- For lower than 1271px viewport ---------- */
+/* -------- LAPTOP (DEFAULT) 1536px x 777px (864px) !!!!! -------- */
+@media screen and (min-width: 1120px) and (max-width: 1271px) {
+    #about-me { /*Edward Montilla */
+        font-size: 2.7rem;
+        width: 30%;
+        z-index:20;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 33px;
+        white-space: nowrap; /* to prevent it from wrapping */
+    }
+    /* or just use #ui-title #titleL
+                   #edu-title #titleR
+    */       
+    #titleR { /* Title Right */
+        margin-top: 50px;
+    }
+    #titleL { /* Title Left */
+        margin-top: -50px;
+    }
+    #edu-title #titleR {
+        margin-top: -100px;
+    }
+    #mobile-desc1 { /* Full Stack description */
+        margin-top: 150px;
+        font-size: medium;
+    }
+    #mobile-desc2 { /* UI description */
+        margin-top: 50px;
+        font-size: medium;
+    }
+    #mobile-desc3 { /* Education description */
+        margin-top: 0;
+        font-size: medium;
+    }
+
+    /* height will change to 738px if you want to adjust BELOW PROJECTS the following */
+    #mobile-desc4, #mobile-desc5 {
+        margin-top: -100px;
+        font-size: medium;
+    }
+    #mobile-desc6, #mobile-desc7 {
+        margin-top: -170px;
+        font-size: medium;
+    }
+
+}
 
 
-} */
+/* ---------- For 1309px viewport ---------- */
+/* -------- LAPTOP (DEFAULT) 1536px x 777px (864px) !!!!! -------- */
+/* -------- Lower than 1309px size -------- */
+@media screen and (min-width: 1272px) and (max-width: 1309px) {
+    #about-me { /*Edward Montilla */
+        width: 30%;
+        z-index:20;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 35px;
+    }
+    /* or just use #ui-title #titleL
+                   #edu-title #titleR
+    */       
+    #titleR { /* Title Right */
+        margin-top: 50px;
+    }
+    #titleL { /* Title Left */
+        margin-top: -50px;
+    }
+    #edu-title #titleR {
+        margin-top: -100px;
+    }
+    #mobile-desc1 { /* Full Stack description */
+        margin-top: 150px;
+    }
+    #mobile-desc2 { /* UI description */
+        margin-top: 50px;
+    }
+    #mobile-desc3 { /* Education description */
+        margin-top: 0;
+    }
+
+    /* height will change to 738px if you want to adjust BELOW PROJECTS the following */
+    #mobile-desc4, 
+    #mobile-desc5, 
+    #mobile-desc6, 
+    #mobile-desc7 {
+        margin-top: 15px;
+    }
+
+}
+
+
 
 /* ---------- For 4:3 Acer Swift ---------- */
 /* -------- LAPTOP (DEFAULT) 1536px x 777px (864px) !!!!! -------- */
@@ -565,7 +656,11 @@
         height: 350vh;
         width: 50% auto;
     }
-    #titleR, #titleL { /* Title Right and Left*/
+
+    /* or just use #ui-title #titleL
+                   #edu-title #titleR
+    */                   
+    #titleR, #titleL { /* Title Right and Left */
         margin-top: 250px;
     }
     #mobile-desc1 { /* Full Stack description */
@@ -735,7 +830,6 @@
     #mobile-desc3 { /* Education description */
         transform: translate(-2rem, -205px);
     }
-    /* ---------- Projects Section ---------- */
 
     
 }

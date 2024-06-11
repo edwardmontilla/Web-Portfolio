@@ -202,20 +202,25 @@ html { /* Smooth scrolling */
 
 
 /*---------------- RESPONSIVENESS ----------------*/
-/* ADD 1456px width to accomodate this responsiveness */
-@media screen and (min-width: 1720px) {
+/* ---------------------------------------------- */
+/* ---------- Min width is 1153px set to max width 1152px ---------- */
+/* @media screen and (min-width: 964px) and (max-width: 1152px) {
 
 
-/*---------------- CONTACT ----------------*/
-#wave-container {
-  background-image: url(/images/wave-contact.svg);
-  background-size: cover;
-  height: 600px;
-  width: 100%;
-}
+} */
+/* @media screen and (min-width: 1720px) {
 
 
-}
+/*---------------- CONTACT ----------------
+  #wave-container {
+    background-image: url(/images/wave-contact.svg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+  }
+
+
+} */
 
 /*---------------- Mobile responsiveness ----------------*/
 /* ---------- Not sure if this will fit most mobile ---------- */
@@ -351,27 +356,13 @@ html { /* Smooth scrolling */
 - fixed contact bg wave
 - add more content to projects
 - 
-- add birds to the side of the project section
+- 
 - 
 */
 
 
 
 
-
-
-
-
-
-
-
-/* ---------- For whatever reso ---------- */
-/* @media screen and (min-width: 964px) and (max-width: 1312px) {
-
-
-
-
-} */
 
 
 
