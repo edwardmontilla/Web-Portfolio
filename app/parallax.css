@@ -607,13 +607,32 @@
     }
 
 }
+/* This is for EDWARD MONTILLA moving when width is resized larger */
+@media screen and (min-width: 1574px) {
+    #about-me { /*Edward Montilla */
+        width: 30%;
+        z-index:20;
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    
+}
+
 
 /* -------- LAPTOP (DEFAULT) 1536px x 777px (864px) !!!!! -------- */
 /* ---------- For 1457px x (777px) reso ---------- */
 /* height will change to 738px if you want to adjust BELOW PROJECTS the following */
-/* @media screen and (min-width: 1674px) and (min-height: 777px) and (max-width: 1999px)(){
+@media screen and (min-width: 1681px) and (max-width: 1999px), (min-height: 850px) {
+    #about-me { /*Edward Montilla */
+        width: 30%;
+        z-index:20;
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
     
-} */
+}
 
 /* ---------- For 1536px reso ---------- */
 /* @media screen and (min-width: 1720px) { 
@@ -631,7 +650,7 @@
 
 
 /* ---------- For 2560 x 1440 reso ---------- */
-@media screen and (min-width: 2000px) { /* got rid of this for now and (min-height: 970px )
+@media screen and (min-width: 2000px), (min-height: 1000px) { /* got rid of this for now and (min-height: 970px )
     #wave-000 {
         transform: translateY(3%);
     }
