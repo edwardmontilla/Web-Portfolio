@@ -1114,7 +1114,7 @@
 /* ---------- Default 350 x 613 (665 for projects) ---------- */
 /* ---------- min-w-350 max-w-388, min-h-610 max-h-760 ---------- */
 /* ---------- min iPhone 12 and higher (389 x 666) ---------- */
-@media screen and (min-width: 360px) and (max-width: 390px) and (min-height:666px) {
+@media screen and (min-width: 360px) and (max-width: 390px) and (min-height: 666px) {
     nav {
         display: flex;
         justify-content: start;
@@ -1370,7 +1370,6 @@
     }
 
 }
-
 
 
 
