@@ -48,7 +48,7 @@ const ParallaxComp = () => {
                 <div className="plxlayer parallax animate-float" id="wave-3"></div>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0.1} className="animate-slideFadeUp">
-                <div className="plxlayer parallax animate-float" id="wave-1"></div>
+                <div className="plxlayer parallax animate-float2" id="wave-1"></div>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0} className="animate-slideFadeUp">
                 <div className="translate-y-4 plxlayer parallax" id="wave-000"></div> {/* wave cover*/}
