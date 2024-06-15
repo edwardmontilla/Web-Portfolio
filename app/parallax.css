@@ -832,9 +832,9 @@
 }
 
 
-/* ---------- For my Android phone ---------- */
+/* ---------- For Lower viewport phone ---------- */
 /* ---------- 350 x 613 (665 for projects)---------- */
-@media screen and (min-width: 339px) and (max-width: 359px) and (min-height:610px) and (max-height:665px) {
+@media screen and (min-width: 339px) and (max-width: 359px) /* and (min-height:610px) and (max-height:665px) */ {
     nav {
         display: flex;
         justify-content: start;
