@@ -1157,7 +1157,7 @@
         width: 100%;
     }
     #page-container2, #page-block2 { /* height for the Titles/descriptions */
-        margin-top: -200px;
+        margin-top: -300px;
         height: 350vh;
         width: 50% auto;
     }
@@ -1191,12 +1191,13 @@
         font-size: small;
     }
     #ui-title {
-        margin-top: -80px;
+        margin-top: -10px;
     }
     #edu-title {
-        margin-top: 100px;
+        margin-top: 60px;
     }
     #mobile-desc1 { /* Full Stack description */
+        margin-top: 100px;
         font-size: 0.72rem;
         text-align: center;
         transform: translate(1%, -50%);
@@ -1204,6 +1205,7 @@
         line-height: 1.6;
     }
     #mobile-desc2 { /* UI description */
+        margin-top: 0px;
         font-size: 0.72rem;
         text-align: center;
         transform: translate(1%, 0%);
