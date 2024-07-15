@@ -41,7 +41,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="group-hover/proj:animate-slideProjRight">
-                        <a href="https://github.com/edwardmontilla/Patient-Class" className="relative mt-24 font-semibold metropolisR gitlink invisible hover:underline hover:underline-offset-4 group-hover/proj:visible hover:translate-x-[-7px] transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
+                        <a href="https://github.com/edwardmontilla/File-Organizer" className="relative mt-24 font-semibold metropolisR gitlink invisible hover:underline hover:underline-offset-4 group-hover/proj:visible hover:translate-x-[-7px] transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="group-hover/proj:animate-slideProjRight">
-                        <a href="https://github.com/edwardmontilla/Business-Profit-Calculator" className="relative mt-24 font-semibold metropolisR gitlink invisible group-hover/proj:visible hover:translate-x-[-7px] hover:underline hover:underline-offset-4 group-hover/proj:text-white transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
+                        <a href="https://github.com/edwardmontilla/Patient-Class" className="relative mt-24 font-semibold metropolisR gitlink invisible group-hover/proj:visible hover:translate-x-[-7px] hover:underline hover:underline-offset-4 group-hover/proj:text-white transition ease-in-out" target="_blank" rel="noopener noreferrer">see more &#10140;</a> {/* this is the link to the project's GitHub repository */}
                     </div>
                 </div>
             </div>
