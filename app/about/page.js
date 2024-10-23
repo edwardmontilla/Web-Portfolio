@@ -43,7 +43,7 @@ const About = () => {
 
 
                             <button id="resume" className="gap-4 transition ease-in-out border shadow-md hover:bg-[#41546e] hover:text-white text-accent border-accent bg-background rounded-xl animate-slideFadeLeft shadow-secondary">
-                                <a href="https://drive.google.com/file/d/1CrzTzEYm1Dd4zvrnkvSLM21Q5YYE8bxO/view" target="_blank" className="text-lg font-semibold lnFont">
+                                <a href="https://drive.google.com/file/d/1Ss9Ex_8BVr-1G5U6Vgho7FuqDXgaHXaB/view?usp=drive_link" target="_blank" className="text-lg font-semibold lnFont">
                                     See My Resume
                                 </a>
                             </button>
